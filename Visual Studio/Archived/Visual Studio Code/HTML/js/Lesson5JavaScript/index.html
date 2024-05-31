@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main style="margin-top: 3rem; margin-left: 3rem; margin-bottom: 3rem;">
+        <div style=" display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        margin-left: 1rem;">
+            <div>
+                <label>
+                    <input type="text" id="text1" name="text1" style="padding-left: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; border-radius: 6px ; margin-bottom: 1rem; margin-right: 10px;">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="text" id="text2" name="text2" style="padding-left: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; border-radius: 6px ;margin-bottom: 1rem; margin-right: 10px;">
+                </label>
+            </div>
+        </div>
+        <div style=" display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        margin-left: 1rem;">
+            <div>
+                <label>
+                    <input type="date" id="text3" name="text3" style="padding-left: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; border-radius: 6px ;margin-bottom: 1rem; margin-right: 10px;">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <div style="padding-left: 20px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; border-radius: 6px ; margin-bottom: 1rem; margin-right: 10px; margin-left: 1rem;" >
+                        <span>Gender:</span>
+
+                        <input id="radio-1" type="radio" name="radio" value="1" checked>
+                        <label class="lableRadio"  for="radio-1">Male</label>
+                        
+                        <input id="radio-2" type="radio" name="radio" value="2">
+                        <label class="lableRadio" for="radio-2">Female</label>
+                        
+                    </div>
+                    
+                </label>
+            </div>
+        </div>
+
+        <button id="printDoc" style="margin-top: 1rem;margin-left: 20px; margin-bottom: 3rem; height: 50px; width: 160px; background-color: rgb(118, 118, 194); border-radius: 4px; color: white; font-size: 14px;">
+            Печатать данные
+        </button>
+    </main>
+    <script>
+
+        let input1 = document.querySelector('#text1')
+        
+        let input2 = document.querySelector('#text2')
+        /*
+        let input3 = document.querySelector('#text3')
+        let input4_1 = document.querySelectord('#radio-1')
+        */
+        let input3 = document.querySelector('input[type="date"]')
+        let input4_1 = document.querySelector('#radio-1')
+        let input4_2 = document.querySelector('#radio-2')
+
+        document.getElementById("printDoc").onclick = function() {
+        let winforPrint = window.open(
+            "about:blank", // url
+            "windowName", // Name окну
+            "width = 500, height = 500"
+        );
+
+        winforPrint.document.write("<table>")
+
+        winforPrint.document.write("<tr>")   
+        winforPrint.document.write("<td>" + "Firstname" + "</td>") 
+        winforPrint.document.write("<td>" + input1.value + "</td>")
+        winforPrint.document.write("</tr>")  
+
+        winforPrint.document.write("<tr>")   
+        winforPrint.document.write("<td>" + "Lastname" + "</td>") 
+        winforPrint.document.write("<td>" + input2.value + "</td>")
+        winforPrint.document.write("</tr>")  
+
+        winforPrint.document.write("<tr>")   
+        winforPrint.document.write("<td>" + "Birthday" + "</td>")  
+        winforPrint.document.write("<td>" + input3.value + "</td>")
+        winforPrint.document.write("</tr>")  
+
+        winforPrint.document.write("<tr>")   
+        winforPrint.document.write("<td>" + "Gender" + "</td>") 
+        if(input4_1.value != true)
+        {
+            winforPrint.document.write("<td>"  +  "Male" +"</td>")
+        }
+        else {
+            winforPrint.document.write("<td>"  +  "Female" +"</td>")
+        }
+        winforPrint.document.write("</tr>")  
+
+        winforPrint.document.write("</table>")
+
+
+        winforPrint.print();
+        winforPrint.close();
+
+    }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\bin\Debug\BookMagazine.mdf
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\bin\Debug\BookMagazine_log.ldf
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\bin\Debug\DB WForms.exe.config
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\bin\Debug\DB WForms.exe
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\bin\Debug\DB WForms.pdb
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\obj\Debug\DB WForms.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\obj\Debug\DB_WForms.Form1.resources
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\obj\Debug\DB_WForms.Properties.Resources.resources
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\obj\Debug\DB WForms.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\obj\Debug\DB WForms.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\obj\Debug\DB WForms.exe
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\obj\Debug\DB WForms.pdb
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\bin\Debug\Book_Magazine.mdf
+D:\Programming\Visual Studio\Data Base Forms\DB WForms\DB WForms\bin\Debug\Book_Magazine_log.ldf

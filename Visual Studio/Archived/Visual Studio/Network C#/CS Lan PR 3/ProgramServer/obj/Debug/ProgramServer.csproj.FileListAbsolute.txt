@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\ProgramServer\bin\Debug\ProgramServer.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\ProgramServer\bin\Debug\ProgramServer.exe
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\ProgramServer\bin\Debug\ProgramServer.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\ProgramServer\obj\Debug\ProgramServer.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\ProgramServer\obj\Debug\ProgramServer.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\ProgramServer\obj\Debug\ProgramServer.exe
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\ProgramServer\obj\Debug\ProgramServer.pdb

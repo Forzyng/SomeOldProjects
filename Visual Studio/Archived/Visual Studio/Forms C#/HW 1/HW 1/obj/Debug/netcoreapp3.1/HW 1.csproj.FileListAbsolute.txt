@@ -1,0 +1,15 @@
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\bin\Debug\netcoreapp3.1\HW 1.exe
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\bin\Debug\netcoreapp3.1\HW 1.deps.json
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\bin\Debug\netcoreapp3.1\HW 1.runtimeconfig.json
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\bin\Debug\netcoreapp3.1\HW 1.runtimeconfig.dev.json
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\bin\Debug\netcoreapp3.1\HW 1.dll
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\bin\Debug\netcoreapp3.1\HW 1.pdb
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\obj\Debug\netcoreapp3.1\HW 1.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\obj\Debug\netcoreapp3.1\HW_1.Form1.resources
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\obj\Debug\netcoreapp3.1\HW 1.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\obj\Debug\netcoreapp3.1\HW 1.AssemblyInfoInputs.cache
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\obj\Debug\netcoreapp3.1\HW 1.AssemblyInfo.cs
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\obj\Debug\netcoreapp3.1\HW 1.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\obj\Debug\netcoreapp3.1\HW 1.dll
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\obj\Debug\netcoreapp3.1\HW 1.pdb
+D:\Programming\Visual Studio\Forms C#\HW 1\HW 1\obj\Debug\netcoreapp3.1\HW 1.genruntimeconfig.cache

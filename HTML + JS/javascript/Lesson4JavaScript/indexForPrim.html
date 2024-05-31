@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button id="printDoc">
+        Печатать данные
+    </button>
+
+<script>
+
+    let bigDate = [10, 20 ,15, 20, 30];
+    document.getElementById("printDoc").onclick = function() {
+        let winforPrint = window.open(
+            "about:blank", // url
+            "windowName", // Name окну
+            "width = 500, height = 500"
+        );
+
+        winforPrint.document.write("<ul>")
+
+        for(const data of bigDate){
+            winforPrint.document.write("<li>" + data + "</li>")
+        }
+        winforPrint.document.write("</ul>")
+
+        winforPrint.focus();
+        winforPrint.print();
+        winforPrint.close();
+
+    }
+    
+
+</script>
+
+</body>
+</html>

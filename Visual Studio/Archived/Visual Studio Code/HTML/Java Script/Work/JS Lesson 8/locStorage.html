@@ -1,0 +1,216 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #lstStudents {width: 200px; height: 400px;}
+    </style>
+</head>
+<body>
+<div id="app">
+    <select multiple id="lstStudents">
+    </select>
+    <div>
+        <input type="hidden" id="numElement"  value="-1">
+        <input type="text" id="txtName">
+        <button id="doSaveChange" type="button"> Save </button>
+    </div>
+</div>
+<script>
+    // Наши элементы
+    let lstStudents = document.getElementById("lstStudents");
+    let txtName = document.getElementById("txtName");
+
+    // Наш массив информации
+    let students = localStorage.students;
+    if (students === null || students === undefined) students = [];
+    try {
+        if (students === null || students === undefined) students = [];
+        else students = JSON.parse(students);
+    } catch (e) {
+        console.log(e);
+        students = [];
+    }
+
+
+    function render() {
+        console.log(students);
+        // console.log(students);
+        lstStudents.innerHTML = "";
+        for (let i = 0; i < students.length; i++) {
+            let o = document.createElement ("<option>");
+        }
+    }
+    render(); // Вызвать как загружу страницу
+
+    function create() {
+        console.log(students);
+        // console.log(students);
+        students.push(txtName.value);
+        localStorage.students = students;
+        localStorage.students = JSON.stringify(students);
+        render();
+    }
+
+    document.getElementById("doSaveChange").onclick = function () {
+        create();
+    }
+</script>
+</body> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #lstStudents {width: 200px; height: 400px;}
+    </style>
+</head>
+<body>
+<div id="app">
+    <select multiple id="lstStudents">
+    </select>
+    <div>
+        <input type="hidden" id="numElement"  value="-1">
+        <input type="text" id="txtName">
+        <button id="doSaveChange" type="button"> Save </button>
+        <p>
+            <input type="text" id="txtIndex">
+        <button id="Delete" type="button"> Delete </button>
+        </p>
+        <p>
+            <input type="text" id="txtRedact">
+        <button id="Redact" type="button"> Redact </button>
+        </p>
+    </div>
+</div>
+<script>
+    // Наши элементы
+    let lstStudents = document.getElementById("lstStudents");
+    let txtName = document.getElementById("txtName");
+
+    let txtRedact = document.getElementById("txtRedact");
+
+    let txtIndexFull = document.getElementById("txtIndex");
+
+    // Наш массив информации
+    let students = localStorage.students;
+    if (students === null || students === undefined) students = [];
+    try 
+    {
+
+        if (students === null || students === undefined) students = [];
+        else students = JSON.parse(students);
+    } catch (e) 
+    {
+        console.log(e);
+        students = [];
+    }
+
+    function DeleteIndex()
+    {
+        let txtIndex = parseInt(txtIndexFull.value);
+        
+        if((txtIndex === null) || (txtIndex === undefined))
+        {
+            console.log("Error")
+        }
+        else
+        {
+            let local = 0;
+            let newarr = [];
+            for(let i = 0; i < students.length; i++)
+            {
+                if(i === txtIndex)
+                {
+                    console.log("deleted");
+                }
+                else
+                {
+                    newarr[local] = students[i];
+                    local += 1;
+                }
+            }
+            students = newarr;
+            localStorage.students = students;
+        localStorage.students = JSON.stringify(students);
+            console.log(students);
+        }
+    }
+
+    function Redactindexfromdelete()
+    {
+        let txtIndex = parseInt(txtIndexFull.value);
+
+        
+        
+        if((txtIndex === null) || (txtIndex === undefined))
+        {
+            console.log("Error")
+        }
+        else
+        {
+            let newarr = [];
+            for(let i = 0; i < students.length; i++)
+            {
+                if(i === txtIndex)
+                {
+                    newarr[i] = txtRedact.value;
+                }
+                else
+                {
+                    newarr[i] = students[i];
+                    
+                }
+            }
+            students = newarr;
+            localStorage.students = students;
+        localStorage.students = JSON.stringify(students);
+           
+            
+            console.log(students);
+        }
+    }
+
+
+    function render() 
+    {
+        console.log(students);
+        // console.log(students);
+        lstStudents.innerHTML = "";
+        for (let i = 0; i < students.length; i++) 
+        {
+            let o = document.createElement ("option");
+        }
+    }
+    render(); // Вызвать как загружу страницу
+
+    function create() 
+    {
+        console.log(students);
+        // console.log(students);
+        students.push(txtName.value);
+        localStorage.students = students;
+        localStorage.students = JSON.stringify(students);
+        
+        render();
+    }
+
+    document.getElementById("doSaveChange").onclick = function () 
+    {
+        create(); Delete
+    }
+
+    document.getElementById("Delete").onclick = function () 
+    {
+        DeleteIndex(); 
+    }
+
+    document.getElementById("Redact").onclick = function () 
+    {
+        Redactindexfromdelete(); 
+    }
+</script>
+</body>

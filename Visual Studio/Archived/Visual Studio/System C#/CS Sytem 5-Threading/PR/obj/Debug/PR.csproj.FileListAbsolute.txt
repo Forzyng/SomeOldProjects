@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\PR\bin\Debug\PR.exe.config
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\PR\bin\Debug\PR.exe
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\PR\bin\Debug\PR.pdb
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\PR\obj\Debug\PR.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\PR\obj\Debug\PR.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\PR\obj\Debug\PR.exe
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\PR\obj\Debug\PR.pdb

@@ -1,0 +1,11 @@
+D:\Programming\Visual Studio\System C#\CS System DZ 1\WF\bin\Debug\WF.exe.config
+D:\Programming\Visual Studio\System C#\CS System DZ 1\WF\bin\Debug\WF.exe
+D:\Programming\Visual Studio\System C#\CS System DZ 1\WF\bin\Debug\WF.pdb
+D:\Programming\Visual Studio\System C#\CS System DZ 1\WF\obj\Debug\WF.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\CS System DZ 1\WF\obj\Debug\WF.Form1.resources
+D:\Programming\Visual Studio\System C#\CS System DZ 1\WF\obj\Debug\WF.Properties.Resources.resources
+D:\Programming\Visual Studio\System C#\CS System DZ 1\WF\obj\Debug\WF.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\System C#\CS System DZ 1\WF\obj\Debug\WF.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS System DZ 1\WF\obj\Debug\WF.exe
+D:\Programming\Visual Studio\System C#\CS System DZ 1\WF\obj\Debug\WF.pdb
+D:\Programming\Visual Studio\System C#\CS System DZ 1\WF\obj\Debug\WF.Form2.resources

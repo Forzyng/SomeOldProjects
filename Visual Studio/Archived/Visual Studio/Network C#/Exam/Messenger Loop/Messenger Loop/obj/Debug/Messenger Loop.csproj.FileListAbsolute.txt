@@ -1,0 +1,21 @@
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\obj\Debug\MainWindow.g.cs
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\obj\Debug\App.g.cs
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\obj\Debug\Messenger Loop_MarkupCompile.cache
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\obj\Debug\Messenger Loop_MarkupCompile.lref
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\bin\Debug\Messenger Loop.exe.config
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\bin\Debug\Messenger Loop.exe
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\bin\Debug\Messenger Loop.pdb
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\obj\Debug\MainWindow.baml
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\obj\Debug\Messenger Loop.g.resources
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\obj\Debug\Messenger_Loop.Properties.Resources.resources
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\obj\Debug\Messenger Loop.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\obj\Debug\Messenger Loop.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\obj\Debug\Messenger Loop.exe
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\obj\Debug\Messenger Loop.pdb
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\bin\Debug\EntityFramework.dll
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\bin\Debug\EntityFramework.xml
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\bin\Debug\ru\EntityFramework.resources.dll
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\obj\Debug\Messenger Loop.csproj.CopyComplete
+D:\Programming\Visual Studio\Network C#\Exam\Messenger Loop\Messenger Loop\obj\Debug\Messenger Loop.csproj.AssemblyReference.cache

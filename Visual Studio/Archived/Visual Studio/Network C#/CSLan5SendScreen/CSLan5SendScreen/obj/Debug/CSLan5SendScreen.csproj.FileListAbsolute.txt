@@ -1,0 +1,7 @@
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5SendScreen\bin\Debug\CSLan5SendScreen.exe.config
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5SendScreen\bin\Debug\CSLan5SendScreen.exe
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5SendScreen\bin\Debug\CSLan5SendScreen.pdb
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5SendScreen\obj\Debug\CSLan5SendScreen.csproj.AssemblyReference.cache
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5SendScreen\obj\Debug\CSLan5SendScreen.csproj.CoreCompileInputs.cache
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5SendScreen\obj\Debug\CSLan5SendScreen.exe
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5SendScreen\obj\Debug\CSLan5SendScreen.pdb

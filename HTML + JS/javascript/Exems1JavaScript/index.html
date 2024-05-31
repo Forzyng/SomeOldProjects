@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <style>
+        .basic{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+            height: 640px;
+        }
+        .hedOne{
+            margin-left: 37%;
+            margin-top: 2rem;
+            background-color: rgba(0,0,0,0.2);
+            width: 380px;
+            height: 80px;
+            border: 2px solid rgba(0,0,0,0.5);
+            border-radius: 8px;
+        }
+        #hedH1{
+            color: white;
+            font-size: 52px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="basic">
+        <header class="hedOne">
+            <h1 id="hedH1">Weather</h1>
+        </header>
+        <main>
+            <div style="display: flex;  margin-top: 5rem;">
+                <div style=" margin-left: 6rem;">
+                    <header class="hedTwo">
+                        <input class="search" style="font-size: 18px;color: rgba(0,0,0,0.5); padding-left: 20px;padding-right: 20px; height: 35px; width: 260px; border: 2px outset rgba(0,0,0,0.5); border-top: none; border-left: none; border-right: none; background: linear-gradient(15deg, #EECFBA, #C5DDE8);" type="txt" placeholder="City">
+                        <button id="btmSearch" style="margin-left: 1rem; height: 40px; width: 80px;  background: linear-gradient(45deg, #EECFBA, #C5DDE8); border: 3px ridge rgba(0,0,0,0.5); color: rgba(0,0,0,0.5);font-weight: bold; border-radius: 5px;">Search</button>
+                    </header>
+                    <p id="city" style="margin-top: 2.5rem; color: rgba(0,0,0,0.7); font-size: 30px;"></p>
+                    <p id="local-date" style="margin-top: 2rem; color: rgba(0,0,0,0.7); font-size: 20px;"></p>
+                </div>
+                <div style="margin-left: 22rem; margin-top: -23px;">
+                    <div style="display: flex;">
+                        <div>
+                            <p id="temp" style="color:rgba(0,0,0,0.7); font-size: 25px;"></p>
+                        </div>
+                        <div style="margin-left: 15px; margin-top: -3px;">
+                            <p id="imgWeather"></p>
+                        </div>
+                    </div>
+                    <div style="color: rgba(0,0,0,0.6); font-size: 18px; padding-top: 0.5rem;">
+                        <p id="humidity"></p>
+                        <p id="wind"></p>
+                        <p id="visibility"></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="../Exems1JavaScript/weathr.js"></script>
+</body>
+</html>

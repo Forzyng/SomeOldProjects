@@ -1,0 +1,10 @@
+D:\Programming\Visual Studio\Forms C#\WindowsFormsBasics\WindowsFormsBasics\bin\Debug\WindowsFormsBasics.exe.config
+D:\Programming\Visual Studio\Forms C#\WindowsFormsBasics\WindowsFormsBasics\bin\Debug\WindowsFormsBasics.exe
+D:\Programming\Visual Studio\Forms C#\WindowsFormsBasics\WindowsFormsBasics\bin\Debug\WindowsFormsBasics.pdb
+D:\Programming\Visual Studio\Forms C#\WindowsFormsBasics\WindowsFormsBasics\obj\Debug\WindowsFormsBasics.Properties.Resources.resources
+D:\Programming\Visual Studio\Forms C#\WindowsFormsBasics\WindowsFormsBasics\obj\Debug\WindowsFormsBasics.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Forms C#\WindowsFormsBasics\WindowsFormsBasics\obj\Debug\WindowsFormsBasics.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Forms C#\WindowsFormsBasics\WindowsFormsBasics\obj\Debug\WindowsFormsBasics.exe
+D:\Programming\Visual Studio\Forms C#\WindowsFormsBasics\WindowsFormsBasics\obj\Debug\WindowsFormsBasics.pdb
+D:\Programming\Visual Studio\Forms C#\WindowsFormsBasics\WindowsFormsBasics\obj\Debug\WindowsFormsBasics.Form1.resources
+D:\Programming\Visual Studio\Forms C#\WindowsFormsBasics\WindowsFormsBasics\obj\Debug\WindowsFormsBasics.csproj.AssemblyReference.cache

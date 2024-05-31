@@ -1,0 +1,10 @@
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5ScreenClient\bin\Debug\CSLan5ScreenClient.exe.config
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5ScreenClient\bin\Debug\CSLan5ScreenClient.exe
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5ScreenClient\bin\Debug\CSLan5ScreenClient.pdb
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5ScreenClient\obj\Debug\CSLan5ScreenClient.csproj.AssemblyReference.cache
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5ScreenClient\obj\Debug\CSLan5ScreenClient.MainForm.resources
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5ScreenClient\obj\Debug\CSLan5ScreenClient.Properties.Resources.resources
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5ScreenClient\obj\Debug\CSLan5ScreenClient.csproj.GenerateResource.cache
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5ScreenClient\obj\Debug\CSLan5ScreenClient.csproj.CoreCompileInputs.cache
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5ScreenClient\obj\Debug\CSLan5ScreenClient.exe
+C:\Users\dovgoluckiy\source\repos\CSLan5SendScreen\CSLan5ScreenClient\obj\Debug\CSLan5ScreenClient.pdb

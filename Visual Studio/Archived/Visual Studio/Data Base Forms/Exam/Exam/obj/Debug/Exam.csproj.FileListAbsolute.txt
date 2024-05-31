@@ -1,0 +1,37 @@
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\Exam.exe.config
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\Exam.exe
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\Exam.pdb
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\EntityFramework.dll
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\EntityFramework.xml
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.Form1.resources
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.Form2.resources
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.Login.resources
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.Properties.Resources.resources
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.csproj.CopyComplete
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.exe
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.pdb
+D:\Programming\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.RegistrationForm.resources
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\Exam.exe.config
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\Exam.exe
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\Exam.pdb
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\EntityFramework.dll
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\EntityFramework.xml
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.csproj.AssemblyReference.cache
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.csproj.SuggestedBindingRedirects.cache
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.Form1.resources
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.Form2.resources
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.Login.resources
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.Properties.Resources.resources
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.RegistrationForm.resources
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.csproj.GenerateResource.cache
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.csproj.CoreCompileInputs.cache
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.csproj.CopyComplete
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.exe
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\Data Base Forms\Exam\Exam\obj\Debug\Exam.pdb

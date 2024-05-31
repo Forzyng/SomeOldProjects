@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid greenyellow;
+    margin: 5px;
+    padding: 3px;
+    background-color: slategray;
+}
+
+.pageHeader{
+}
+
+.container div{
+    margin: 5px;
+    padding: 3px;
+}
+
+.pageHeader > div:first-child{
+    background-color:white;
+    display: flex;
+    margin: 5px 0;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.pageHeader > div > menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.pageHeader > div > menu > li{
+    margin: 2px 5px 5px 0;
+    color: silver;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.pageHeader > div > menu > li > a {
+    text-decoration: none;
+    color:  silver;
+    display: inline-block;
+    width: 85px;
+    height: 32px;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+
+.pageHeader > div > menu > li > a:hover{
+    background-color: rgb(84, 208, 167);
+    color:  white;
+    border-radius: 3px;
+}
+
+.pageHeader > div > menu > li > img:hover{
+    box-shadow: 2px 2px 1px 1px silver;
+    cursor: pointer;
+}
+
+.pageheaderText > span:first-child{
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+}
+
+.pageheaderText > span:first-child > span{
+    color: rgb(84, 208, 167);
+}
+
+.pageheaderText > span:last-child{
+    font-size: 1rem;
+    color: silver;
+}
+
+.pageHeader div:last-child{
+    color:  white;
+    margin-top: 30px;
+    margin-left: 77px;
+}
+
+.pageHeader > div:last-child > p:first-child{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.pageHeader > div:last-child > p:last-child{
+    font-size: 1rem;
+}
+
+.pageMain{
+    background-color: white;
+    border-radius: 3px;
+    margin: 30px;
+    padding: 2px;
+    display: flex;
+}
+
+.comments{
+    flex-basis: 80vw;
+    margin: 13px;
+}
+
+.populComments{
+    flex-basis: 20vw;
+}
+
+.comm > img:first-child{
+    width: 100%;
+    border-radius: 2px;
+    height: 350px;
+}
+
+.CommentTitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.CommentTitle > img {
+    width: 36px;
+    height: 36px;
+}
+
+.CommentTitle div{
+    display: inline-block;
+}
+
+.CommentTitleText{
+    color: black;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.populComments img{
+    width: 45px;
+}
+
+.CommentDate{
+    color: silver;
+    margin-left: 15px;
+}
+
+.CommText{
+    color: silver;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Commentbutton{
+    width: 100px;
+    height: 30px;
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: rgb(84, 208, 167);
+    border: none;
+    margin-top: 20px;
+}
+
+.pageFooter{
+    color: rgb(159, 159, 159);
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.pageFooter > div{
+    margin: 20px;
+}
+
+/*
+.pageFooter > div:first-child{
+    margin-left: 50px;
+}
+
+.pageFooter > div:last-child{
+    margin-right: 50px;
+}
+*/
+
+.pageFooter > div > header{
+    text-transform:  uppercase;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:900px){
+    .pageMain{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px){
+    .populComments{
+        display: none;
+    }
+    .pageFooter{
+        flex-direction: column;
+    }
+    .pageFooter > div:first-child{
+        margin-left: 30px;
+    }
+    
+    .pageFooter > div:last-child{
+        margin-right: 20px;
+    }
+}

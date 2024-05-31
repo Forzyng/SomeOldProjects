@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\Fractions\Fractions\bin\Debug\Fractions.exe.config
+D:\Programming\Visual Studio\Projects C#\Fractions\Fractions\bin\Debug\Fractions.exe
+D:\Programming\Visual Studio\Projects C#\Fractions\Fractions\bin\Debug\Fractions.pdb
+D:\Programming\Visual Studio\Projects C#\Fractions\Fractions\obj\Debug\Fractions.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Projects C#\Fractions\Fractions\obj\Debug\Fractions.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\Fractions\Fractions\obj\Debug\Fractions.exe
+D:\Programming\Visual Studio\Projects C#\Fractions\Fractions\obj\Debug\Fractions.pdb

@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBoxDoWhile\bin\Debug\MessageBoxDoWhile.exe.config
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBoxDoWhile\bin\Debug\MessageBoxDoWhile.exe
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBoxDoWhile\bin\Debug\MessageBoxDoWhile.pdb
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBoxDoWhile\obj\Debug\MessageBoxDoWhile.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBoxDoWhile\obj\Debug\MessageBoxDoWhile.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBoxDoWhile\obj\Debug\MessageBoxDoWhile.exe
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBoxDoWhile\obj\Debug\MessageBoxDoWhile.pdb

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="26aae7dc12b24dae9292939a3557b408" Name="Diagram1">
+        <EntityTypeShape EntityType="Book_MagazineModel.Author" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Book_MagazineModel.Book" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Book_MagazineModel.Country" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="Book_MagazineModel.Sale" Width="1.5" PointX="7.5" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Book_MagazineModel.Shop" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Book_MagazineModel.Theme" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <AssociationConnector Association="Book_MagazineModel.FK__Authors__Countri__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="Book_MagazineModel.FK__Books__AuthorsId__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="Book_MagazineModel.FK__Books__ThemesId__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="Book_MagazineModel.FK__Sales__BooksId__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="Book_MagazineModel.FK__Shops__Countries__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="Book_MagazineModel.FK__Sales__ShopsId__4222D4EF" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

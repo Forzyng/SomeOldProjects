@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBMessageModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="ToLogin" Type="Guid" Nullable="false" />
+    <Property Name="FromLogin" Type="Guid" Nullable="false" />
+    <Property Name="MessageText" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="file" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="User" Relationship="Self.FK__Message__FromLog__2A4B4B5E" FromRole="Message" ToRole="Users" />
+    <NavigationProperty Name="User1" Relationship="Self.FK__Message__ToLogin__29572725" FromRole="Message" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Messages" Relationship="Self.FK__Message__FromLog__2A4B4B5E" FromRole="Users" ToRole="Message" />
+    <NavigationProperty Name="Messages1" Relationship="Self.FK__Message__ToLogin__29572725" FromRole="Users" ToRole="Message" />
+  </EntityType>
+  <Association Name="FK__Message__FromLog__2A4B4B5E">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="FromLogin" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Message__ToLogin__29572725">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="ToLogin" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBMessageEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Messages" EntityType="Self.Message" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK__Message__FromLog__2A4B4B5E" Association="Self.FK__Message__FromLog__2A4B4B5E">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Message" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Message__ToLogin__29572725" Association="Self.FK__Message__ToLogin__29572725">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Message" EntitySet="Messages" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

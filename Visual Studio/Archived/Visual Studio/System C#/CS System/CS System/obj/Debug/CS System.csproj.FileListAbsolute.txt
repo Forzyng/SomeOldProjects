@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\System C#\CS System\CS System\bin\Debug\CS System.exe.config
+D:\Programming\Visual Studio\System C#\CS System\CS System\bin\Debug\CS System.exe
+D:\Programming\Visual Studio\System C#\CS System\CS System\bin\Debug\CS System.pdb
+D:\Programming\Visual Studio\System C#\CS System\CS System\obj\Debug\CS System.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\CS System\CS System\obj\Debug\CS System.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS System\CS System\obj\Debug\CS System.exe
+D:\Programming\Visual Studio\System C#\CS System\CS System\obj\Debug\CS System.pdb

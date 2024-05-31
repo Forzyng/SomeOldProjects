@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\HW 6\HW 6\bin\Debug\HW 6.exe.config
+D:\Programming\Visual Studio\Projects C#\HW 6\HW 6\bin\Debug\HW 6.exe
+D:\Programming\Visual Studio\Projects C#\HW 6\HW 6\bin\Debug\HW 6.pdb
+D:\Programming\Visual Studio\Projects C#\HW 6\HW 6\obj\Debug\HW 6.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Projects C#\HW 6\HW 6\obj\Debug\HW 6.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\HW 6\HW 6\obj\Debug\HW 6.exe
+D:\Programming\Visual Studio\Projects C#\HW 6\HW 6\obj\Debug\HW 6.pdb

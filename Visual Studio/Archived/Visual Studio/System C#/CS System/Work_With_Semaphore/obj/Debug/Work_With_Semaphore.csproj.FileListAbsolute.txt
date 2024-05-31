@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\System C#\CS System\Work_With_Semaphore\bin\Debug\Work_With_Semaphore.exe.config
+D:\Programming\Visual Studio\System C#\CS System\Work_With_Semaphore\bin\Debug\Work_With_Semaphore.exe
+D:\Programming\Visual Studio\System C#\CS System\Work_With_Semaphore\bin\Debug\Work_With_Semaphore.pdb
+D:\Programming\Visual Studio\System C#\CS System\Work_With_Semaphore\obj\Debug\Work_With_Semaphore.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\CS System\Work_With_Semaphore\obj\Debug\Work_With_Semaphore.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS System\Work_With_Semaphore\obj\Debug\Work_With_Semaphore.exe
+D:\Programming\Visual Studio\System C#\CS System\Work_With_Semaphore\obj\Debug\Work_With_Semaphore.pdb

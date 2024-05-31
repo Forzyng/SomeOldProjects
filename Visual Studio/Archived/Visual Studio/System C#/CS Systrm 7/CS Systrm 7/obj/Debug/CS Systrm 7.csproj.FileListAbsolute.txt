@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\System C#\CS Systrm 7\CS Systrm 7\bin\Debug\CS Systrm 7.exe.config
+D:\Programming\Visual Studio\System C#\CS Systrm 7\CS Systrm 7\bin\Debug\CS Systrm 7.exe
+D:\Programming\Visual Studio\System C#\CS Systrm 7\CS Systrm 7\bin\Debug\CS Systrm 7.pdb
+D:\Programming\Visual Studio\System C#\CS Systrm 7\CS Systrm 7\obj\Debug\CS Systrm 7.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\CS Systrm 7\CS Systrm 7\obj\Debug\CS Systrm 7.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS Systrm 7\CS Systrm 7\obj\Debug\CS Systrm 7.exe
+D:\Programming\Visual Studio\System C#\CS Systrm 7\CS Systrm 7\obj\Debug\CS Systrm 7.pdb

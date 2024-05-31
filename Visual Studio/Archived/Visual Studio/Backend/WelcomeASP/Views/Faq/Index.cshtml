@@ -1,0 +1,40 @@
+﻿<!--
+    Описание модели данных
+    С чем мы будем работать - Коллекция или элемент и тд
+    -->
+@model IEnumerable<WelcomeASP.Data.Entities.Faq>
+<!--
+   Опишем элемент дизайна и включим его часть в построенную
+    страницу
+-->
+@{
+    ViewData["Title"] = "Index";
+    ViewData["ParallaxTitle"] = "F.A.Q.";
+    ViewData["ParallaxText"] = "Information  e.t.c";
+}
+
+<partial name="Asentus/Parallax" />
+
+
+<!-- Выполним цикл по элементам коллекции -->
+@foreach (var item in Model)
+{
+    <div>
+        <!-- Элемент вопроса -->
+        @Html.DisplayFor(modelItem => item.Question)
+    </div>
+    <div>
+        <!-- Элемент ответа -->
+        @Html.DisplayFor(modelItem => item.Answer)
+    </div>
+
+}
+
+<!--
+    
+Аналог в консоли выглядит так:
+    foreach( var f in Faq){
+        Console.Write (f.Question);
+        Console.Write (f.Answer);
+    }
+    -->

@@ -1,0 +1,9 @@
+D:\Programming\Visual Studio\DataBase\DataBaseTheory\DataBaseTheory\bin\Debug\DBTheory.mdf
+D:\Programming\Visual Studio\DataBase\DataBaseTheory\DataBaseTheory\bin\Debug\DBTheory_log.ldf
+D:\Programming\Visual Studio\DataBase\DataBaseTheory\DataBaseTheory\bin\Debug\DataBaseTheory.exe.config
+D:\Programming\Visual Studio\DataBase\DataBaseTheory\DataBaseTheory\bin\Debug\DataBaseTheory.exe
+D:\Programming\Visual Studio\DataBase\DataBaseTheory\DataBaseTheory\bin\Debug\DataBaseTheory.pdb
+D:\Programming\Visual Studio\DataBase\DataBaseTheory\DataBaseTheory\obj\Debug\DataBaseTheory.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\DataBase\DataBaseTheory\DataBaseTheory\obj\Debug\DataBaseTheory.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\DataBase\DataBaseTheory\DataBaseTheory\obj\Debug\DataBaseTheory.exe
+D:\Programming\Visual Studio\DataBase\DataBaseTheory\DataBaseTheory\obj\Debug\DataBaseTheory.pdb

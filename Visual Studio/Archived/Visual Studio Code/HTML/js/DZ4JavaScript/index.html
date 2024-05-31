@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="table" style=" font-family: Arial, Helvetica, sans-serif;padding-left: 1rem;padding-right: 1rem;padding-top: 1rem;padding-bottom: 1rem;">
+        <thead >
+            <th style=" text-align: center; line-height: 50px; width: 900px; height: 45px; background-color: rgb(146, 196, 234);">
+                Номер
+            </th>
+            <th style=" text-align: center; line-height: 50px; width: 900px; height: 45px; background-color: rgb(146, 196, 234);">
+                Фамилия Имя
+            </th>
+            <th style=" text-align: center; line-height: 50px; width: 900px; height: 45px; background-color: rgb(146, 196, 234);">
+                Зароблатная плата-'$'
+            </th>
+        </thead>
+
+        <tbody>
+            <tr style=" text-align: center; line-height: 35px; background-color: rgb(192, 205, 215);">
+                <th style=" text-align: center; line-height: 50px; width: 150px; height: 45px;background-color: rgb(197, 228, 252); font-weight: bold;">1</th>
+                <td>Керил Пупкин</td>
+                <td id="x1"></td>
+            </tr>
+            <tr style=" text-align: center; line-height: 35px; background-color: rgb(192, 205, 215);">
+                <th style=" text-align: center;  line-height: 50px;  width: 150px; height: 45px; background-color: rgb(197, 228, 252); font-weight: bold;">2</th>
+                <td>Вася Маврин</td>
+                <td id="x2"></td>
+            </tr>
+            <tr style=" text-align: center; line-height: 35px; background-color: rgb(192, 205, 215);">
+                <th style=" text-align: center; line-height: 50px; width: 150px; height: 45px; background-color: rgb(197, 228, 252); font-weight: bold;">3</th>
+                <td>Богдан Слуцкий</td>
+                <td id="x3"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button id="btnSorting" style="height: 50px; width: 160px; text-align: center; border-radius: 5px; background-color: pink; border: 2px solid silver; margin-left: 1rem; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: slategray;">
+        Sorting
+    </button>
+
+    <script>
+
+        const salary = ['red','blue','green', 'yellow'];
+
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * max);
+        }
+        var i=1;
+        while (i<=3) {
+            var tdid = document.getElementById('x' + i);
+            var rand = getRandomInt(10000);
+
+            tdid.innerHTML = rand;
+            i++;
+        }
+
+        let table = document.querySelector('#table');
+        let trs = document.querySelectorAll('#table tr');
+        let button = document.querySelector('#btnSorting');
+
+        button.addEventListener('click', function(){
+            let sorted = [...trs].sort(function(a , b){
+                return a.children[2].innerHTML - b.children[2].innerHTML;
+            });
+
+            table.innerHTML = '';
+
+            for(let tr of sorted){
+                table.appendChild(tr);
+            }
+
+            //console.log(sort)
+        });
+        
+
+    </script>
+
+</body>
+</html>

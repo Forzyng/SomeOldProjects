@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<User xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Login>Zod</Login>
+  <Password>123456789</Password>
+  <HighScoreInMinesweeper>990</HighScoreInMinesweeper>
+  <HighScoreInFlappy>0</HighScoreInFlappy>
+  <HighScoreInWords>0</HighScoreInWords>
+  <HighScoreInSnake>0</HighScoreInSnake>
+  <HighScoreInMemoria>0</HighScoreInMemoria>
+  <HighScoreInAlienWar>0</HighScoreInAlienWar>
+  <OpenedMinesweeper>true</OpenedMinesweeper>
+  <OpenedWords>true</OpenedWords>
+  <OpenedFlappy>true</OpenedFlappy>
+  <OpenedSnake>true</OpenedSnake>
+  <OpenedMemoria>true</OpenedMemoria>
+  <OpenedAlienWar>true</OpenedAlienWar>
+  <Money>101257</Money>
+  <TotalClicks>100500</TotalClicks>
+</User>

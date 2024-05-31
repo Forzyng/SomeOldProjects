@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(../Lesson6/image/MicrosoftTeams-image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 500px;
+    width: 900px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.MainMenu{
+    list-style: none;
+    /*
+    padding-top: 20px;
+    text-align: right;
+    margin: 15px;
+    */
+    position: relative;
+    left: 390px;
+    top: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.MainMenu li{
+    display: inline-block;
+    margin: 7px;
+    font-size: 11px;
+}
+
+.MainMenu li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.MainMenu li a:hover{
+    color: rgb(40, 160, 160);;
+}
+
+.decription{
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+
+.decription p{
+    width: 340px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgba(0,0,0,0.6);
+}
+
+.decription button{
+    display: inline-block;
+    width: 125px;
+    height: 40px;
+    background-color: rgb(40, 160, 160);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.decription button:hover{
+    box-shadow: -2px -2px 1px 1px silver;
+}

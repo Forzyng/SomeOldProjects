@@ -1,0 +1,57 @@
+
+/*
+*{
+    padding: 0;
+    margin: 0;
+}
+*/
+.wrapper{
+    margin: 0 50px;
+    padding: 5px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    background-color: honeydew;
+}
+p{
+    padding: 0;
+    margin: 0;;
+}
+h3{
+    text-decoration-line: underline;
+    text-decoration-color: chartreuse;
+}
+#F1Id{
+    text-decoration-color: chocolate;
+    text-decoration-style:dotted;
+}
+#F2Id{
+    text-decoration-color: darkorchid;
+    color: deepskyblue;
+    text-decoration-style: double;
+}
+.Com{
+    border: 1px solid cadetblue;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 3px;
+    background-color: silver;
+}
+.art{
+    border: 1px solid midnightblue;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 3px;
+    background-color:lightyellow;
+}
+
+li:nth-child(odd){
+    background-color:green;
+}
+
+li:nth-child(even){
+    background-color:violet;
+}
+
+li:hover{
+    color:crimson;
+}

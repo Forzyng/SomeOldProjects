@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\Struct-ENUM\Struct-ENUM\bin\Debug\Struct-ENUM.exe.config
+D:\Programming\Visual Studio\Projects C#\Struct-ENUM\Struct-ENUM\bin\Debug\Struct-ENUM.exe
+D:\Programming\Visual Studio\Projects C#\Struct-ENUM\Struct-ENUM\bin\Debug\Struct-ENUM.pdb
+D:\Programming\Visual Studio\Projects C#\Struct-ENUM\Struct-ENUM\obj\Debug\Struct-ENUM.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Projects C#\Struct-ENUM\Struct-ENUM\obj\Debug\Struct-ENUM.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\Struct-ENUM\Struct-ENUM\obj\Debug\Struct-ENUM.exe
+D:\Programming\Visual Studio\Projects C#\Struct-ENUM\Struct-ENUM\obj\Debug\Struct-ENUM.pdb

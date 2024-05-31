@@ -1,0 +1,10 @@
+D:\Programming\Visual Studio\Network C#\CS Lan 7 Web Client\CS Lan 7 Web Client\bin\Debug\CS Lan 7 Web Client.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan 7 Web Client\CS Lan 7 Web Client\bin\Debug\CS Lan 7 Web Client.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 7 Web Client\CS Lan 7 Web Client\bin\Debug\CS Lan 7 Web Client.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan 7 Web Client\CS Lan 7 Web Client\obj\Debug\CS Lan 7 Web Client.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 7 Web Client\CS Lan 7 Web Client\obj\Debug\CS_Lan_7_Web_Client.Form1.resources
+D:\Programming\Visual Studio\Network C#\CS Lan 7 Web Client\CS Lan 7 Web Client\obj\Debug\CS_Lan_7_Web_Client.Properties.Resources.resources
+D:\Programming\Visual Studio\Network C#\CS Lan 7 Web Client\CS Lan 7 Web Client\obj\Debug\CS Lan 7 Web Client.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 7 Web Client\CS Lan 7 Web Client\obj\Debug\CS Lan 7 Web Client.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 7 Web Client\CS Lan 7 Web Client\obj\Debug\CS Lan 7 Web Client.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 7 Web Client\CS Lan 7 Web Client\obj\Debug\CS Lan 7 Web Client.pdb

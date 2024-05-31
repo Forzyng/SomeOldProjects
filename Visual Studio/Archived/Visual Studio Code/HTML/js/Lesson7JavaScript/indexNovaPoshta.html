@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        P{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: rgb(46, 45, 45);
+        }
+    </style>
+</head>
+<body style="background-color: rgb(245, 235, 234);">
+    <!--
+    <div id="app">
+    </div>
+    -->
+
+    <div >
+        <header style="background-color: rgb(211, 26, 26);  display: flex;">
+            <div style="display: flex; margin-top: 1rem; margin-bottom: 1rem;">
+                <img src="../Lesson7JavaScript/image/Nova.jpg" style="width: 150px; margin-left: 2rem; ">
+                
+                <h1 style="margin-left: 2rem; color: white; text-align: center; font-family: Arial, Helvetica, sans-serif;"> Новая почта </h1>
+            </div>
+        </header>
+
+        <main style="margin-top: 1.5rem; margin-bottom: 5rem;">
+            <div style="display: flex;">
+
+                <ul id="app" style="list-style-type: none;">
+                    <p>Введите облость</p>
+                    <li id="area" style="margin-bottom: 2rem;"></li>
+                    <p>Введите город</p>
+                    <li id="city" style="margin-bottom: 2rem;"></li>
+                    <p>Введите отделение</p>
+                    <li id="dep" style="margin-bottom: 2rem;"></li>
+                </ul>
+
+                <samp id="map" style="margin-left: 25rem; width: 500px; height: 400px;">
+
+                </samp>
+            </div>
+        </main>
+
+        <footer style="background-color: rgb(211, 26, 26);  width: 99%; height: 45px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; left: 0; bottom: 0; position: fixed;">
+        </footer>
+
+    </div>
+
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2UX5YKU0rOEGZ4rMjLAZoOVOzDbXprCA&callback=initMap" async defer> </script>-->
+
+    <script>
+
+        function buildSelect(data){
+            console.log(data)
+            let select = document.createElement("select")
+            select.style.backgroundColor = "rgb(178, 207, 250);"
+            select.style.height = "36px"
+            select.style.width = "250px"
+            select.style.borderRadius = "5px"
+            select.style.paddingLeft = "1rem"
+
+            let firstOption = document.createElement("option");
+            firstOption.style.textAlign = "center"
+            firstOption.value = "--to begin--";
+            firstOption.innerText = "--to begin--";
+            select.appendChild(firstOption);
+            
+            for (let i = 0 ; i < data.length; i++) {
+                let o = document.createElement("option");
+                o.value = data[i]["Ref"];
+                o.innerText = data[i]["DescriptionRu"];
+                select.appendChild(o);
+            }
+            return select
+        }
+
+        // Настройки доступа к API
+        let apiUrl = "https://api.novaposhta.ua/v2.0/json/";
+
+    
+        let apiKey = "f241852f6c7635594ded2bd5fb879874";
+    
+        // Метод отправки запроса
+        function sendRequest(Request, doNext) {
+            Request.apiKey = apiKey;
+            // console.log(Request);
+            // Можно организовать кєш 
+
+            fetch(apiUrl, {
+                    method: 'POST', // *GET, POST, PUT, DELETE, etc.
+                    //Уберём - будет один запрос 
+                    mode: 'cors', // no-cors, *cors, same-origin
+                    cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+                    credentials: 'same-origin', // include, *same-origin, omit
+                    headers: {
+                        'Content-Type': 'application/json'
+                        // 'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    redirect: 'follow', // manual, *follow, error
+                    referrerPolicy: 'no-referrer', // no-referrer, *client
+                    //
+                    body: JSON.stringify(Request) // body data type must match "Content-Type" header
+                })
+            .then(res=>{ // Операции по проверки ответа от сервера (например код 200)
+                console.log(res);
+                if(res.status !== 200) {
+                    console.log("Error http");
+                    console.log(res.statusText); 
+                    return;
+                }
+                return res.json();
+            })
+            .then(data=>{ // Операции уже с телом (body) ответа - передаю в callback Fun
+                //if (data.success) doNext(data);
+                if (data.success) doNext(data.data);
+                else { console.log("Error data"); console.log(data.errors); }
+            })
+            .catch(err=> {console.log("Error catch"); console.log(err);})
+        }
+
+    
+        function buildAreas(data){
+            //document.getElementById("app").appendChild(buildSelect(data));
+            let selectArea = buildSelect(data);
+
+            selectArea.onchange = function (e) {
+                sendRequest({
+                    "modelName": "Address",
+                    "calledMethod": "getCities",
+                    "methodProperties": {
+                        AreaRef: e.target.value
+                    }
+                }, buildCities);
+            }
+            document.getElementById("area").innerHTML = "";
+            document.getElementById("area").appendChild(selectArea);
+        }
+
+        let selectCity
+        // Процесс построения селекта городов
+        function buildCities(data) {
+            //console.log(data);
+            selectCity = buildSelect(data);
+            selectCity.onchange = function (e){
+                sendRequest({
+                    "modelName": "AddressGeneral",
+                    "calledMethod": "getWarehouses",
+                    "methodProperties": {
+                        CityRef: e.target.value,
+                        "Language": "ru"
+                    }
+                }, buildDep);
+            }
+            document.getElementById("city").innerHTML = "";
+            document.getElementById("city").appendChild(selectCity);
+        }
+    
+        function buildDep(data) {
+            let selectDep = buildSelect(data);
+            selectDep.onchange = function (e) {
+                sendRequest({
+                    "modelName": "Address",
+                    "calledMethod": "getWarehouses",
+                    "methodProperties": {
+                        "CityName": selectCity.options[selectCity.selectedIndex].innerText,
+                        "FindByString": selectDep.options[selectDep.selectedIndex].innerText
+                    }
+                }, buildSite);
+            }
+            document.getElementById("dep").innerHTML = "";
+            document.getElementById("dep").appendChild(selectDep);
+        }
+
+        function buildSite(data) {
+
+            console.log(data);
+
+            let divData = document.createElement("div");
+            let divMap = document.createElement("div");
+            let map = document.createElement("iframe");
+
+            map.src = `http://maps.google.com/maps?q=${data[0].Latitude},${data[0].Longitude}&z=16&output=embed`;
+
+            map.height = "400";
+            map.widht = "500";
+            
+            divMap.appendChild(map);
+            divData.appendChild(divMap);
+            document.getElementById("map").appendChild(divData);
+        }
+
+        // Пример - запрос на области - первый запрос при старте страницы
+        sendRequest({
+            "modelName": "Address",
+            "calledMethod": "getAreas",
+            "methodProperties": {}
+        }, buildAreas);
+
+        /*
+        function  initMap(){
+
+            var pos = {lat: 48.467503000000000, lng: 25.284086000000000}
+            //var pos = new google.maps.LatLng(sendRequest.latitude, sendRequest.longitude)
+
+            var opt ={
+                center: pos,
+                zoom: 18
+            }
+
+            var myMap = new google.maps.Map(document.getElementById("map"), opt)
+        
+            var marker = new google.maps.Marker({
+                position: pos ,
+                map: myMap,
+            })
+        }
+       */
+    </script>
+
+</body>
+</html>

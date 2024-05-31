@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Namespace="FOOTBALL.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005">
+        <EntityContainer Name="FOOTBALLTargetContainer" >
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="FOOTBALL" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="FOOTBALLContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Players" EntityType="FOOTBALL.Player" />
+          <EntitySet Name="Commands" EntityType="FOOTBALL.Command" />
+          <AssociationSet Name="CommandPlayer" Association="FOOTBALL.CommandPlayer">
+            <End Role="Command" EntitySet="Commands" />
+            <End Role="Player" EntitySet="Players" />
+          </AssociationSet>
+          <EntitySet Name="Matchs" EntityType="FOOTBALL.Match" />
+          <AssociationSet Name="MatchCommand" Association="FOOTBALL.MatchCommand">
+            <End Role="Match" EntitySet="Matchs" />
+            <End Role="Command" EntitySet="Commands" />
+          </AssociationSet>
+          <EntitySet Name="Results_MatchSet" EntityType="FOOTBALL.Results_Match" />
+          <AssociationSet Name="PlayerMatch" Association="FOOTBALL.PlayerMatch">
+            <End Role="Player" EntitySet="Players" />
+            <End Role="Match" EntitySet="Matchs" />
+          </AssociationSet>
+          <AssociationSet Name="Results_MatchMatch" Association="FOOTBALL.Results_MatchMatch">
+            <End Role="Results_Match" EntitySet="Results_MatchSet" />
+            <End Role="Match" EntitySet="Matchs" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Player">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Surname" Type="String" Nullable="false" MaxLength="20" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="20" />
+          <Property Name="LastName" Type="String" Nullable="false" MaxLength="20" />
+          <Property Name="Country" Type="String" Nullable="false" />
+          <Property Name="PlayerNumber" Type="Int32" Nullable="false" />
+          <Property Name="Position" Type="String" Nullable="false" MaxLength="20" />
+          <NavigationProperty Name="Command" Relationship="FOOTBALL.CommandPlayer" FromRole="Player" ToRole="Command" />
+          <NavigationProperty Name="Match" Relationship="FOOTBALL.PlayerMatch" FromRole="Player" ToRole="Match" />
+        </EntityType>
+        <EntityType Name="Command">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="20" />
+          <NavigationProperty Name="Players" Relationship="FOOTBALL.CommandPlayer" FromRole="Command" ToRole="Player" />
+          <NavigationProperty Name="Match" Relationship="FOOTBALL.MatchCommand" FromRole="Command" ToRole="Match" />
+        </EntityType>
+        <Association Name="CommandPlayer">
+          <End Type="FOOTBALL.Command" Role="Command" Multiplicity="1" />
+          <End Type="FOOTBALL.Player" Role="Player" Multiplicity="*" />
+        </Association>
+        <EntityType Name="Match">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CommandId1" Type="String" Nullable="false" />
+          <Property Name="CountGoals1" Type="Int32" Nullable="false" />
+          <Property Name="CountGoals2" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Commands" Relationship="FOOTBALL.MatchCommand" FromRole="Match" ToRole="Command" />
+          <Property Name="CommandId2" Type="String" Nullable="false" />
+          <NavigationProperty Name="Player" Relationship="FOOTBALL.PlayerMatch" FromRole="Match" ToRole="Player" />
+          <NavigationProperty Name="Results_Match" Relationship="FOOTBALL.Results_MatchMatch" FromRole="Match" ToRole="Results_Match" />
+          <Property Name="PlayerName" Type="String" Nullable="false" MaxLength="20" />
+        </EntityType>
+        <Association Name="MatchCommand">
+          <End Type="FOOTBALL.Match" Role="Match" Multiplicity="1" />
+          <End Type="FOOTBALL.Command" Role="Command" Multiplicity="*" />
+        </Association>
+        <EntityType Name="Results_Match">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Matchs" Relationship="FOOTBALL.Results_MatchMatch" FromRole="Results_Match" ToRole="Match" />
+        </EntityType>
+        <Association Name="PlayerMatch">
+          <End Type="FOOTBALL.Player" Role="Player" Multiplicity="1" />
+          <End Type="FOOTBALL.Match" Role="Match" Multiplicity="*" />
+        </Association>
+        <Association Name="Results_MatchMatch">
+          <End Type="FOOTBALL.Results_Match" Role="Results_Match" Multiplicity="1" />
+          <End Type="FOOTBALL.Match" Role="Match" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="FOOTBALL" />
+        <Alias Key="Target" Value="FOOTBALL.Store" />
+        <EntityContainerMapping CdmEntityContainer="FOOTBALLContainer" StorageEntityContainer="FOOTBALLTargetContainer">
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

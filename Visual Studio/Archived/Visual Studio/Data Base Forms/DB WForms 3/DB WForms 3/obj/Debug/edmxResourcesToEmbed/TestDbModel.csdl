@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Book_MagazineModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Author">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CountriesID" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="Country" Relationship="Self.FK__Authors__Countri__2E1BDC42" FromRole="Authors" ToRole="Countries" />
+    <NavigationProperty Name="Books" Relationship="Self.FK__Books__AuthorsId__3A81B327" FromRole="Authors" ToRole="Books" />
+  </EntityType>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Pages" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="PublishDate" Type="DateTime" Precision="0" />
+    <Property Name="AuthorsId" Type="Guid" Nullable="false" />
+    <Property Name="ThemesId" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="Author" Relationship="Self.FK__Books__AuthorsId__3A81B327" FromRole="Books" ToRole="Authors" />
+    <NavigationProperty Name="Theme" Relationship="Self.FK__Books__ThemesId__3B75D760" FromRole="Books" ToRole="Themes" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK__Sales__BooksId__412EB0B6" FromRole="Books" ToRole="Sales" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Authors" Relationship="Self.FK__Authors__Countri__2E1BDC42" FromRole="Countries" ToRole="Authors" />
+    <NavigationProperty Name="Shops" Relationship="Self.FK__Shops__Countries__32E0915F" FromRole="Countries" ToRole="Shops" />
+    <Property Name="Continents" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="SaleDate" Type="DateTime" Precision="3" />
+    <Property Name="BooksId" Type="Guid" Nullable="false" />
+    <Property Name="ShopsId" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="Book" Relationship="Self.FK__Sales__BooksId__412EB0B6" FromRole="Sales" ToRole="Books" />
+    <NavigationProperty Name="Shop" Relationship="Self.FK__Sales__ShopsId__4222D4EF" FromRole="Sales" ToRole="Shops" />
+  </EntityType>
+  <EntityType Name="Shop">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CountriesID" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="Country" Relationship="Self.FK__Shops__Countries__32E0915F" FromRole="Shops" ToRole="Countries" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK__Sales__ShopsId__4222D4EF" FromRole="Shops" ToRole="Sales" />
+  </EntityType>
+  <EntityType Name="Theme">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Books" Relationship="Self.FK__Books__ThemesId__3B75D760" FromRole="Themes" ToRole="Books" />
+  </EntityType>
+  <Association Name="FK__Authors__Countri__2E1BDC42">
+    <End Role="Countries" Type="Self.Country" Multiplicity="1" />
+    <End Role="Authors" Type="Self.Author" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Authors">
+        <PropertyRef Name="CountriesID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Books__AuthorsId__3A81B327">
+    <End Role="Authors" Type="Self.Author" Multiplicity="1" />
+    <End Role="Books" Type="Self.Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Authors">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Books">
+        <PropertyRef Name="AuthorsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Books__ThemesId__3B75D760">
+    <End Role="Themes" Type="Self.Theme" Multiplicity="1" />
+    <End Role="Books" Type="Self.Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Themes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Books">
+        <PropertyRef Name="ThemesId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sales__BooksId__412EB0B6">
+    <End Role="Books" Type="Self.Book" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Books">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="BooksId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Shops__Countries__32E0915F">
+    <End Role="Countries" Type="Self.Country" Multiplicity="1" />
+    <End Role="Shops" Type="Self.Shop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Shops">
+        <PropertyRef Name="CountriesID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sales__ShopsId__4222D4EF">
+    <End Role="Shops" Type="Self.Shop" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shops">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="ShopsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Book_MagazineEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Authors" EntityType="Self.Author" />
+    <EntitySet Name="Books" EntityType="Self.Book" />
+    <EntitySet Name="Countries" EntityType="Self.Country" />
+    <EntitySet Name="Sales" EntityType="Self.Sale" />
+    <EntitySet Name="Shops" EntityType="Self.Shop" />
+    <EntitySet Name="Themes" EntityType="Self.Theme" />
+    <AssociationSet Name="FK__Authors__Countri__2E1BDC42" Association="Self.FK__Authors__Countri__2E1BDC42">
+      <End Role="Countries" EntitySet="Countries" />
+      <End Role="Authors" EntitySet="Authors" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Books__AuthorsId__3A81B327" Association="Self.FK__Books__AuthorsId__3A81B327">
+      <End Role="Authors" EntitySet="Authors" />
+      <End Role="Books" EntitySet="Books" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Books__ThemesId__3B75D760" Association="Self.FK__Books__ThemesId__3B75D760">
+      <End Role="Themes" EntitySet="Themes" />
+      <End Role="Books" EntitySet="Books" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sales__BooksId__412EB0B6" Association="Self.FK__Sales__BooksId__412EB0B6">
+      <End Role="Books" EntitySet="Books" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Shops__Countries__32E0915F" Association="Self.FK__Shops__Countries__32E0915F">
+      <End Role="Countries" EntitySet="Countries" />
+      <End Role="Shops" EntitySet="Shops" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sales__ShopsId__4222D4EF" Association="Self.FK__Sales__ShopsId__4222D4EF">
+      <End Role="Shops" EntitySet="Shops" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

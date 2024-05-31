@@ -1,0 +1,9 @@
+D:\Programming\Visual Studio\DataBase\DB Console\DB Console\bin\Debug\DataB.mdf
+D:\Programming\Visual Studio\DataBase\DB Console\DB Console\bin\Debug\DataB_log.ldf
+D:\Programming\Visual Studio\DataBase\DB Console\DB Console\bin\Debug\DB Console.exe.config
+D:\Programming\Visual Studio\DataBase\DB Console\DB Console\bin\Debug\DB Console.exe
+D:\Programming\Visual Studio\DataBase\DB Console\DB Console\bin\Debug\DB Console.pdb
+D:\Programming\Visual Studio\DataBase\DB Console\DB Console\obj\Debug\DB Console.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\DataBase\DB Console\DB Console\obj\Debug\DB Console.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\DataBase\DB Console\DB Console\obj\Debug\DB Console.exe
+D:\Programming\Visual Studio\DataBase\DB Console\DB Console\obj\Debug\DB Console.pdb

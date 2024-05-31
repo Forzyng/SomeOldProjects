@@ -1,0 +1,16 @@
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\obj\Debug\DB_WForms_3.Form1.resources
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\obj\Debug\DB_WForms_3.Properties.Resources.resources
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\obj\Debug\DB WForms 3.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\obj\Debug\DB WForms 3.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\bin\Debug\DB WForms 3.exe.config
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\bin\Debug\DB WForms 3.exe
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\bin\Debug\DB WForms 3.pdb
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\bin\Debug\EntityFramework.dll
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\bin\Debug\EntityFramework.xml
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\obj\Debug\DB WForms 3.csproj.CopyComplete
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\obj\Debug\DB WForms 3.exe
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\obj\Debug\DB WForms 3.pdb
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\obj\Debug\DB WForms 3.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Data Base Forms\DB WForms 3\DB WForms 3\obj\Debug\DB_WForms_3.AddShop.resources

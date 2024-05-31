@@ -1,0 +1,109 @@
+﻿<Window x:Class="WPFproject2.Words"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFproject2"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="Words" Height="450" Width="800"
+        MouseUp="Window_MouseUp" MouseMove="Window_MouseMove">
+    <Canvas x:Name="Field">
+        <TextBlock Text="A" x:Name="LetterA"
+                   MouseDown="TextBlock_MouseDown"
+                   FontSize="35"
+                   FontFamily="Times new Roman"
+                   FontWeight="Heavy"
+                   Canvas.Left="177"
+                   Canvas.Top="247"/>
+
+        <TextBlock Text="O" x:Name="LetterO"
+                   MouseDown="TextBlock_MouseDown"
+                   FontSize="35"
+                   FontFamily="Times new Roman"
+                   FontWeight="Heavy"
+                   Canvas.Left="207"
+                   Canvas.Top="247"/>
+
+        <TextBlock Text="C" x:Name="LetterC"
+                   MouseDown="TextBlock_MouseDown"
+                   FontSize="35"
+                   FontFamily="Times new Roman"
+                   FontWeight="Heavy"
+                   Canvas.Left="237"
+                   Canvas.Top="247"/>
+
+        <TextBlock Text="C" x:Name="LetterC2"
+                   MouseDown="TextBlock_MouseDown"
+                   FontSize="35"
+                   FontFamily="Times new Roman"
+                   FontWeight="Heavy"
+                   Canvas.Left="267"
+                   Canvas.Top="247"/>
+        <TextBlock Text="R" x:Name="LetterR"
+                   MouseDown="TextBlock_MouseDown"
+                   FontSize="35"
+                   FontFamily="Times new Roman"
+                   FontWeight="Heavy"
+                   Canvas.Left="297"
+                   Canvas.Top="247"/>
+        <TextBlock Text="S" x:Name="LetterS"
+                   MouseDown="TextBlock_MouseDown"
+                   FontSize="35"
+                   FontFamily="Times new Roman"
+                   FontWeight="Heavy"
+                   Canvas.Left="327"
+                   Canvas.Top="247"/>
+        <TextBlock Text="I" x:Name="LetterI"
+                   MouseDown="TextBlock_MouseDown"
+                   FontSize="35"
+                   FontFamily="Times new Roman"
+                   FontWeight="Heavy"
+                   Canvas.Left="357"
+                   Canvas.Top="247"/>
+
+
+
+        <Rectangle Width="30" x:Name="LetterCPosition"
+                   Height="40"
+                   Stroke="Indigo"
+                   Canvas.Left="100"
+                   Canvas.Top="100"/>
+        <Rectangle Width="30" x:Name="LetterOPosition"
+                   Height="40"
+                   Stroke="Indigo"
+                   Canvas.Left="145"
+                   Canvas.Top="100"/>
+        <Rectangle Width="30" x:Name="LetterRPosition"
+                   Height="40"
+                   Stroke="Indigo"
+                   Canvas.Left="190"
+                   Canvas.Top="100"/>
+        <Rectangle Width="30" x:Name="LetterSPosition"
+                   Height="40"
+                   Stroke="Indigo"
+                   Canvas.Left="235"
+                   Canvas.Top="100"/>
+        <Rectangle Width="30" x:Name="LetterIPosition"
+                   Height="40"
+                   Stroke="Indigo"
+                   Canvas.Left="280"
+                   Canvas.Top="100"/>
+        <Rectangle Width="30" x:Name="LetterC2Position"
+                   Height="40"
+                   Stroke="Indigo"
+                   Canvas.Left="325"
+                   Canvas.Top="100"/>
+        <Rectangle Width="30" x:Name="LetterAPosition"
+                   Height="40"
+                   Stroke="Indigo"
+                   Canvas.Left="370"
+                   Canvas.Top="100"/>
+
+        <Image Source="{DynamicResource GalgenImage}" Canvas.Left="456" Canvas.Top="100" Height="276" Width="299" />
+        <Label Canvas.Left="526" Canvas.Top="35" FontFamily="Segoe UI Black" FontSize="18">
+            Осталось поыток:
+        </Label>
+        <Label x:Name="TryesLeft" Content="4" Canvas.Left="706" Canvas.Top="35" FontFamily="Segoe UI Black" FontSize="18"/>
+    </Canvas>
+</Window>

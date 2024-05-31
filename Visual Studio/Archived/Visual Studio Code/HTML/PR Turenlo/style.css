@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 12pt;
+    background: url("image/фон.jpg")  ;
+    background-size: 100%;
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3pt;
+}
+
+
+
+.main{
+   
+    font-size: 12pt;
+    border-radius: 8px;
+    margin: 0 auto;
+    
+    align-items: center;
+    
+    
+}
+
+.text
+{
+    padding-top: 20px;
+    float: left;
+}
+
+.headerMain{
+    
+    margin: 0px auto;
+    align-items: center;
+    width: 375px;
+    text-align: center;
+    padding: 7px;
+    background-color: rgb(35, 56, 175);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+   
+}
+
+.headerMain2{
+    
+    margin: 0px auto;
+    align-items: center;
+    width: 475px;
+    text-align: center;
+    padding: 7px;
+    background-color: rgb(35, 56, 175);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+   
+}
+
+h1
+{
+    
+    font-family: "Bookman Old Style";
+    font-size: 16pt;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+   
+}
+
+h2
+{
+    font-size: 14pt;
+    background: yellow;
+    font-style: italic;
+    
+    display: inline;
+	
+}
+
+.img1
+{
+    margin-left: 100px;
+    align-self: left;
+    width: 400px;
+    border: 5px solid black;
+    
+   
+}
+
+
+.img2
+{
+    margin-top: 10px;
+    margin-left: 100px;
+    align-self: left;
+    width: 400px;
+    border: 5px solid black;
+    
+   
+}
+
+.square
+{
+    list-style-type: square;
+    margin-left:50px;
+    margin-top: 5px;
+    
+}
+
+li
+{
+    padding:5px;
+}

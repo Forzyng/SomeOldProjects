@@ -1,0 +1,28 @@
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\bin\Debug\Ne_Podozritelniy_Proverschik_Slov.exe.config
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\bin\Debug\Ne_Podozritelniy_Proverschik_Slov.exe
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\bin\Debug\Ne_Podozritelniy_Proverschik_Slov.pdb
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.CheckerFiles.resources
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.Main.resources
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.Properties.Resources.resources
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\FileChecker.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\FileChecker.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.exe
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.pdb
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\FileChecker.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\bin\Debug\MetroFramework.dll
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\bin\Debug\MetroFramework.Fonts.dll
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\bin\Debug\Ne_Podozritelniy_Proverschik_Slov.exe.config
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\bin\Debug\Ne_Podozritelniy_Proverschik_Slov.exe
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\bin\Debug\Ne_Podozritelniy_Proverschik_Slov.pdb
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\bin\Debug\MetroFramework.dll
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\bin\Debug\MetroFramework.Fonts.dll
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\FileChecker.csproj.AssemblyReference.cache
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\FileChecker.csproj.SuggestedBindingRedirects.cache
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.CheckerFiles.resources
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.Main.resources
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.Properties.Resources.resources
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\FileChecker.csproj.GenerateResource.cache
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\FileChecker.csproj.CoreCompileInputs.cache
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\FileChecker.csproj.CopyComplete
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.exe
+D:\Programming\Programming_old\Projects\Visual Studio\Archived\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.pdb

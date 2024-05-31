@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<script src="../Lesson1JavaScript/js/script1.js"></script>-->
+    <script>
+        //alert('Скрипт в секций HEAD');
+        var a = -5,
+            b=1,
+            c='string',
+            d="second string 'include substring'",
+            e = 12.58,
+            f = 1.25E-12,
+            Number1 = 12,
+            number1 = "12";
+        let
+            x = 100;               // x10 sysytem
+        let
+            t = true,
+            r = false,
+            numberHex = 0xFF0000,  // 16x system
+            numberOct = 035;       // 8x system
+        let 
+            undefValue = undefined
+            nullValue = null;
+/*
+            console.log('a = '+ a + ', type = ' + typeof a);
+            console.log('b = '+ b + ', type = ' + typeof b);
+            console.log('c = '+ c + ', type = ' + typeof c);
+            console.log('d = '+ d + ', type = ' + typeof d);
+            console.log('e = '+ e + ', type = ' + typeof e);
+            console.log('f = '+ f + ', type = ' + typeof f);
+            console.log('Nuum1 = '+ Number1 + ', type = ' + typeof Number1);
+            console.log('anum1 = '+ number1 + ', type = ' + typeof number1);
+
+            console.log('t = '+ t + ', type = ' + typeof t);
+            console.log('r = '+ r + ', type = ' + typeof r);
+            console.log('undefValue = '+ undefValue + ', type = ' + typeof undefValue);
+            console.log('nullValue = '+ nullValue + ', type = ' + typeof nullValue);
+            
+            test();
+
+            function test(){
+                console.log('use global a = ' + a);
+                //let a = 1000;
+                console.log('use local a = ' + a);
+                a = 2000;
+                console.log('use local = ' + a );
+                var globalX = 1000;
+            }
+
+            console.log('t = '+ test + ', type = ' + typeof test);
+*/
+
+            test();
+
+            function test(){
+                console.log('use global a = ' + a);
+                //let a = 1000;
+                console.log('use local a = ' + a);
+                a = 2000;
+                console.log('use local = ' + a );
+                var globalX = 1000;
+            }
+
+            function sum(q , w){
+                return q + w;
+            }
+
+            /*
+            console.log("number1 + e = " + (number1 + e));
+            console.log("Number1 + e = " + (Number1 + e));
+            console.log("number1 + number1 = " + (number1 + number1));
+            console.log("b + number1 = " + (b + number1));
+
+            a = prompt("Введите количество товаров ", 0);
+            a = parseInt(a);
+            alert("Стоимость будет = " + (a + 5));
+            */
+            //console.log('user global a = ' + a);
+            //console.log('user globalX a = ' + globalX);
+    </script>
+</head>
+<body>
+    <div>
+        <h1>javaScript</h1>
+        <script >/*type="text/javascript" language="javascript"*/
+           //alert('Скрип в элементу Div');
+        </script>
+        <!--<script src="../Lesson1JavaScript/js/script2.js"></script>-->
+    </div>
+
+    <script>
+        //alert('Сообщение после загрузки документа');
+    </script>
+    <script src="../Lesson1JavaScript/js/script1.js"></script>
+</body>
+</html>

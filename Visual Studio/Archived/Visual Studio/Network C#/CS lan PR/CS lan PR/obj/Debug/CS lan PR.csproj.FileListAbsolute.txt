@@ -1,0 +1,6 @@
+D:\Programming\Visual Studio\Network C#\CS lan PR\CS lan PR\bin\Debug\CS lan PR.exe.config
+D:\Programming\Visual Studio\Network C#\CS lan PR\CS lan PR\bin\Debug\CS lan PR.exe
+D:\Programming\Visual Studio\Network C#\CS lan PR\CS lan PR\bin\Debug\CS lan PR.pdb
+D:\Programming\Visual Studio\Network C#\CS lan PR\CS lan PR\obj\Debug\CS lan PR.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS lan PR\CS lan PR\obj\Debug\CS lan PR.exe
+D:\Programming\Visual Studio\Network C#\CS lan PR\CS lan PR\obj\Debug\CS lan PR.pdb

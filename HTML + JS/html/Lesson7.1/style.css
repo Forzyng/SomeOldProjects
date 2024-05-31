@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(91, 91, 122);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.page-header > div:first-child{
+    background-color: white;
+    display: flex;
+    margin: 5px 0;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.page-header > div > menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.page-header > div > menu > li{
+    margin: 5px 5px 5px 15px;
+    color: silver;
+}
+
+.page-header > div > menu > li > a{
+    text-decoration: none;
+    color: silver;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.page-header > div > menu > li > a:hover{
+    background-color: rgb(96, 204, 168);
+    color: white;
+    border-radius: 3px;
+}
+
+.page-header > div > menu > li > img:hover{
+    box-shadow: 2px 2px 1px 1px silver;
+    cursor: pointer;
+}
+
+.page-header-text > span:first-child{
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+}
+
+.page-header-text > span:first-child > span{
+    color: rgb(96, 204, 168);
+}
+
+.page-header-text > span:last-child{
+    font-size: 1rem;
+    color: silver;
+}
+
+.page-header > div:last-child{
+    color: white;
+    margin-left: 30px;
+}
+
+.page-header > div:last-child >p:first-child{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-top: 30px;
+}
+
+.page-header > div:last-child >p:last-child{
+    font-size: 1rem;
+}
+
+.main{
+    background-color: white;
+    border-radius: 3px;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+}
+
+.comments{
+    flex-basis: 70vw;
+    margin: 15px;
+}
+
+.popular-comment{
+    flex-basis: 30vw;
+}
+
+.comment > img:first-child{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.comment-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comment-title > img{
+    width: 36px;
+    height: 36px;
+}
+
+.comment-title-text{
+    font-weight: bold;
+    color: black;
+    margin-left: 15px;
+}
+
+.comment-date{
+    color: silver;
+    margin-left: 15px;
+}
+
+.comment-text{
+    color: silver;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.comment-read-more{
+    width: 100px;
+    height: 30px;
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: rgb(96, 204, 168);
+    border:none;
+    margin-bottom: 20px;
+}
+
+.popular-comments{
+    font-size: 0.8rem;
+}
+
+.popular-comments-image{
+    width: 32px;
+    height: 32px;
+}
+
+.page-footer{
+    color: silver;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-footer > div{
+    margin: 20px;
+}
+
+.page-footer > div:first-child{
+    margin-left: 50px;
+}
+ .page-footer > div:last-child{
+     margin-right: 50px;
+}
+
+.page-footer > div > header{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:900px){
+    .main{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px){
+    .popular-comments{
+        display: none;
+    }
+    .page-footer{
+        flex-direction: column;
+    }
+    .page-footer > div:first-child{
+        margin-left: 20px;
+    }
+     .page-footer > div:last-child{
+         margin-right: 20px;
+    }
+}

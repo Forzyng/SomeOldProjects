@@ -1,0 +1,10 @@
+D:\Programming\Visual Studio\System C#\CS System Multithreading\Multithreading Form\bin\Debug\Multithreading Form.exe.config
+D:\Programming\Visual Studio\System C#\CS System Multithreading\Multithreading Form\bin\Debug\Multithreading Form.exe
+D:\Programming\Visual Studio\System C#\CS System Multithreading\Multithreading Form\bin\Debug\Multithreading Form.pdb
+D:\Programming\Visual Studio\System C#\CS System Multithreading\Multithreading Form\obj\Debug\Multithreading Form.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\CS System Multithreading\Multithreading Form\obj\Debug\Multithreading_Form.Form1.resources
+D:\Programming\Visual Studio\System C#\CS System Multithreading\Multithreading Form\obj\Debug\Multithreading_Form.Properties.Resources.resources
+D:\Programming\Visual Studio\System C#\CS System Multithreading\Multithreading Form\obj\Debug\Multithreading Form.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\System C#\CS System Multithreading\Multithreading Form\obj\Debug\Multithreading Form.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS System Multithreading\Multithreading Form\obj\Debug\Multithreading Form.exe
+D:\Programming\Visual Studio\System C#\CS System Multithreading\Multithreading Form\obj\Debug\Multithreading Form.pdb

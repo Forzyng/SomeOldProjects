@@ -1,0 +1,10 @@
+D:\Programming\Visual Studio\Network C#\CS Lan Form Send_File\CS Lan Form Send_File\bin\Debug\CS Lan Form Send_File.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan Form Send_File\CS Lan Form Send_File\bin\Debug\CS Lan Form Send_File.exe
+D:\Programming\Visual Studio\Network C#\CS Lan Form Send_File\CS Lan Form Send_File\bin\Debug\CS Lan Form Send_File.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan Form Send_File\CS Lan Form Send_File\obj\Debug\CS Lan Form Send_File.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CS Lan Form Send_File\CS Lan Form Send_File\obj\Debug\CS_Lan_Form_Send_File.Form1.resources
+D:\Programming\Visual Studio\Network C#\CS Lan Form Send_File\CS Lan Form Send_File\obj\Debug\CS_Lan_Form_Send_File.Properties.Resources.resources
+D:\Programming\Visual Studio\Network C#\CS Lan Form Send_File\CS Lan Form Send_File\obj\Debug\CS Lan Form Send_File.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Network C#\CS Lan Form Send_File\CS Lan Form Send_File\obj\Debug\CS Lan Form Send_File.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan Form Send_File\CS Lan Form Send_File\obj\Debug\CS Lan Form Send_File.exe
+D:\Programming\Visual Studio\Network C#\CS Lan Form Send_File\CS Lan Form Send_File\obj\Debug\CS Lan Form Send_File.pdb

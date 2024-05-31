@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\System C#\CS System DZ 1\Beep\bin\Debug\Beep.exe.config
+D:\Programming\Visual Studio\System C#\CS System DZ 1\Beep\bin\Debug\Beep.exe
+D:\Programming\Visual Studio\System C#\CS System DZ 1\Beep\bin\Debug\Beep.pdb
+D:\Programming\Visual Studio\System C#\CS System DZ 1\Beep\obj\Debug\Beep.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\CS System DZ 1\Beep\obj\Debug\Beep.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS System DZ 1\Beep\obj\Debug\Beep.exe
+D:\Programming\Visual Studio\System C#\CS System DZ 1\Beep\obj\Debug\Beep.pdb

@@ -1,0 +1,31 @@
+#table {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+#table .Thead .TH{
+    text-align: center;
+    line-height: 50px;
+    width: 900px;
+    height: 45px;
+    background-color: rgb(146, 196, 234);
+}
+
+#table tbody tr{
+    text-align: center;
+    line-height: 35px;
+    background-color: rgb(192, 205, 215);
+}
+
+#table tbody tr th:first-child{
+    text-align: center;
+    line-height: 50px;
+    width: 150px;
+    height: 45px;
+    background-color: rgb(197, 228, 252);
+    font-weight: bold;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form accept="#" name="form1" style="width: 390px; margin: 10px auto; border: 1px solid greenyellow;">
+        <h1 name="formHeader">Head</h1>
+
+        <div>
+            <label>
+                <span>A = </span>
+                <input type="text" name="a" id="a">
+            </label>
+        </div>
+        <div>
+            <label>
+                <span>B = </span>
+                <input type="text" name="b" id="b">
+            </label>
+        </div>
+        <div>
+            <label>
+                <span>Sum = </span>
+                <input type="text" name="sum" id="sum" value="0" readonly>
+            </label>
+        </div>
+        <div>
+            <!--<input type="button" value="calculate 1" id="btnCalc1" onclick="javascript:calc()">-->
+            <input type="button" value="calculate 2" id="btnCalc2">
+        </div>
+    </form>
+
+    <script>
+        function calc(){
+            //Name
+            //form1.sum.Value = form1.a.Value + form1.b.Value;
+            //id
+            //sum.Value = a.Value + b.Value;
+
+            //id
+            let
+                localA = parseFloat(document.getElementById("a").value);
+                localB = parseFloat( document.getElementById("b").value);
+                console.log(localA);
+                console.log(localB);
+                document.getElementById("sum").value = (localA + localB);
+        }
+
+        function headerClick1(){
+            alter("(1) click on Header")
+        }
+        function headerClick2(){
+            alter2("(2) click on Header")
+        }
+        function headerClick3(){
+            alter("(3) click on Header")
+        }
+
+
+        document.getElementById("btnCalc2").addEventListener("click", calc);
+        document.getElementById("formHeader").addEventListener("click", headerClick1);
+        document.getElementById("formHeader").addEventListener("click", headerClick2);
+        document.getElementById("formHeader").addEventListener("click", headerClick3);
+    </script>
+
+</body>
+</html>

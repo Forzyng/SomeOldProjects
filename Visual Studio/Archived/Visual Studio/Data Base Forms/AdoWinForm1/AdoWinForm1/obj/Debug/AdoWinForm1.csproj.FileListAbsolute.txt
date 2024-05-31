@@ -1,0 +1,24 @@
+C:\Users\dovgoluckiy\source\repos\AdoWinForm1\AdoWinForm1\bin\Debug\AdoWinForm1.exe.config
+C:\Users\dovgoluckiy\source\repos\AdoWinForm1\AdoWinForm1\bin\Debug\AdoWinForm1.exe
+C:\Users\dovgoluckiy\source\repos\AdoWinForm1\AdoWinForm1\bin\Debug\AdoWinForm1.pdb
+C:\Users\dovgoluckiy\source\repos\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.csproj.AssemblyReference.cache
+C:\Users\dovgoluckiy\source\repos\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.LoginForm.resources
+C:\Users\dovgoluckiy\source\repos\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.MainForm.resources
+C:\Users\dovgoluckiy\source\repos\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.Properties.Resources.resources
+C:\Users\dovgoluckiy\source\repos\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.csproj.GenerateResource.cache
+C:\Users\dovgoluckiy\source\repos\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.csproj.CoreCompileInputs.cache
+C:\Users\dovgoluckiy\source\repos\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.exe
+C:\Users\dovgoluckiy\source\repos\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.pdb
+D:\Programming\Visual Studio\Data Base Forms\AdoWinForm1\AdoWinForm1\bin\Debug\AdoWinForm1.exe.config
+D:\Programming\Visual Studio\Data Base Forms\AdoWinForm1\AdoWinForm1\bin\Debug\AdoWinForm1.exe
+D:\Programming\Visual Studio\Data Base Forms\AdoWinForm1\AdoWinForm1\bin\Debug\AdoWinForm1.pdb
+D:\Programming\Visual Studio\Data Base Forms\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Data Base Forms\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.LoginForm.resources
+D:\Programming\Visual Studio\Data Base Forms\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.MainForm.resources
+D:\Programming\Visual Studio\Data Base Forms\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.Properties.Resources.resources
+D:\Programming\Visual Studio\Data Base Forms\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Data Base Forms\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Data Base Forms\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.exe
+D:\Programming\Visual Studio\Data Base Forms\AdoWinForm1\AdoWinForm1\obj\Debug\AdoWinForm1.pdb
+D:\Programming\Visual Studio\Data Base Forms\AdoWinForm1\AdoWinForm1\bin\Debug\BookMagazine.mdf
+D:\Programming\Visual Studio\Data Base Forms\AdoWinForm1\AdoWinForm1\bin\Debug\BookMagazine_log.ldf

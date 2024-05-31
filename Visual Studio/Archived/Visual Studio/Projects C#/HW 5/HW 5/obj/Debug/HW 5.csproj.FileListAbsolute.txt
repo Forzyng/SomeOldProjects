@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\HW 5\HW 5\bin\Debug\HW 5.exe.config
+D:\Programming\Visual Studio\Projects C#\HW 5\HW 5\bin\Debug\HW 5.exe
+D:\Programming\Visual Studio\Projects C#\HW 5\HW 5\bin\Debug\HW 5.pdb
+D:\Programming\Visual Studio\Projects C#\HW 5\HW 5\obj\Debug\HW 5.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Projects C#\HW 5\HW 5\obj\Debug\HW 5.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\HW 5\HW 5\obj\Debug\HW 5.exe
+D:\Programming\Visual Studio\Projects C#\HW 5\HW 5\obj\Debug\HW 5.pdb

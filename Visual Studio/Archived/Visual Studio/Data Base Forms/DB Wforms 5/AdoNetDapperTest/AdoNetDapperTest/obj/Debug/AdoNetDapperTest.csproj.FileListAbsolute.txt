@@ -1,0 +1,28 @@
+C:\Users\dovgoluckiy\source\repos\AdoNetDapperTest\AdoNetDapperTest\bin\Debug\AdoNetDapperTest.exe.config
+C:\Users\dovgoluckiy\source\repos\AdoNetDapperTest\AdoNetDapperTest\bin\Debug\AdoNetDapperTest.exe
+C:\Users\dovgoluckiy\source\repos\AdoNetDapperTest\AdoNetDapperTest\bin\Debug\AdoNetDapperTest.pdb
+C:\Users\dovgoluckiy\source\repos\AdoNetDapperTest\AdoNetDapperTest\bin\Debug\Dapper.dll
+C:\Users\dovgoluckiy\source\repos\AdoNetDapperTest\AdoNetDapperTest\bin\Debug\Dapper.xml
+C:\Users\dovgoluckiy\source\repos\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.csproj.AssemblyReference.cache
+C:\Users\dovgoluckiy\source\repos\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.MainForm.resources
+C:\Users\dovgoluckiy\source\repos\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.Properties.Resources.resources
+C:\Users\dovgoluckiy\source\repos\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.csproj.GenerateResource.cache
+C:\Users\dovgoluckiy\source\repos\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.csproj.CoreCompileInputs.cache
+C:\Users\dovgoluckiy\source\repos\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.csproj.CopyComplete
+C:\Users\dovgoluckiy\source\repos\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.exe
+C:\Users\dovgoluckiy\source\repos\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.pdb
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\bin\Debug\AdoNetDapperTest.exe.config
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\bin\Debug\AdoNetDapperTest.exe
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\bin\Debug\AdoNetDapperTest.pdb
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\bin\Debug\Dapper.dll
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\bin\Debug\Dapper.xml
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.MainForm.resources
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.Properties.Resources.resources
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.csproj.CopyComplete
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.exe
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\obj\Debug\AdoNetDapperTest.pdb
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\bin\Debug\Book_Magazine.mdf
+D:\Programming\Visual Studio\Data Base Forms\DB Wforms 5\AdoNetDapperTest\AdoNetDapperTest\bin\Debug\Book_Magazine_log.ldf

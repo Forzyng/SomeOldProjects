@@ -1,0 +1,20 @@
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan Tcp Client Forms\bin\Debug\CS Lan Tcp Client Forms.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan Tcp Client Forms\bin\Debug\CS Lan Tcp Client Forms.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan Tcp Client Forms\bin\Debug\CS Lan Tcp Client Forms.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan Tcp Client Forms\obj\Debug\CS Lan Tcp Client Forms.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan Tcp Client Forms\obj\Debug\CS_Lan_Tcp_Client_Forms.Form1.resources
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan Tcp Client Forms\obj\Debug\CS_Lan_Tcp_Client_Forms.Properties.Resources.resources
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan Tcp Client Forms\obj\Debug\CS Lan Tcp Client Forms.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan Tcp Client Forms\obj\Debug\CS Lan Tcp Client Forms.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan Tcp Client Forms\obj\Debug\CS Lan Tcp Client Forms.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan Tcp Client Forms\obj\Debug\CS Lan Tcp Client Forms.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan Tcp Client Forms\bin\Debug\CS Lan Tcp Client Forms.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan Tcp Client Forms\bin\Debug\CS Lan Tcp Client Forms.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan Tcp Client Forms\bin\Debug\CS Lan Tcp Client Forms.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan Tcp Client Forms\obj\Debug\CS Lan Tcp Client Forms.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan Tcp Client Forms\obj\Debug\CS_Lan_Tcp_Client_Forms.Form1.resources
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan Tcp Client Forms\obj\Debug\CS_Lan_Tcp_Client_Forms.Properties.Resources.resources
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan Tcp Client Forms\obj\Debug\CS Lan Tcp Client Forms.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan Tcp Client Forms\obj\Debug\CS Lan Tcp Client Forms.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan Tcp Client Forms\obj\Debug\CS Lan Tcp Client Forms.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan Tcp Client Forms\obj\Debug\CS Lan Tcp Client Forms.pdb

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        let kitchen = {}
+        kitchen.name = "my kitchen"
+        kitchen.width = 1200;
+        kitchen.height = 550;
+
+        function Room(props){
+            this.name = props.name
+            this.width = props.width
+            this.height = props.height
+        }
+
+        Room.prototype = kitchen
+
+        let myRoom = new Room({name:"room1", width: 1050, height: 550})
+        console.log(myRoom.name)
+        */
+    </script>
+
+    <script>
+        /*
+        let animal = {
+            eat: true,
+            someFun: function(){
+                console.log('Fun')
+            }
+        }
+
+        function createRabbit(props){
+            this.name = props.name
+            this.whatEat = props.eat
+        }
+
+        let testA = new createRabbit({name: "?", eat:"!"});
+        console.log(testA.name)
+
+        //let testB =  createRabbit({name: "?", eat:"!"});
+        //if(testB.name !== undefined)
+            //console.log(testB.name)
+
+
+        function Rabbit (props){
+            this.name = props.name
+            this.whatEat = props.eat
+        }
+
+        Rabbit.prototype = animal
+
+        let testC = new  Rabbit({name: "?", eat:"!"});
+        testC.someFun()
+        //console.log(testC.eat)
+    */
+    </script>
+
+<script>
+    // let Obj = {};
+    // Obj.id = 10;
+    // console.log(Obj.id);
+
+    class ClassParent {
+
+        constructor(props) {
+            this.someVar = props.someVar;
+        }
+
+        doSomeThing (){
+            console.log("Do");
+        }
+
+    }
+
+
+    class Children extends ClassParent{
+        #value = 10
+
+        get value () {return this.#value}
+        set value (val) {this.#value = val;}
+
+        _value1 = 10;
+
+        get value1 () {return this._value}
+        set value1 (val) {this._value = val}
+
+        constructor(props){
+            super(props)
+        }
+
+        doSomeThing (){
+            //super.doSomeThing();
+            console.log("Do in Children");
+        }
+        
+        static stat = 10;
+
+    }
+
+    //let a = new ClassParent({someVar: "element A"});
+    let b = new Children({someVar: "element B"});
+    b.doSomeThing();
+
+    let isChildren = b instanceof Children;
+    let isParent = b instanceof ClassParent;
+    console.log("isChildren" + isChildren);
+    console.log("isParent" + isParent);
+    console.log(b.toString());
+
+
+    /*
+    console.log(b.value)
+    console.log(b.value1)
+    console.log(b._value1)
+    */
+    //a.nextVar = 10;
+
+    //a.doSomeThing();
+
+    console.log(typeof (ClassParent));
+
+    //console.log(a.someVar);
+    //console.log(a.nextVar);
+    //console.log(b.someVar);
+</script>
+
+</body>
+</html>

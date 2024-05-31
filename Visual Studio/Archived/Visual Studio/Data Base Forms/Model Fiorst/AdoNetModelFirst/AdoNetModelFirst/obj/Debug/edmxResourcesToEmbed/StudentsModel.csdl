@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="StudentsModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="StudentsDbContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Groups" EntityType="StudentsModel.Group" />
+    <EntitySet Name="Students" EntityType="StudentsModel.Student" />
+    <AssociationSet Name="GroupStudent" Association="StudentsModel.GroupStudent">
+      <End Role="Group" EntitySet="Groups" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" />
+    <Property Name="Teacher" Type="String" Nullable="false" MaxLength="100" Unicode="true" />
+    <Property Name="Course" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Student" Relationship="StudentsModel.GroupStudent" FromRole="Group" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" Unicode="true" />
+    <Property Name="LastName" Type="String" Nullable="false" Unicode="true" />
+    <Property Name="GroupId" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="Group" Relationship="StudentsModel.GroupStudent" FromRole="Student" ToRole="Group" />
+  </EntityType>
+  <Association Name="GroupStudent">
+    <End Type="StudentsModel.Group" Role="Group" Multiplicity="1" />
+    <End Type="StudentsModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="GroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

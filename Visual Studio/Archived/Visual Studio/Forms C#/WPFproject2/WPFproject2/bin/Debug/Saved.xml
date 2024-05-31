@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ShipSpeed>5</ShipSpeed>
+  <ShipX>350</ShipX>
+  <AlienSpeed>5</AlienSpeed>
+  <AlienX>440</AlienX>
+  <AlienY>154.21686746987953</AlienY>
+</GameState>

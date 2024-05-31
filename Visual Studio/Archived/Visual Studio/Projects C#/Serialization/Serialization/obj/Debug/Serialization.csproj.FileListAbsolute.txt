@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\Serialization\Serialization\obj\Debug\Serialization.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Projects C#\Serialization\Serialization\obj\Debug\Serialization.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\Serialization\Serialization\bin\Debug\Serialization.exe.config
+D:\Programming\Visual Studio\Projects C#\Serialization\Serialization\bin\Debug\Serialization.exe
+D:\Programming\Visual Studio\Projects C#\Serialization\Serialization\bin\Debug\Serialization.pdb
+D:\Programming\Visual Studio\Projects C#\Serialization\Serialization\obj\Debug\Serialization.exe
+D:\Programming\Visual Studio\Projects C#\Serialization\Serialization\obj\Debug\Serialization.pdb

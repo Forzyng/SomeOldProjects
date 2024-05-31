@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form name="date">
+        <select id="valcode">
+            <option value="" selected disabled> -- select --</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+        </select>
+        <input type="date" name="date">
+        <input type="button" name="byDate" value="By Data">
+        <input type="button" name="byPeriod" value="By Period">
+    </form>
+    <div id="app">
+        <canvas id="myChart" width="400" height="400"></canvas>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.2/chart.min.js"></script>
+    </div>
+    
+    <script>
+        let apiUrl = "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchangenew?json";
+
+        // USD , EUR
+
+        let bigDate = [];
+
+        //let toDate
+        //let valcode
+
+        let valcode = document.getElementById("valcode");
+
+        /*
+        function buildBigData() {
+            //TODO: построить данные по колебанию курса валюты за период
+        }
+
+        function getByDate(date) {
+        // Готовим дату к формату, который нам нужен
+        let dateToStr = date.toString().replaceAll('-', '');
+        // TODO: Проверить тут, достигли ли нужной даты - если да то
+        // запустить buildBigData
+        fetch(apiUrl+ "&date=" + dateToStr + "&valcode=" + valcode)
+            .then(res => {
+                //console.log(res);
+                return res.json();
+            })
+            .then( data => {
+                bigData[date] = data;
+                // TODO: уменьшить дату на вчера
+                date = date - 1;
+                getByDate(date);
+            })
+            .catch(err=> { console.log(err)})
+        }
+        */
+
+        Date.prototype.addDays = function (days) {
+
+            var date = new Date(this.valueOf());
+            date.setDate(date.getDate() + days);
+
+            return date;
+        }
+
+        function getDates(startDate, stopDate) {
+            var dateArray = new Array();
+            var currentDate = startDate;
+
+            while (currentDate <= stopDate) {
+                dateArray.push(new Date(currentDate));
+                currentDate = currentDate.addDays(1);
+            }
+
+            return dateArray;
+        }
+
+        document.forms.date.elements['byPeriod'].onclick = function () {
+            
+            toDate =  document.forms.date.elements['date'].value;
+            let toDateParse = new Date(toDate);
+
+            // 7,6,5,4,3,2,1,30,29,  до установленной даты по выбранной валюте
+            let dateNow = new Date().getFullYear().toString() + "-" + new Date().getMonth().toString() + "-" + new Date().getDate().toString();
+            let dateNowParse = new Date(dateNow);
+
+            console.log(toDateParse, dateNowParse);
+
+            let daysLag = Math.ceil(Math.abs(dateNowParse.getTime() - toDateParse.getTime()) / (1000 * 3600 * 24));
+            let dayArr = getDates(toDateParse, toDateParse.addDays(daysLag+4));
+
+            console.log(dayArr);
+
+            for (let i = 0; i < dayArr.length; i++) {
+                console.log(i);
+
+                let date = dayArr[i].getFullYear().toString() + "-" + ((dayArr[i].getMonth())+1).toString() + "-" + dayArr[i].getDate().toString();
+                
+                fetch(apiUrl + "&date=" + date.replaceAll("-", ""))
+                    .then(res => {
+                        // console.log(res);
+                        return res.json();
+                    })
+                    .then(data => {
+
+                        console.log(data);
+                        let currency;
+                        for (let i = 0; i < data.length; i++) {
+                            if (data[i].cc === valcode.options[valcode.selectedIndex].value) {
+                                currency = data[i];
+                                document.getElementById("app").innerHTML += "<br>" + date + " " + currency.txt + " " + currency.rate;
+                                const ctx = document.getElementById('myChart').getContext('2d');
+                                const myChart = new Chart(ctx,
+                                {
+                                type: 'bar',
+                                data:
+                                {
+                                    labels: ['currency'],
+                                    datasets:
+                                    [{
+                                        label: '# of Votes',
+                                        data: [currency.rate],
+                                        backgroundColor:
+                                        [
+                                            'rgba(255, 99, 132, 0.2)',
+                                            'rgba(54, 162, 235, 0.2)',
+                                            'rgba(255, 206, 86, 0.2)'
+                                        
+                                        ],
+                                        borderColor:
+                                        [
+                                            'rgba(255, 99, 132, 1)',
+                                            'rgba(54, 162, 235, 1)',
+                                            'rgba(255, 206, 86, 1)'
+                                        
+                                        ],
+                                        borderWidth: 1
+                                    }]
+                                },
+                                options:
+                                {
+                                    scales:
+                                    {
+                                        y:{
+                                            beginAtZero: true
+                                        }
+                                    }
+                                }
+                            });
+                            }
+                        }
+
+                    })
+                    .catch(err => {
+                        console.log(err)
+                    })
+            }
+        }
+
+        document.forms.date.elements['byDate'].onclick = function () {
+            let selectedDate =  document.forms.date.elements['date'].value.toString().replaceAll('-', '');
+            console.log(" Построить курсы ваолют по состоянию на " + selectedDate);
+
+            fetch(apiUrl + "&date=" + selectedDate)
+                .then(res=> {
+                    console.log(res);
+                    return res.json();
+                })
+
+            /*
+            cc: "AUD"
+            exchangedate: "06.12.2021"
+            r030: 36
+            rate: 19.2697
+            txt: "Австралійський долар"
+            */
+
+            .then(data=>{
+                /*
+                let table = document.createElement("table");
+                for(let i = 0; i < data.length; i++){
+                    
+                    let tr = document.createElement("tr");
+
+                    let tdName = document.createElement("td");
+                    tdName.innerText = data[i].txt;
+                    tr.appendChild(tdName);
+
+                    let tdRate = document.createElement("td");
+                    tdRate.innerText = data[i].rate;
+                    tr.appendChild(tdRate);
+
+                    table.appendChild(tr);
+                }
+
+                document.getElementById("app").style = "border-collapse: collapse; border: 1px solid black; ";
+                document.getElementById("app").innerHTML = "";
+                document.getElementById("app").appendChild(table);
+                */
+
+                console.log(data);
+
+                let currency;
+
+                for (let i = 0; i < data.length; i++) {
+                    if (data[i].cc === valcode.options[valcode.selectedIndex].value) {
+                        currency = data[i];
+                    }
+                }
+
+                document.getElementById("app").innerHTML = currency.txt + " " + currency.rate;
+
+            })
+            .catch(err=> { console.log(err)})
+        }
+
+
+/*
+        fetch(apiUrl)
+        .then(res=> console.log(res))
+        .then()
+        .catch(err=> {console.log(err)})
+*/
+    </script>
+
+</body>
+</html>

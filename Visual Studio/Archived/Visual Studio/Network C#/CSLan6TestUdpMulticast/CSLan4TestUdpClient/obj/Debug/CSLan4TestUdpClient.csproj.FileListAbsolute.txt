@@ -1,0 +1,7 @@
+C:\Users\dovgoluckiy\source\repos\CSLan4TestUdpClient\CSLan4TestUdpClient\bin\Debug\CSLan4TestUdpClient.exe.config
+C:\Users\dovgoluckiy\source\repos\CSLan4TestUdpClient\CSLan4TestUdpClient\bin\Debug\CSLan4TestUdpClient.exe
+C:\Users\dovgoluckiy\source\repos\CSLan4TestUdpClient\CSLan4TestUdpClient\bin\Debug\CSLan4TestUdpClient.pdb
+C:\Users\dovgoluckiy\source\repos\CSLan4TestUdpClient\CSLan4TestUdpClient\obj\Debug\CSLan4TestUdpClient.csproj.AssemblyReference.cache
+C:\Users\dovgoluckiy\source\repos\CSLan4TestUdpClient\CSLan4TestUdpClient\obj\Debug\CSLan4TestUdpClient.csproj.CoreCompileInputs.cache
+C:\Users\dovgoluckiy\source\repos\CSLan4TestUdpClient\CSLan4TestUdpClient\obj\Debug\CSLan4TestUdpClient.exe
+C:\Users\dovgoluckiy\source\repos\CSLan4TestUdpClient\CSLan4TestUdpClient\obj\Debug\CSLan4TestUdpClient.pdb

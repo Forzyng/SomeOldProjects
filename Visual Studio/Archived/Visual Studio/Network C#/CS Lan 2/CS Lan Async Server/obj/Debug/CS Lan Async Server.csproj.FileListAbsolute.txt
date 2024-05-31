@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan Async Server\bin\Debug\CS Lan Async Server.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan Async Server\bin\Debug\CS Lan Async Server.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan Async Server\bin\Debug\CS Lan Async Server.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan Async Server\obj\Debug\CS Lan Async Server.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan Async Server\obj\Debug\CS Lan Async Server.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan Async Server\obj\Debug\CS Lan Async Server.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan Async Server\obj\Debug\CS Lan Async Server.pdb

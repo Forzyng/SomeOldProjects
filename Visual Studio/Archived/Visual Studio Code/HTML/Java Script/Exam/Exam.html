@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Exam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        input, select
+        {
+            margin: 20px;
+            align-content: center;
+        }
+
+
+    </style>
+
+<style>
+.list-counter-square {
+    list-style: none;
+    counter-reset: list;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+    .list-counter-square>li {
+    position: relative;
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    margin-left: 2rem;
+    margin-bottom: .25rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    color: #fff;
+    background: #f57c00;
+    white-space: nowrap;
+    font-weight: bold;
+    }
+    .list-counter-square>li:last-child 
+    {
+    margin-bottom: 0;
+    }
+    .list-counter-square>li::before 
+    {
+    content: counter(list);
+    counter-increment: list;
+    position: absolute;
+    left: -2rem;
+    top: 0;
+    bottom: 0;
+    width: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+    background: rgba(245, 124, 0, .75);
+    }
+    </style>
+    
+   
+</head>
+<body>
+    <form name="exch">
+
+
+        <div class="row h-100 justify-content-center align-items-center">
+
+            <div class="form-group col-md-3">
+                <input id="count" type="text" class="form-control" type="text" placeholder="Count">
+            </div>
+
+            <div class="form-group col-md-3">
+                <select class="form-select" aria-label="Default select example" id="CryptoNam" >
+                    <option selected>Crypto</option>
+                    <option value="BTC">Bitcoin</option>
+                    <option value="ETH">Ethereum</option>
+                    <option value="SOL">Solana</option>
+                    <option value="AVAX">Avalanche</option>
+                    <option value="XRP">XRP</option>
+                    <option value="BNB">Binance coin</option>
+                    <option value="LUNA">Terra</option>
+                    <option value="MATIC">Polygon</option>
+                    <option value="DOT">Polkadot</option>
+                    <option value="USDT">Tether</option>
+                    
+                  </select>
+            </div>
+
+            <div class="form-group col-md-3">
+                <select name="Valuta" class="form-select" aria-label="Default select example" id="Currency">
+                    <option selected>Currency</option>
+                    <option value="RUR">RUR</option>
+                    <option value="EUR">EUR</option>
+                    <option value="USD">USD</option>
+                    <option value="UAH">UAH</option>
+                  </select>
+            </div>
+
+            <div class="form-group col-md-3">
+                <input  class="form-control" type="text" placeholder="Result" id="nRes" readonly>
+            </div>
+
+    </div>
+
+    <div id="Error" style="color: red;"></div>
+
+        </form>
+
+        <div style="text-align: center; margin: 10px;"><h1>Top Crypto</h1></div>
+        <ol class="list-counter-square" id="ltop">
+           
+            </ol>
+
+
+
+
+    <script>
+
+        let api = "96509bb34e51bedb5032dc3189211b1e29aaa617c3d3e6f84ab1291ffc1ad6fa";
+        let site = "https://min-api.cryptocompare.com/data/";
+
+        function circumference(r) 
+        {
+  return parseFloat(r);
+}
+
+        
+function getPriceOfOneCrypto()
+{
+    let crypt = document.getElementById("CryptoNam");
+
+
+    if(crypt.value === "Crypto")
+    {
+        document.getElementById("Error").innerText = "There is no selected Crypto";
+        return;
+    }
+
+    let cou = document.getElementById("count").value;
+    
+
+    if(cou === null || cou === undefined || cou === "NaN")
+    {
+        document.getElementById("Error").innerText = "There is no typed count of";
+        return; 
+    }
+
+    let cur = document.getElementById("Currency");
+
+    if(cur.value === "Currency")
+    {
+        document.getElementById("Error").innerText = "There is no selected Currency";
+        return;
+    }
+
+    document.getElementById("Error").innerText = "";
+
+              fetch(site + "price?fsym=" + crypt.value + "&tsyms=" + cur.value + "&api_key={" + api + "}")
+        .then(response => {
+	          console.log(response);
+              return response.json();
+        })
+        .then(data=>
+        { 
+              console.log(data);
+              if(data.EUR !== undefined)
+              {
+                document.getElementById("nRes").value = circumference(cou) * circumference(data.EUR);
+              }
+              else
+              {
+                if(data.USD !== undefined)
+              {
+                document.getElementById("nRes").value = circumference(cou) * circumference(data.USD);
+              }
+              else
+              {
+                if(data.UAH !== undefined)
+              {
+                document.getElementById("nRes").value = circumference(cou) * circumference(data.UAH);
+              }
+              else
+              {
+                if(data.RUR !== undefined)
+              {
+                document.getElementById("nRes").value = circumference(cou) * circumference(data.RUR) ;
+              }
+              }
+              }
+              }
+              
+        })
+        .catch(err => {
+	          console.error(err);
+        });
+
+        
+}
+
+document.getElementById("CryptoNam").onchange = getPriceOfOneCrypto;
+document.getElementById("Currency").onchange = getPriceOfOneCrypto;
+document.getElementById("count").onchange = getPriceOfOneCrypto;
+ 
+
+
+
+let ltop = document.getElementById("ltop");
+//https://min-api.cryptocompare.com/data/top/totalvolfull?limit=10&tsym=USD&api_key={96509bb34e51bedb5032dc3189211b1e29aaa617c3d3e6f84ab1291ffc1ad6fa}
+fetch(site + "top/totalvolfull?limit=10&tsym=USD"  + "&api_key={" + api + "}")
+        .then(response => {
+	          console.log(response);
+              return response.json();
+        })
+        .then(data=>
+        { 
+              console.log(data.Data);
+              for(let i = 0; i < data.Data.length; i++)
+              {
+                  let li = document.createElement("li");
+                  li.innerText = data.Data[i].CoinInfo.FullName + " - " + data.Data[i].CoinInfo.Name + " - Launched: " + data.Data[i].CoinInfo.AssetLaunchDate + " ---> " + data.Data[i].DISPLAY.USD.PRICE + " ==> " + data.Data[i].CoinInfo.Rating.Weiss.Rating  + " ---> ";
+                  
+                  let img = document.createElement("img");
+                  img.src = "https://www.cryptocompare.com" + data.Data[i].CoinInfo.ImageUrl;
+          
+                  img.style.height = "20px";
+
+                  li.appendChild(img);
+                  ltop.appendChild(li);
+              }
+            //   document.getElementById("nRes").value = data;
+        })
+        .catch(err => {
+	          console.error(err);
+        });
+    </script>
+</body>
+</html>

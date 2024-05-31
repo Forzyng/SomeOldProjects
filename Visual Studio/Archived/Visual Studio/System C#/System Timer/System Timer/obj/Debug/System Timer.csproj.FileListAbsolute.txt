@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\System C#\System Timer\System Timer\bin\Debug\System Timer.exe.config
+D:\Programming\Visual Studio\System C#\System Timer\System Timer\bin\Debug\System Timer.exe
+D:\Programming\Visual Studio\System C#\System Timer\System Timer\bin\Debug\System Timer.pdb
+D:\Programming\Visual Studio\System C#\System Timer\System Timer\obj\Debug\System Timer.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\System Timer\System Timer\obj\Debug\System Timer.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\System Timer\System Timer\obj\Debug\System Timer.exe
+D:\Programming\Visual Studio\System C#\System Timer\System Timer\obj\Debug\System Timer.pdb

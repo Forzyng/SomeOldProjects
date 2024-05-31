@@ -1,0 +1,117 @@
+*{
+    background-color: rgb(232, 232, 232);
+}
+
+.main{
+    display: inline-block;
+}
+
+.MainMenu{
+    position: relative;
+    left: 40%;
+    top: 15px;
+    list-style: none;
+}
+
+.MainMenu li{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 10px;
+    width: 120px;
+    height: 215px;
+    margin: 0 5px;
+    box-shadow: 0 0 10px slategrey ;
+    transition: all 1s ease 0s;
+}
+
+.MainMenu li:hover{
+    transform: scale(1.1);
+}
+
+.Head{
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-size: 11px;
+}
+
+.secHead{
+    background-color: white;
+    text-align: center;
+    line-height: 0.6em;
+}
+
+.Sec{
+    background-color: white;
+}
+
+.Span{
+    background-color: white;
+    text-align: center;
+    font-size: 8px;
+    color: rgba(0,0,0,0.5);
+    font-weight: bold;
+}
+
+section p{
+    background-color: white;
+    text-align: center;
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+.Butt1{
+    text-align: center;
+    background-color: rgb(186, 22, 87);
+    border-radius: 5px;
+    position: relative;
+    left: 25%;
+    width: 55px;
+    height: 25px;
+    color: white;
+    font-size: 10px;
+    border: none;
+}
+
+.Butt2{
+    text-align: center;
+    background-color: rgb(197, 181, 139);
+    border-radius: 5px;
+    position: relative;
+    left: 25%;
+    width: 55px;
+    height: 25px;
+    color: white;
+    font-size: 10px;
+    border: none;
+}
+
+.Butt3{
+    text-align: center;
+    background-color: royalblue;
+    border-radius: 5px;
+    position: relative;
+    left: 25%;
+    width: 55px;
+    height: 25px;
+    color: white;
+    font-size: 10px;
+    border: none;
+}
+
+.Butt4{
+    text-align: center;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    position: relative;
+    left: 25%;
+    width: 55px;
+    height: 25px;
+    color: white;
+    font-size: 10px;
+    border: none;
+}

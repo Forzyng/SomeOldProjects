@@ -1,0 +1,97 @@
+.ListFon{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 20px;
+    padding:  10px;
+    background: rgb(242, 181, 181);
+}
+
+ol.ListFonEl li{
+    margin: 5px;
+    padding:  10px;
+    background: rgb(255, 143, 143);
+    font-size: 24px;
+    color: whitesmoke;
+    list-style-position: inside;
+}
+
+.ListText{
+    margin: 6px;
+    padding: 8px;
+    background-color: rgb(244, 82, 82);
+}
+
+/*
+Ex2
+*/
+
+ul > li:nth-child(odd){
+    background-color: rgb(49, 120, 177);
+}
+
+ul > li:nth-child(even){
+    background-color:rgb(106, 194, 228);
+}
+
+.HeadMy{
+    font-size: 32px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ListMTDL{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 25px;
+    padding: 10px;
+    background:rgb(221, 228, 234);
+    font-size: 14pt;
+}
+
+.Cross{
+    text-decoration: none;
+    margin: 10pt;
+}
+
+.List_ToDo 
+{
+    padding: 10px;
+    list-style-position:inside;
+    list-style-image: url(../DZ2/image/unchecked_16.png);
+}
+
+.List_Done
+{   
+    padding: 10px;
+    list-style-position: inside;
+    list-style-image: url(../DZ2/image/checked_16.png);
+}
+
+.Done_Text
+{
+    text-decoration: line-through;
+}
+
+
+.HeadSt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+/*
+Ex3
+*/
+
+.Translucent{
+    color: rgba(0,0,0,0.5)
+}
+
+.StMain{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol.StOl li{
+    margin-left: 50px;
+}
+
+.colorLi{
+    color:mediumslateblue;
+}

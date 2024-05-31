@@ -1,0 +1,10 @@
+D:\Programming\Visual Studio\DataBase\Class_Library\Console DDL\bin\Debug\Console DDL.exe.config
+D:\Programming\Visual Studio\DataBase\Class_Library\Console DDL\bin\Debug\Console DDL.exe
+D:\Programming\Visual Studio\DataBase\Class_Library\Console DDL\bin\Debug\Console DDL.pdb
+D:\Programming\Visual Studio\DataBase\Class_Library\Console DDL\bin\Debug\Class_Library.dll
+D:\Programming\Visual Studio\DataBase\Class_Library\Console DDL\bin\Debug\Class_Library.pdb
+D:\Programming\Visual Studio\DataBase\Class_Library\Console DDL\obj\Debug\Console DDL.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\DataBase\Class_Library\Console DDL\obj\Debug\Console DDL.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\DataBase\Class_Library\Console DDL\obj\Debug\Console DDL.csproj.CopyComplete
+D:\Programming\Visual Studio\DataBase\Class_Library\Console DDL\obj\Debug\Console DDL.exe
+D:\Programming\Visual Studio\DataBase\Class_Library\Console DDL\obj\Debug\Console DDL.pdb

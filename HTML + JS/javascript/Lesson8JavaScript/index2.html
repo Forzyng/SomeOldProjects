@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https:/resources/demos/style.css">
+</head>
+<body>
+    
+    <div id="progressbar"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+    <script>
+        let i = 0;
+        var progressBar =$("#progressbar");
+        $( function() {
+
+            $('#progressbar').after(
+			    $('<p style="text-align:center; font-family: Arial, Helvetica, sans-serif;"><span id="progVal"></span>%</p>'));
+                
+                $('#progressbar').progressbar({
+                value: 0,
+				change: function(e) {
+					$('#progVal').text($('#progressbar').progressbar("value"));
+				}
+            });
+			
+			var i = 0;
+            function startProgress()
+			{
+				if (i > 100)
+					return;
+				else 
+					$('#progressbar').progressbar("value", i++);
+				setTimeout(startProgress, 30);
+			}
+
+			startProgress();
+        });
+
+      
+    </script>
+
+
+</body>
+</html>

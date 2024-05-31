@@ -1,0 +1,6 @@
+D:\Programming\Visual Studio\System C#\CS System 1\CS PR\bin\Debug\CS PR.exe.config
+D:\Programming\Visual Studio\System C#\CS System 1\CS PR\bin\Debug\CS PR.exe
+D:\Programming\Visual Studio\System C#\CS System 1\CS PR\bin\Debug\CS PR.pdb
+D:\Programming\Visual Studio\System C#\CS System 1\CS PR\obj\Debug\CS PR.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS System 1\CS PR\obj\Debug\CS PR.exe
+D:\Programming\Visual Studio\System C#\CS System 1\CS PR\obj\Debug\CS PR.pdb

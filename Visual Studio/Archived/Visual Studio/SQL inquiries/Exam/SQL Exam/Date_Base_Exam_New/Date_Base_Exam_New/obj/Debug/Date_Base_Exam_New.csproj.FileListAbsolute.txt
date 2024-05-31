@@ -1,0 +1,9 @@
+D:\Programming\Visual Studio\SQL inquiries\Exam\SQL FIiles by Danil\Date_Base_Exam_New\Date_Base_Exam_New\bin\Debug\Book_Magazine.mdf
+D:\Programming\Visual Studio\SQL inquiries\Exam\SQL FIiles by Danil\Date_Base_Exam_New\Date_Base_Exam_New\bin\Debug\Book_Magazine_log.ldf
+D:\Programming\Visual Studio\SQL inquiries\Exam\SQL FIiles by Danil\Date_Base_Exam_New\Date_Base_Exam_New\bin\Debug\Date_Base_Exam_New.exe.config
+D:\Programming\Visual Studio\SQL inquiries\Exam\SQL FIiles by Danil\Date_Base_Exam_New\Date_Base_Exam_New\bin\Debug\Date_Base_Exam_New.exe
+D:\Programming\Visual Studio\SQL inquiries\Exam\SQL FIiles by Danil\Date_Base_Exam_New\Date_Base_Exam_New\bin\Debug\Date_Base_Exam_New.pdb
+D:\Programming\Visual Studio\SQL inquiries\Exam\SQL FIiles by Danil\Date_Base_Exam_New\Date_Base_Exam_New\obj\Debug\Date_Base_Exam_New.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\SQL inquiries\Exam\SQL FIiles by Danil\Date_Base_Exam_New\Date_Base_Exam_New\obj\Debug\Date_Base_Exam_New.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\SQL inquiries\Exam\SQL FIiles by Danil\Date_Base_Exam_New\Date_Base_Exam_New\obj\Debug\Date_Base_Exam_New.exe
+D:\Programming\Visual Studio\SQL inquiries\Exam\SQL FIiles by Danil\Date_Base_Exam_New\Date_Base_Exam_New\obj\Debug\Date_Base_Exam_New.pdb

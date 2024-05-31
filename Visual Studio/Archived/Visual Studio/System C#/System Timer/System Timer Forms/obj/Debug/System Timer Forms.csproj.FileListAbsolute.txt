@@ -1,0 +1,10 @@
+D:\Programming\Visual Studio\System C#\System Timer\System Timer Forms\bin\Debug\System Timer Forms.exe.config
+D:\Programming\Visual Studio\System C#\System Timer\System Timer Forms\bin\Debug\System Timer Forms.exe
+D:\Programming\Visual Studio\System C#\System Timer\System Timer Forms\bin\Debug\System Timer Forms.pdb
+D:\Programming\Visual Studio\System C#\System Timer\System Timer Forms\obj\Debug\System Timer Forms.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\System Timer\System Timer Forms\obj\Debug\System_Timer_Forms.Form1.resources
+D:\Programming\Visual Studio\System C#\System Timer\System Timer Forms\obj\Debug\System_Timer_Forms.Properties.Resources.resources
+D:\Programming\Visual Studio\System C#\System Timer\System Timer Forms\obj\Debug\System Timer Forms.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\System C#\System Timer\System Timer Forms\obj\Debug\System Timer Forms.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\System Timer\System Timer Forms\obj\Debug\System Timer Forms.exe
+D:\Programming\Visual Studio\System C#\System Timer\System Timer Forms\obj\Debug\System Timer Forms.pdb

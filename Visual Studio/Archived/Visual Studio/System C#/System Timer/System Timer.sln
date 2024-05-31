@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System Timer", "System Timer\System Timer.csproj", "{42D67C57-F9AA-4568-990B-574794DA90E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System Timer Forms", "System Timer Forms\System Timer Forms.csproj", "{AD60E763-D254-4C72-A653-A508A67072FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D67C57-F9AA-4568-990B-574794DA90E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D67C57-F9AA-4568-990B-574794DA90E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D67C57-F9AA-4568-990B-574794DA90E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D67C57-F9AA-4568-990B-574794DA90E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD60E763-D254-4C72-A653-A508A67072FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD60E763-D254-4C72-A653-A508A67072FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD60E763-D254-4C72-A653-A508A67072FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD60E763-D254-4C72-A653-A508A67072FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC64EF3A-9F0D-4E0B-BC9C-30D155C4A379}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\HW 15\HW 15\bin\Debug\HW 15.exe.config
+D:\Programming\Visual Studio\Projects C#\HW 15\HW 15\bin\Debug\HW 15.exe
+D:\Programming\Visual Studio\Projects C#\HW 15\HW 15\bin\Debug\HW 15.pdb
+D:\Programming\Visual Studio\Projects C#\HW 15\HW 15\obj\Debug\HW 15.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Projects C#\HW 15\HW 15\obj\Debug\HW 15.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\HW 15\HW 15\obj\Debug\HW 15.exe
+D:\Programming\Visual Studio\Projects C#\HW 15\HW 15\obj\Debug\HW 15.pdb

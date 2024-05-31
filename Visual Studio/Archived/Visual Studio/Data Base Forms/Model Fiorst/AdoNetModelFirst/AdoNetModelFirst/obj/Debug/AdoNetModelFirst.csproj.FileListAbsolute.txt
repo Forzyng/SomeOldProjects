@@ -1,0 +1,32 @@
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\AdoNetModelFirst.exe.config
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\AdoNetModelFirst.exe
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\AdoNetModelFirst.pdb
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\EntityFramework.dll
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\EntityFramework.xml
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.MainForm.resources
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.Properties.Resources.resources
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.csproj.GenerateResource.cache
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.csproj.CoreCompileInputs.cache
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.csproj.CopyComplete
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.exe
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.pdb
+C:\Users\dovgoluckiy\source\repos\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\AdoNetModelFirst.exe.config
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\AdoNetModelFirst.exe
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\AdoNetModelFirst.pdb
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\EntityFramework.dll
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\EntityFramework.xml
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\bin\Debug\ru\EntityFramework.resources.dll
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.MainForm.resources
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.Properties.Resources.resources
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.csproj.CopyComplete
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.exe
+D:\Programming\Visual Studio\Data Base Forms\Model Fiorst\AdoNetModelFirst\AdoNetModelFirst\obj\Debug\AdoNetModelFirst.pdb

@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\HW 16\HW 16\obj\Debug\HW 16.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Projects C#\HW 16\HW 16\obj\Debug\HW 16.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\HW 16\HW 16\bin\Debug\HW 16.exe.config
+D:\Programming\Visual Studio\Projects C#\HW 16\HW 16\bin\Debug\HW 16.exe
+D:\Programming\Visual Studio\Projects C#\HW 16\HW 16\bin\Debug\HW 16.pdb
+D:\Programming\Visual Studio\Projects C#\HW 16\HW 16\obj\Debug\HW 16.exe
+D:\Programming\Visual Studio\Projects C#\HW 16\HW 16\obj\Debug\HW 16.pdb

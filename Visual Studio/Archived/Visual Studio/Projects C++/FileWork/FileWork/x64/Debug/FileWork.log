@@ -1,0 +1,6 @@
+﻿  FileWork.cpp
+D:\Programming\Projects\Visual Studio\Archived\Visual Studio\Projects C++\FileWork\FileWork\FileWork.cpp(17,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Programming\Projects\Visual Studio\Archived\Visual Studio\Projects C++\FileWork\FileWork\FileWork.cpp(21,7): warning C4101: line: неиспользованная локальная переменная
+D:\Programming\Projects\Visual Studio\Archived\Visual Studio\Projects C++\FileWork\FileWork\FileWork.cpp(19,6): warning C4101: number: неиспользованная локальная переменная
+D:\Programming\Projects\Visual Studio\Archived\Visual Studio\Projects C++\FileWork\FileWork\FileWork.cpp(20,6): warning C4101: pass: неиспользованная локальная переменная
+  FileWork.vcxproj -> D:\Programming\Projects\Visual Studio\Archived\Visual Studio\Projects C++\FileWork\x64\Debug\FileWork.exe

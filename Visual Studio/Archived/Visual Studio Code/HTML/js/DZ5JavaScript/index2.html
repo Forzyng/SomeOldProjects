@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <main>
+        <div style="display: flex; margin-left: 2rem; ">
+            <a href="#" onclick="slide(-1)" style="margin-top: 10%; margin-right: 1rem; text-decoration: none; color: cadetblue; font-size: 24px; font-weight: bold;">Назад</a> 
+
+            <img id="IMG" src="../DZ5JavaScript/image/js3.jpg" style="left: 10%;top: 20%; height: 100px; width: 150px;margin-top: 6%;">
+
+            <a href="#" onclick="slide(1)" style="margin-top: 10%;  margin-left: 1rem;text-decoration: none; color: cadetblue; font-size: 24px; font-weight: bold;">Вперёд</a>
+        </div>
+    </main>
+    <script>
+        let  index = 0;
+        var links = new Array("../DZ5JavaScript/image/js3.jpg",
+        "../DZ5JavaScript/image/js4.jpg");
+
+        function slide(v) {
+            let  elemeny = document.getElementById("IMG");
+            index += 1 *v;
+
+            if(index > links.length - 1)
+                index = 0;
+            else if(index < 0)
+                index = links.length - 1;
+            elemeny.src = links[index];
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form accept="#" name="form1">
+        <div>
+            <label>
+                <span>Num = </span>
+                <input type="text" name="num1" id="num1" > 
+            </label>
+        </div>
+      
+        <div>
+            <label>
+                <span>Res = </span>
+                <input type="text" name="sum" id="sum" value="0" readonly>
+            </label>
+        </div>
+        <div>
+            <input type="button" value="Erection" id="btnCalc">
+        </div>
+    </form>
+
+    <script>
+        const CON = 0.621371;
+          function calc(){
+            let
+                localA = parseFloat(document.getElementById("num1").value);
+                console.log(localA);
+ 
+                document.getElementById("sum").value = (localA * CON );
+            }
+
+            document.getElementById("btnCalc").addEventListener("click", calc);
+    </script>
+</body>
+</html>

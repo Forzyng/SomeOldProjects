@@ -1,0 +1,15 @@
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\obj\Debug\WPFproject.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\obj\Debug\MainWindow.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\obj\Debug\App.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\obj\Debug\WPFproject_MarkupCompile.cache
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\obj\Debug\WPFproject_MarkupCompile.lref
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\bin\Debug\WPFproject.exe.config
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\bin\Debug\WPFproject.exe
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\bin\Debug\WPFproject.pdb
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\obj\Debug\MainWindow.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\obj\Debug\WPFproject.g.resources
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\obj\Debug\WPFproject.Properties.Resources.resources
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\obj\Debug\WPFproject.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\obj\Debug\WPFproject.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\obj\Debug\WPFproject.exe
+D:\Programming\Visual Studio\Forms C#\WPFproject\WPFproject\obj\Debug\WPFproject.pdb

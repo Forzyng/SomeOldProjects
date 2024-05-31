@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(247, 245, 245);
+    box-sizing: border-box;
+}
+
+.register{
+    width: 700px;
+    height: 420px;
+    border-radius: 10px;
+    margin: 15px auto;
+    padding-top: 25px;
+
+    background: url(image/moon_flag.png);
+    background-repeat: no-repeat;
+    background-color: rgb(121, 201, 210);
+    background-position-x: 440px;
+    background-position-y: 150px;
+    background-size: 350px ; 
+}
+
+.register header h1{
+    background-color: rgb(255, 98, 0);
+    position: absolute;
+    left: -0.1px;
+    margin-left: 140px;
+    height: 35px;
+    width: 520px;
+    font-size: 18px;
+    color: white;
+    padding-left: 75px;
+    padding-top: 13px;
+    margin-right: 5px;
+}
+
+.register section{
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+
+.register section span{
+    margin-bottom: 10px;
+}
+
+.register p{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.register div{
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+.register div h2 span{
+    padding-left: 31%;
+}
+
+.register :is(input[type="text"]){
+    background-color: rgb(148, 193, 198);
+    border: 1px rgb(148, 193, 198);
+    width: 380px;
+    height: 42px;
+    box-shadow: 0 1px 3px 1px rgba(155, 109, 109, 0.5);
+    padding-left: 15px;
+    font-size: 18px;
+    margin-top: 15px;
+    color: rgba(0,0,0,0.5);
+}
+
+.register div h2{
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    padding-left: 13px;
+}
+
+.register :is(input[type="number"],
+input[type="password"]){
+    background-color: rgb(148, 193, 198);
+    border: 1px rgb(148, 193, 198);
+    margin: auto 14px;
+    margin-top: 3px;
+    height: 42px;
+    width: 95px;
+    padding-left: 15px;
+    box-shadow: 0 1px 3px 1px rgba(155, 109, 109, 0.5);
+    font-size: 16px;
+    color: rgba(0,0,0,0.5);
+}
+
+.register div img{
+    position: relative;
+    width: 340px;
+    padding-left: 420px;
+    margin-top: -35%; 
+}
+
+/**/
+
+.input{
+    background-color: rgb(240, 239, 239);
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.Form{
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+.Form p{
+    margin-top: 2rem;
+}
+
+.Form input[type="text"]{
+    height: 35px;
+    width: 180px;
+    border-radius: 6px;
+    padding-left: 15px;
+    margin-top: 1rem;
+}
+
+.valid {
+    border: 2px solid  greenyellow;
+    background-image: url("../DZ7/image/valid.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 96%;
+    background-position-y: 38%;
+    color: greenyellow;
+}
+
+.invalid{
+    border: 2px solid red;
+    background-image: url("../DZ7/image/invalid.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 96%;
+    background-position-y: 38%;
+    color: red;
+}
+
+.Form p span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+.switch {
+    margin-top: 1rem;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+  
+.switch input {
+    display:none;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border: 2px solid green;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 18px;
+    left: 1px;
+    bottom: 2px;
+    background-color: green;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    border: 2px solid red;
+}
+  
+input:focus + .slider{
+    box-shadow: 0 0 1px rgb(255, 137, 137);
+}
+
+input:checked + .slider:before{
+    background-color:red
+} 
+
+input:focus + .slider:before{
+    box-shadow: 0 0 1px rgb(255, 137, 137);
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+.slider {
+    border-radius: 15%;
+}
+  
+.slider:before {
+    border-radius: 20%;
+}
+
+
+
+.Sub{
+    vertical-align: 7px;
+    margin-right: 15px;
+}
+
+.Form input[type="radio"]{
+    display:inline-block;
+    margin-top: 1rem;
+    transform:scale(2.0);
+    width: 30px;
+    border: 3px solid green;
+
+}
+
+.Gender{
+    padding-right: 10px;
+}
+
+.Form p label button{
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+    border: 0;
+    margin-right: 10px;
+    margin-top: 1rem;
+}
+
+.Form p label button:first-child{
+    background-color: rgb(51, 193, 51);
+}
+
+.Form p label button:nth-child(2){
+    background-color: rgb(29, 113, 29);
+}
+
+.Form p label button:nth-child(3){
+    background-color: palevioletred;
+}
+
+.Form p label button:nth-child(4){
+    background-color: rgb(164, 48, 48);
+}
+
+.Form p label button:nth-child(5){
+    background-color: rgb(143, 140, 140);
+    width: 90px;
+}
+
+.Form p label button:nth-child(6){
+    background-color: rgb(51, 193, 51);
+    width: 35px;
+    border-radius: 200px;
+}
+
+.Form p label button:nth-child(7){
+    background-color: palevioletred;
+    width: 35px;
+    border-radius: 200px;
+}
+
+.textInput{
+    width: 300px;
+    height: 5000px;
+}
+
+textarea {
+    margin-top: 1rem;
+	border: 1px solid black; 
+    height: 100px;
+    width: 500px;
+    border-radius: 5px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form_radio span{
+    margin-right: 10px;
+}
+
+.form_radio {
+	margin-top: 1rem;
+}
+
+.form_radio input[type="radio"] {
+	display: none;
+}
+
+.form_radio .lableRadio {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+    padding-right: 10px;
+}
+
+.form_radio .lableRadio:before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 18px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	border: 1px solid greenyellow;
+    background-color: white;
+    border-radius: 15px;
+}
+ 
+.form_radio input[type="radio"]:checked + .lableRadio:before {
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+    border-radius: 15px;
+}
+ 

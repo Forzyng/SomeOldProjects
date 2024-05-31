@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Network C#\CSLan 1\CSLan 1\bin\Debug\CSLan 1.exe.config
+D:\Programming\Visual Studio\Network C#\CSLan 1\CSLan 1\bin\Debug\CSLan 1.exe
+D:\Programming\Visual Studio\Network C#\CSLan 1\CSLan 1\bin\Debug\CSLan 1.pdb
+D:\Programming\Visual Studio\Network C#\CSLan 1\CSLan 1\obj\Debug\CSLan 1.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CSLan 1\CSLan 1\obj\Debug\CSLan 1.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CSLan 1\CSLan 1\obj\Debug\CSLan 1.exe
+D:\Programming\Visual Studio\Network C#\CSLan 1\CSLan 1\obj\Debug\CSLan 1.pdb

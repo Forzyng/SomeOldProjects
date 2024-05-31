@@ -1,0 +1,13 @@
+D:\Programming\Visual Studio\Data Base Forms\DB WForms PR\DB WForms PR\bin\Debug\Countries.mdf
+D:\Programming\Visual Studio\Data Base Forms\DB WForms PR\DB WForms PR\bin\Debug\Countries_log.ldf
+D:\Programming\Visual Studio\Data Base Forms\DB WForms PR\DB WForms PR\bin\Debug\DB WForms PR.exe.config
+D:\Programming\Visual Studio\Data Base Forms\DB WForms PR\DB WForms PR\bin\Debug\DB WForms PR.exe
+D:\Programming\Visual Studio\Data Base Forms\DB WForms PR\DB WForms PR\bin\Debug\DB WForms PR.pdb
+D:\Programming\Visual Studio\Data Base Forms\DB WForms PR\DB WForms PR\obj\Debug\DB WForms PR.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Data Base Forms\DB WForms PR\DB WForms PR\obj\Debug\DB_WForms_PR.Form1.resources
+D:\Programming\Visual Studio\Data Base Forms\DB WForms PR\DB WForms PR\obj\Debug\DB_WForms_PR.Properties.Resources.resources
+D:\Programming\Visual Studio\Data Base Forms\DB WForms PR\DB WForms PR\obj\Debug\DB WForms PR.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Data Base Forms\DB WForms PR\DB WForms PR\obj\Debug\DB WForms PR.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Data Base Forms\DB WForms PR\DB WForms PR\obj\Debug\DB WForms PR.exe
+D:\Programming\Visual Studio\Data Base Forms\DB WForms PR\DB WForms PR\obj\Debug\DB WForms PR.pdb
+D:\Programming\Visual Studio\Data Base Forms\DB WForms PR\DB WForms PR\obj\Debug\DB_WForms_PR.Connecting.resources

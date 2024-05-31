@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav#divMain li.isActive span {color: gray;}
+        
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div id="divMain">
+            <ul id="mainUl">
+                <li class="selected">1</li>
+                <li>2</li>
+                <li id="ELNum3">3
+                    <ol id="elInLi">
+                        <li >3.1</li>
+                        <li>3.2</li>
+                        <li>3.3</li>
+                    </ol>
+                </li>
+                <li>4</li>
+                <li class="selected">5</li>
+            </ul>
+        </div>
+    </main>
+    <footer id="logPlace">
+
+    </footer>
+    
+<script>
+
+    
+
+    //window.alert("test")
+    //document.title = "My title"
+    //console.log(document.location);
+    //document.location.href = "https://google.com"
+
+/*
+    let elements = document.querySelectorAll(".selected")
+    console.log(elements)
+
+    for(const element of elements){
+        element.style.border = "1px solid red"
+    }
+*/
+
+/*
+    document.body.style.backgroundColor = "pink"
+
+    let divMain = document.getElementById("divMain");
+    let mainUl = document.getElementById('mainUl');
+
+    mainUl.firstElementChild.style.backgroundColor = 'green';
+    
+    //mainUl.lastElementChild
+    //mainUl.firstChild.style.border = "2px solid red"
+
+    let log = "";
+    for(let i = 0; i < mainUl.childNodes.length; i++)
+    {
+        log += mainUl.childNodes[i].nodeName + "\n";
+    }
+
+    for (var node of mainUl.childNodes) {
+        log += node.nodeName + "\n";
+    }
+
+
+    document.getElementById("logPlace").innerText = log;
+*/
+
+/*
+    let ELNum3 = document.getElementById("ELNum3");
+
+    ELNum3.previousElementSibling.innerHTML = "prev";
+    ELNum3.nextElementSibling.innerHTML = "next"
+
+    ELNum3.previousElementSibling.style.backgroundColor = 'yellow'
+    ELNum3.nextElementSibling.style.backgroundColor = 'green'
+
+    let p = ELNum3.previousElementSibling;
+    p.style.border = "1px solid red"
+
+
+    let elInLi = document.getElementById("elInLi");
+    elInLi.parentElement.style.border = "2px solid pink"
+*/
+</script>
+
+</body>
+</html>

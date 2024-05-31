@@ -1,0 +1,15 @@
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\bin\Debug\net6.0\CheckStreams.exe
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\bin\Debug\net6.0\CheckStreams.deps.json
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\bin\Debug\net6.0\CheckStreams.runtimeconfig.json
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\bin\Debug\net6.0\CheckStreams.dll
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\bin\Debug\net6.0\CheckStreams.pdb
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\obj\Debug\net6.0\CheckStreams.csproj.AssemblyReference.cache
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\obj\Debug\net6.0\CheckStreams.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\obj\Debug\net6.0\CheckStreams.AssemblyInfoInputs.cache
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\obj\Debug\net6.0\CheckStreams.AssemblyInfo.cs
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\obj\Debug\net6.0\CheckStreams.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\obj\Debug\net6.0\CheckStreams.dll
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\obj\Debug\net6.0\refint\CheckStreams.dll
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\obj\Debug\net6.0\CheckStreams.pdb
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\obj\Debug\net6.0\CheckStreams.genruntimeconfig.cache
+D:\Programming\Projects\Visual Studio\CheckStreams\CheckStreams\obj\Debug\net6.0\ref\CheckStreams.dll

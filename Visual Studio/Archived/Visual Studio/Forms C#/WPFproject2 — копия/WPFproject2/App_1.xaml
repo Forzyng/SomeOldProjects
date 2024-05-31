@@ -1,0 +1,22 @@
+﻿<Application x:Class="WPFproject2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFproject2"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <BitmapImage x:Key="ImageSource1" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\mask.jpg"/>
+        <BitmapImage x:Key="Ship" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\alien1.jpg.png"/>
+        <BitmapImage x:Key="Alien2" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\alien3.jpg.png"/>
+        <BitmapImage x:Key="Space" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\Space.jpg"/>
+        <BitmapImage x:Key="WordsImage" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\words.png"/>
+        <BitmapImage x:Key="SnakeImage" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\snake.jpg"/>
+        <BitmapImage x:Key="FlappyImage" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\Flappy_Bird_icon.png"/>
+        <BitmapImage x:Key="MemoriaImage" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\MemoryGame.jpg"/>
+        <BitmapImage x:Key="MinesweeperImage" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\MinesweeperImage.png"/>
+        <BitmapImage x:Key="CoinImage" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\Coin.jpg"/>
+        <BitmapImage x:Key="BuyImage" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\buy.png"/>
+        <BitmapImage x:Key="GalgenImage" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\galgen.png"/>
+
+    </Application.Resources>
+</Application>

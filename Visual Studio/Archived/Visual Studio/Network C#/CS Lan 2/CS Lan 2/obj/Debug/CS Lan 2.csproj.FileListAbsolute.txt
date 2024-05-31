@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan 2\bin\Debug\CS Lan 2.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan 2\bin\Debug\CS Lan 2.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan 2\bin\Debug\CS Lan 2.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan 2\obj\Debug\CS Lan 2.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan 2\obj\Debug\CS Lan 2.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan 2\obj\Debug\CS Lan 2.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 2\CS Lan 2\obj\Debug\CS Lan 2.pdb

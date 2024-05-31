@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\CS Lan PR 3\bin\Debug\CS Lan PR 3.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\CS Lan PR 3\bin\Debug\CS Lan PR 3.exe
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\CS Lan PR 3\bin\Debug\CS Lan PR 3.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\CS Lan PR 3\obj\Debug\CS Lan PR 3.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\CS Lan PR 3\obj\Debug\CS Lan PR 3.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\CS Lan PR 3\obj\Debug\CS Lan PR 3.exe
+D:\Programming\Visual Studio\Network C#\CS Lan PR 3\CS Lan PR 3\obj\Debug\CS Lan PR 3.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB WForms 3", "DB WForms 3\DB WForms 3.csproj", "{CA34615F-CEA3-44A7-A627-6E0CD1C69250}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA34615F-CEA3-44A7-A627-6E0CD1C69250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA34615F-CEA3-44A7-A627-6E0CD1C69250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA34615F-CEA3-44A7-A627-6E0CD1C69250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA34615F-CEA3-44A7-A627-6E0CD1C69250}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F88D5024-1173-4E8B-9217-D2E04562297A}
+	EndGlobalSection
+EndGlobal

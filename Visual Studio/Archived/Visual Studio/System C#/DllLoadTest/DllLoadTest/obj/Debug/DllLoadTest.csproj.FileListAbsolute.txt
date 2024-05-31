@@ -1,0 +1,10 @@
+C:\Users\dovgoluckiy\source\repos\DllLoadTest\DllLoadTest\bin\Debug\DllLoadTest.exe.config
+C:\Users\dovgoluckiy\source\repos\DllLoadTest\DllLoadTest\bin\Debug\DllLoadTest.exe
+C:\Users\dovgoluckiy\source\repos\DllLoadTest\DllLoadTest\bin\Debug\DllLoadTest.pdb
+C:\Users\dovgoluckiy\source\repos\DllLoadTest\DllLoadTest\obj\Debug\DllLoadTest.csproj.AssemblyReference.cache
+C:\Users\dovgoluckiy\source\repos\DllLoadTest\DllLoadTest\obj\Debug\DllLoadTest.MainForm.resources
+C:\Users\dovgoluckiy\source\repos\DllLoadTest\DllLoadTest\obj\Debug\DllLoadTest.Properties.Resources.resources
+C:\Users\dovgoluckiy\source\repos\DllLoadTest\DllLoadTest\obj\Debug\DllLoadTest.csproj.GenerateResource.cache
+C:\Users\dovgoluckiy\source\repos\DllLoadTest\DllLoadTest\obj\Debug\DllLoadTest.csproj.CoreCompileInputs.cache
+C:\Users\dovgoluckiy\source\repos\DllLoadTest\DllLoadTest\obj\Debug\DllLoadTest.exe
+C:\Users\dovgoluckiy\source\repos\DllLoadTest\DllLoadTest\obj\Debug\DllLoadTest.pdb

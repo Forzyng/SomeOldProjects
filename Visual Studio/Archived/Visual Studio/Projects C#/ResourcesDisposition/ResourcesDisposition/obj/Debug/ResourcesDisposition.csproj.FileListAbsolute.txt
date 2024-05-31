@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\ResourcesDisposition\ResourcesDisposition\bin\Debug\ResourcesDisposition.exe.config
+D:\Programming\Visual Studio\Projects C#\ResourcesDisposition\ResourcesDisposition\bin\Debug\ResourcesDisposition.exe
+D:\Programming\Visual Studio\Projects C#\ResourcesDisposition\ResourcesDisposition\bin\Debug\ResourcesDisposition.pdb
+D:\Programming\Visual Studio\Projects C#\ResourcesDisposition\ResourcesDisposition\obj\Debug\ResourcesDisposition.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Projects C#\ResourcesDisposition\ResourcesDisposition\obj\Debug\ResourcesDisposition.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\ResourcesDisposition\ResourcesDisposition\obj\Debug\ResourcesDisposition.exe
+D:\Programming\Visual Studio\Projects C#\ResourcesDisposition\ResourcesDisposition\obj\Debug\ResourcesDisposition.pdb

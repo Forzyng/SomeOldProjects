@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Music_MagazineModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Collective">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Records" Relationship="Self.FK__Records__Collect__1AD3FDA4" FromRole="Collective" ToRole="Records" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Records" Relationship="Self.FK__Records__GenreID__1DB06A4F" FromRole="Genre" ToRole="Records" />
+  </EntityType>
+  <EntityType Name="Publisher">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Records" Relationship="Self.FK__Records__Publish__1BC821DD" FromRole="Publisher" ToRole="Records" />
+  </EntityType>
+  <EntityType Name="Record">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CollectiveID" Type="Guid" Nullable="false" />
+    <Property Name="PublisherID" Type="Guid" Nullable="false" />
+    <Property Name="Number_of_tracks" Type="Int32" Nullable="false" />
+    <Property Name="GenreID" Type="Guid" Nullable="false" />
+    <Property Name="PublishDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Price" Type="Double" Nullable="false" />
+    <Property Name="PriceForSale" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Collective" Relationship="Self.FK__Records__Collect__1AD3FDA4" FromRole="Records" ToRole="Collective" />
+    <NavigationProperty Name="Genre" Relationship="Self.FK__Records__GenreID__1DB06A4F" FromRole="Records" ToRole="Genre" />
+    <NavigationProperty Name="Publisher" Relationship="Self.FK__Records__Publish__1BC821DD" FromRole="Records" ToRole="Publisher" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK__Sales__RecordsId__2A164134" FromRole="Records" ToRole="Sales" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="SaleDate" Type="DateTime" Precision="3" />
+    <Property Name="RecordsId" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="Record" Relationship="Self.FK__Sales__RecordsId__2A164134" FromRole="Sales" ToRole="Records" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Discount" Type="Int32" Nullable="false" />
+    <Property Name="Balance" Type="Double" Nullable="false" />
+    <Property Name="Admin" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Records__Collect__1AD3FDA4">
+    <End Role="Collective" Type="Self.Collective" Multiplicity="1" />
+    <End Role="Records" Type="Self.Record" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Collective">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Records">
+        <PropertyRef Name="CollectiveID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Records__GenreID__1DB06A4F">
+    <End Role="Genre" Type="Self.Genre" Multiplicity="1" />
+    <End Role="Records" Type="Self.Record" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Records">
+        <PropertyRef Name="GenreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Records__Publish__1BC821DD">
+    <End Role="Publisher" Type="Self.Publisher" Multiplicity="1" />
+    <End Role="Records" Type="Self.Record" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publisher">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Records">
+        <PropertyRef Name="PublisherID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sales__RecordsId__2A164134">
+    <End Role="Records" Type="Self.Record" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Records">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="RecordsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Music_MagazineEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Collectives" EntityType="Self.Collective" />
+    <EntitySet Name="Genres" EntityType="Self.Genre" />
+    <EntitySet Name="Publishers" EntityType="Self.Publisher" />
+    <EntitySet Name="Records" EntityType="Self.Record" />
+    <EntitySet Name="Sales" EntityType="Self.Sale" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK__Records__Collect__1AD3FDA4" Association="Self.FK__Records__Collect__1AD3FDA4">
+      <End Role="Collective" EntitySet="Collectives" />
+      <End Role="Records" EntitySet="Records" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Records__GenreID__1DB06A4F" Association="Self.FK__Records__GenreID__1DB06A4F">
+      <End Role="Genre" EntitySet="Genres" />
+      <End Role="Records" EntitySet="Records" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Records__Publish__1BC821DD" Association="Self.FK__Records__Publish__1BC821DD">
+      <End Role="Publisher" EntitySet="Publishers" />
+      <End Role="Records" EntitySet="Records" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sales__RecordsId__2A164134" Association="Self.FK__Sales__RecordsId__2A164134">
+      <End Role="Records" EntitySet="Records" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

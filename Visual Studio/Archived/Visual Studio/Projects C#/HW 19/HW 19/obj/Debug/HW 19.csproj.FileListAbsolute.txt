@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\HW 19\HW 19\bin\Debug\HW 19.exe.config
+D:\Programming\Visual Studio\Projects C#\HW 19\HW 19\bin\Debug\HW 19.exe
+D:\Programming\Visual Studio\Projects C#\HW 19\HW 19\bin\Debug\HW 19.pdb
+D:\Programming\Visual Studio\Projects C#\HW 19\HW 19\obj\Debug\HW 19.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Projects C#\HW 19\HW 19\obj\Debug\HW 19.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\HW 19\HW 19\obj\Debug\HW 19.exe
+D:\Programming\Visual Studio\Projects C#\HW 19\HW 19\obj\Debug\HW 19.pdb

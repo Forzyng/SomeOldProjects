@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBox\bin\Debug\MessageBox.exe.config
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBox\bin\Debug\MessageBox.exe
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBox\bin\Debug\MessageBox.pdb
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBox\obj\Debug\MessageBox.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBox\obj\Debug\MessageBox.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBox\obj\Debug\MessageBox.exe
+D:\Programming\Visual Studio\System C#\CS System DZ 1\MessageBox\obj\Debug\MessageBox.pdb

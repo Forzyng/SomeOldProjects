@@ -1,0 +1,121 @@
+﻿<Window x:Class="DZ_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DZ_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+
+
+
+            <DockPanel Height ="420"
+                       LastChildFill="True">
+                <Label DockPanel.Dock="Bottom" Background="DarkBlue" 
+                       FontSize="19"
+                FontWeight="ExtraBlack"
+                FontFamily="Arial" Height="34" HorizontalAlignment="Right" Width="792">
+                    FAQ   |    Все права защищены | Обратная связь: netysvyazi@gmail.com
+                    
+                </Label>
+
+            <Label DockPanel.Dock="Top" Background="DarkBlue"
+                   FontSize="19"
+                FontWeight="ExtraBlack"
+                FontFamily="Arial" 
+                    HorizontalContentAlignment="Center">
+                HEADER
+            </Label>
+                
+                <TextBlock DockPanel.Dock="Left" Background="Blue"
+                       Width="105"  FontSize="14">
+                    Функционал
+                     <LineBreak />
+                     <LineBreak />
+                    1)Удалить
+                     <LineBreak />
+                     <LineBreak />
+                    2)Добавить
+                     <LineBreak />
+                     <LineBreak />
+                    3)Редактировать
+                     <LineBreak />
+                     <LineBreak />
+                    4)Пожаловатся
+                     <LineBreak />
+                     <LineBreak />
+                    5)Поддержка
+                     <LineBreak />
+                     <LineBreak />
+                    6)Предложения
+                </TextBlock>
+
+            
+
+
+            <TextBlock DockPanel.Dock="Right" Background="Blue"
+                       Width="100"  FontSize="19">
+                   
+                <LineBreak />
+                                Реклама
+                <LineBreak />
+
+                               
+                <LineBreak />
+
+                                Реклама
+                <LineBreak />
+
+                                
+                <LineBreak />
+
+                                Реклама
+                <LineBreak />
+
+                                
+                <LineBreak />
+
+                                Реклама
+                <LineBreak />
+                <LineBreak />
+            
+                                Реклама
+                <LineBreak />
+
+            
+                <LineBreak />
+
+            
+                                Реклама
+                <LineBreak />
+
+            </TextBlock>
+                
+                
+            <TextBlock Background="Turquoise" FontSize="19"
+                FontWeight="Medium"
+                FontFamily="Bookman old style" >
+                Эта книга адресована всем, кто изучает русский язык. 
+                 <LineBreak />
+                Но состоит она не из правил, упражнений и учебных 
+                 <LineBreak />
+                текстов. Для этого созданы другие замечательные 
+                 <LineBreak />
+                учебники.
+                 <LineBreak />
+                У этой книги совсем иная задача. Она поможет вам
+                <LineBreak />
+                научиться не только разговаривать, но и размышлять 
+                <LineBreak />
+                по-русски.
+                
+            </TextBlock>
+        </DockPanel>
+       
+
+ 
+
+
+    </StackPanel>
+</Window>

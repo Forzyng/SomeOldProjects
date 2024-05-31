@@ -1,0 +1,10 @@
+D:\Programming\Visual Studio\System C#\System PR 3\System Copy Files\bin\Debug\System Copy Files.exe.config
+D:\Programming\Visual Studio\System C#\System PR 3\System Copy Files\bin\Debug\System Copy Files.exe
+D:\Programming\Visual Studio\System C#\System PR 3\System Copy Files\bin\Debug\System Copy Files.pdb
+D:\Programming\Visual Studio\System C#\System PR 3\System Copy Files\obj\Debug\System Copy Files.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\System PR 3\System Copy Files\obj\Debug\System_Copy_Files.Form1.resources
+D:\Programming\Visual Studio\System C#\System PR 3\System Copy Files\obj\Debug\System_Copy_Files.Properties.Resources.resources
+D:\Programming\Visual Studio\System C#\System PR 3\System Copy Files\obj\Debug\System Copy Files.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\System C#\System PR 3\System Copy Files\obj\Debug\System Copy Files.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\System PR 3\System Copy Files\obj\Debug\System Copy Files.exe
+D:\Programming\Visual Studio\System C#\System PR 3\System Copy Files\obj\Debug\System Copy Files.pdb

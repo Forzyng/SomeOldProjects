@@ -1,0 +1,44 @@
+﻿<Window x:Class="WPFproject2.FlappyBird"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFproject2"
+        mc:Ignorable="d"
+        KeyDown="Window_KeyDown"
+        Loaded="Window_Loaded"
+        Title="FlappyBird" Height="450" Width="800">
+    <!-- 
+    Меню - в WPF обычный элемент, размещение которого 
+    также произвольное. Традиционно его "притягивают" к верху,
+    хотя это не обязательно. Поскольку разговор идёт о 
+    "притягивании", контейнером для приложения с меню часто 
+    выбирается DockPanel 
+    -->
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="Close" Click="MenuItem_Click"/>
+            </MenuItem>
+
+            <MenuItem Header="Game">
+                <MenuItem Header="New" Click="MenuItem_Click_1">
+                    <Separator/>
+                    <MenuItem Header="Pause" Click="MenuItem_Click_2"/>
+                </MenuItem>
+            </MenuItem>
+            
+        </Menu>
+
+        <Canvas x:Name="GameField">
+            
+            
+        </Canvas>
+        
+        
+        
+    </DockPanel>
+    
+    
+    
+</Window>

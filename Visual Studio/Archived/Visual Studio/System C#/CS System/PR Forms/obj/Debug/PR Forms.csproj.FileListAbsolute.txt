@@ -1,0 +1,10 @@
+D:\Programming\Visual Studio\System C#\CS System\PR Forms\bin\Debug\PR Forms.exe.config
+D:\Programming\Visual Studio\System C#\CS System\PR Forms\bin\Debug\PR Forms.exe
+D:\Programming\Visual Studio\System C#\CS System\PR Forms\bin\Debug\PR Forms.pdb
+D:\Programming\Visual Studio\System C#\CS System\PR Forms\obj\Debug\PR Forms.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\CS System\PR Forms\obj\Debug\PR_Forms.Form1.resources
+D:\Programming\Visual Studio\System C#\CS System\PR Forms\obj\Debug\PR_Forms.Properties.Resources.resources
+D:\Programming\Visual Studio\System C#\CS System\PR Forms\obj\Debug\PR Forms.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\System C#\CS System\PR Forms\obj\Debug\PR Forms.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS System\PR Forms\obj\Debug\PR Forms.exe
+D:\Programming\Visual Studio\System C#\CS System\PR Forms\obj\Debug\PR Forms.pdb

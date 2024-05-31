@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 800px;
+    /*
+    border-left: 1px solid slategray;
+    border-right: 1px solid slategray;
+    */
+    border-radius: 8px;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    background-color: thistle;
+}
+
+.headerMain, .footerMain{
+    text-align: center;
+    padding: 7px;
+    background-color: rgb(199, 234, 230);
+
+    border: silver;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 7px 5px rgb(233, 229, 237);
+}
+
+.footerMain{
+    margin-top: 15px;
+}
+
+@keyframes cppRotating{
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#imgPython{
+    padding: 8px;
+    margin: 5px;
+    display: block;
+    width: 100px;
+    transform: rotate(0deg);
+    animation: cppRotating 2s infinite ease-in;
+}
+
+#imgPython:hover{
+    /*transform: translateX(50px);
+    transform-origin: center;
+        transform-origin: 50% 50%;
+    */
+    transform: rotate(-90deg) scale(1.5);
+    animation-play-state: paused;
+}
+
+.details{
+    margin: 0 auto;
+    width: 22px;
+    height: 22px;
+    max-width: 10px auto;
+    background-color: tan;
+    transform: rotate(45deg);
+    transition: all 0.8s ease 0s;
+}
+
+.details:hover{
+    transform: scale(1.2) rotate(90deg);
+    background-color: rgb(213, 139, 41);
+}
+

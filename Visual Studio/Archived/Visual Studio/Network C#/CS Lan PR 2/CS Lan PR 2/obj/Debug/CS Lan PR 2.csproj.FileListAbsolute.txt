@@ -1,0 +1,10 @@
+D:\Programming\Visual Studio\Network C#\CS Lan PR 2\CS Lan PR 2\bin\Debug\CS Lan PR 2.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan PR 2\CS Lan PR 2\bin\Debug\CS Lan PR 2.exe
+D:\Programming\Visual Studio\Network C#\CS Lan PR 2\CS Lan PR 2\bin\Debug\CS Lan PR 2.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan PR 2\CS Lan PR 2\obj\Debug\CS Lan PR 2.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CS Lan PR 2\CS Lan PR 2\obj\Debug\CS_Lan_PR_2.Form1.resources
+D:\Programming\Visual Studio\Network C#\CS Lan PR 2\CS Lan PR 2\obj\Debug\CS_Lan_PR_2.Properties.Resources.resources
+D:\Programming\Visual Studio\Network C#\CS Lan PR 2\CS Lan PR 2\obj\Debug\CS Lan PR 2.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Network C#\CS Lan PR 2\CS Lan PR 2\obj\Debug\CS Lan PR 2.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan PR 2\CS Lan PR 2\obj\Debug\CS Lan PR 2.exe
+D:\Programming\Visual Studio\Network C#\CS Lan PR 2\CS Lan PR 2\obj\Debug\CS Lan PR 2.pdb

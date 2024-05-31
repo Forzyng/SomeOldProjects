@@ -1,0 +1,10 @@
+D:\Programming\Visual Studio\System C#\System PR 3\System PR 3\bin\Debug\System PR 3.exe.config
+D:\Programming\Visual Studio\System C#\System PR 3\System PR 3\bin\Debug\System PR 3.exe
+D:\Programming\Visual Studio\System C#\System PR 3\System PR 3\bin\Debug\System PR 3.pdb
+D:\Programming\Visual Studio\System C#\System PR 3\System PR 3\obj\Debug\System PR 3.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\System PR 3\System PR 3\obj\Debug\System_PR_3.Form1.resources
+D:\Programming\Visual Studio\System C#\System PR 3\System PR 3\obj\Debug\System_PR_3.Properties.Resources.resources
+D:\Programming\Visual Studio\System C#\System PR 3\System PR 3\obj\Debug\System PR 3.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\System C#\System PR 3\System PR 3\obj\Debug\System PR 3.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\System PR 3\System PR 3\obj\Debug\System PR 3.exe
+D:\Programming\Visual Studio\System C#\System PR 3\System PR 3\obj\Debug\System PR 3.pdb

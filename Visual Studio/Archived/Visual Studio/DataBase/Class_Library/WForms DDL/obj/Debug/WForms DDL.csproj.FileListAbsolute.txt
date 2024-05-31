@@ -1,0 +1,13 @@
+D:\Programming\Visual Studio\DataBase\Class_Library\WForms DDL\bin\Debug\WForms DDL.exe.config
+D:\Programming\Visual Studio\DataBase\Class_Library\WForms DDL\bin\Debug\WForms DDL.exe
+D:\Programming\Visual Studio\DataBase\Class_Library\WForms DDL\bin\Debug\WForms DDL.pdb
+D:\Programming\Visual Studio\DataBase\Class_Library\WForms DDL\bin\Debug\Class_Library.dll
+D:\Programming\Visual Studio\DataBase\Class_Library\WForms DDL\bin\Debug\Class_Library.pdb
+D:\Programming\Visual Studio\DataBase\Class_Library\WForms DDL\obj\Debug\WForms DDL.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\DataBase\Class_Library\WForms DDL\obj\Debug\WForms_DDL.Form1.resources
+D:\Programming\Visual Studio\DataBase\Class_Library\WForms DDL\obj\Debug\WForms_DDL.Properties.Resources.resources
+D:\Programming\Visual Studio\DataBase\Class_Library\WForms DDL\obj\Debug\WForms DDL.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\DataBase\Class_Library\WForms DDL\obj\Debug\WForms DDL.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\DataBase\Class_Library\WForms DDL\obj\Debug\WForms DDL.csproj.CopyComplete
+D:\Programming\Visual Studio\DataBase\Class_Library\WForms DDL\obj\Debug\WForms DDL.exe
+D:\Programming\Visual Studio\DataBase\Class_Library\WForms DDL\obj\Debug\WForms DDL.pdb

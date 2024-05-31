@@ -1,0 +1,10 @@
+C:\Users\dovgoluckiy\source\repos\WFRegistryTest\WFRegistryTest\bin\Debug\WFRegistryTest.exe.config
+C:\Users\dovgoluckiy\source\repos\WFRegistryTest\WFRegistryTest\bin\Debug\WFRegistryTest.exe
+C:\Users\dovgoluckiy\source\repos\WFRegistryTest\WFRegistryTest\bin\Debug\WFRegistryTest.pdb
+C:\Users\dovgoluckiy\source\repos\WFRegistryTest\WFRegistryTest\obj\Debug\WFRegistryTest.csproj.AssemblyReference.cache
+C:\Users\dovgoluckiy\source\repos\WFRegistryTest\WFRegistryTest\obj\Debug\WFRegistryTest.RegistryTestForm.resources
+C:\Users\dovgoluckiy\source\repos\WFRegistryTest\WFRegistryTest\obj\Debug\WFRegistryTest.Properties.Resources.resources
+C:\Users\dovgoluckiy\source\repos\WFRegistryTest\WFRegistryTest\obj\Debug\WFRegistryTest.csproj.GenerateResource.cache
+C:\Users\dovgoluckiy\source\repos\WFRegistryTest\WFRegistryTest\obj\Debug\WFRegistryTest.csproj.CoreCompileInputs.cache
+C:\Users\dovgoluckiy\source\repos\WFRegistryTest\WFRegistryTest\obj\Debug\WFRegistryTest.exe
+C:\Users\dovgoluckiy\source\repos\WFRegistryTest\WFRegistryTest\obj\Debug\WFRegistryTest.pdb

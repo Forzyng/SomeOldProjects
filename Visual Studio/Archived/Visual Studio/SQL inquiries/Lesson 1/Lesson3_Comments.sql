@@ -1,0 +1,7 @@
+﻿CREATE TABLE Comments
+(
+    Id         UNIQUEIDENTIFIER PRIMARY KEY,
+    [Text]     NVARCHAR(MAX),
+    Moment     DATETIME DEFAULT CURRENT_TIMESTAMP,
+    Id_Author  UNIQUEIDENTIFIER
+)

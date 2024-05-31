@@ -1,0 +1,194 @@
+﻿<Window x:Class="WPFproject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFproject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <StackPanel>
+        <!-- -->
+        <Button Click="Button_Click"
+                 Background = "PaleVioletRed"
+                Foreground="DarkBlue"
+                FontSize="40"
+                 Width="200"
+                >Press Me</Button>
+        <!-- -->
+        <Button Click="Button_Click_1" 
+                Content ="Press Me"
+                Background = "Lime"
+                Foreground="Magenta"
+                FontSize="20"
+                 Width="100"/>
+        <!-- -->
+        <Border BorderBrush="DarkViolet"
+                BorderThickness="5">
+        
+            <Label Content="I'am a मजकूर"
+                       HorizontalContentAlignment="Center"
+                       Width="200"
+                       HorizontalAlignment="Center"/>
+
+        </Border>
+
+        <!-- -->
+        
+        <Label HorizontalContentAlignment="Center"
+               Width="200"
+               HorizontalAlignment="Center">
+            <Border BorderBrush="Goldenrod"
+                    BorderThickness="5">
+                <Label>
+                    I'am a मजकूर
+                </Label>
+            </Border>
+            
+            
+        </Label>
+        <!-- -->
+        <Label>
+            StackPanel:
+        </Label>
+        <Border BorderBrush="SeaGreen"
+                BorderThickness="5">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+                <Button Width="100">Btn</Button>
+                <Button Width="100">Btn</Button>
+                <Button Width="100">Btn</Button>
+                <Button Width="100">Btn</Button>
+                <Button Width="100">Btn</Button>
+            </StackPanel>
+        </Border>
+        <!-- -->
+        <Label>
+            DockPanel:
+        </Label>
+        <Border BorderBrush="DarkKhaki"
+                BorderThickness="5">
+            <DockPanel Height ="100"
+                       LastChildFill="True">
+                <Button DockPanel.Dock="Bottom" Background="DarkBlue">1</Button>
+                <Button DockPanel.Dock="Top" Background="DarkBlue">2</Button>
+                <Button DockPanel.Dock="Left" Background="Blue">3</Button>
+                <Button DockPanel.Dock="Right" Background="Blue">4</Button>
+                <Button Background="Turquoise">5</Button>
+            </DockPanel>
+        </Border>
+        <!-- -->
+        <Label>
+            WrapPanel:
+        </Label>
+        <WrapPanel>
+            <Button Width="100">Btn</Button>
+            <Button Width="100">Btn</Button>
+            <Button Width="100">Btn</Button>
+            <Button Width="100">Btn</Button>
+            <Button Width="100">Btn</Button>
+        </WrapPanel>
+            <!-- -->
+        <Label>
+            UniformGrid:
+        </Label>
+        <UniformGrid Rows="2" Columns="2">
+            <Button>Btn</Button>
+            <Button>Btn</Button>
+            <Button>Btn</Button>
+            <Button>Btn</Button>
+            <Button>Btn</Button>
+            <Button>Btn</Button>
+        </UniformGrid>
+        <!-- -->
+        <Label>
+           Doska:
+        </Label>
+        <UniformGrid Rows="5" Columns="5" Height="500" Width="500">
+            <Button  Background="Black"></Button>
+            <Button  Background="White"></Button>
+            <Button  Background="Black"></Button>
+            <Button  Background="White"></Button>
+            <Button  Background="Black"></Button>
+            <Button  Background="White"></Button>
+                                          
+   
+            <Button  Background="Black"></Button>
+            <Button  Background="White"></Button>
+            <Button  Background="Black"></Button>
+            <Button  Background="White"></Button>
+            <Button  Background="Black"></Button>
+
+
+            <Button  Background="White"></Button>
+            <Button  Background="Black"></Button>
+            <Button  Background="White"></Button>
+            <Button  Background="Black"></Button>
+            <Button  Background="White"></Button>
+                                          
+            
+            <Button  Background="Black"></Button>
+            <Button  Background="White"></Button>
+            <Button  Background="Black"></Button>
+            <Button  Background="White"></Button>
+            <Button  Background="Black"></Button>
+
+
+            <Button  Background="White"></Button>
+            <Button  Background="Black"></Button>
+            <Button  Background="White"></Button>
+            <Button  Background="Black"></Button>
+
+        </UniformGrid>
+    </StackPanel>
+
+
+
+</Window>
+
+    <!--
+    
+          Контейнеры - вместиллища для элементов
+    Идея контейнеров - адаптация содержимого под
+    различные размеры
+    
+          StackPanel - последовательное размещение
+    основной атрибут - Orientation="Horizontal" / "Vertical"
+    
+          DockPanel - раставляет элементы по сторонам
+    (Лево-право-верх-низ)
+    Для привязки к стороне, элемент должен заполнить
+    - артибут  DockPanel.Dock="Right"
+    - атрибут  LastChildFill контейнера вкл/выкл растягивание 
+    последнего элемента до заполнения оставшегося места 
+          
+         WrapPanel - аналог StackPanelHorizontal, но если элементы
+    не помещаются в контейнер, они переходят на следующую строку
+    
+         UniformGrid - табличный (сетчатый) контейнер с одинаковыми
+    размерами ячеек
+    
+    -->
+    
+    
+    <!--
+    
+        XAML - язык разметки
+    Разметка - задание иерархии узлов
+    Задается при помощи оболочек - тэгов
+    
+    Другими словами, узлы (Чаще всего - данные)
+    окружаются тегом и могут страновится частью
+    других тегов, то есть, других данных
+    
+    Тег: начинается с символа "<"
+         далее без разделителей следует имя-тега
+         далее (опционально) - атрибуты тега
+         по схеме имя = значение,  разделяется пробелами
+         
+         далее:
+    - самозакрытый тег - "/>"
+    - парный тег - ">Content</имя-тега>"
+    
+    
+        -->

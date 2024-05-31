@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS lan PR", "CS lan PR\CS lan PR.csproj", "{22539EE4-3FC5-4435-ADB3-BA6188B2D236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS Lan PR Server", "CS Lan PR Server\CS Lan PR Server.csproj", "{13B2A4D2-1A56-4EF3-B2AB-62197DA3CD68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22539EE4-3FC5-4435-ADB3-BA6188B2D236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22539EE4-3FC5-4435-ADB3-BA6188B2D236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22539EE4-3FC5-4435-ADB3-BA6188B2D236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22539EE4-3FC5-4435-ADB3-BA6188B2D236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B2A4D2-1A56-4EF3-B2AB-62197DA3CD68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B2A4D2-1A56-4EF3-B2AB-62197DA3CD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B2A4D2-1A56-4EF3-B2AB-62197DA3CD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B2A4D2-1A56-4EF3-B2AB-62197DA3CD68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {810284A9-0484-478A-B534-7247DC3D8EA1}
+	EndGlobalSection
+EndGlobal

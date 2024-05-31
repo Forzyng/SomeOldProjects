@@ -1,0 +1,147 @@
+.WatchArt{
+    margin: 0 auto;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(112, 237, 237);
+    border-radius: 100px;
+}
+
+#Hours, #Min{
+    margin: 0 auto;
+    background: rgb(11, 65, 65);
+    border-radius: 5px;
+}
+
+#Hours{
+    width: 5px;
+    height: 35px;
+
+    transform:rotate(0deg);
+    transform-origin:0 100%;
+    animation: WatchKeyframes 15s infinite ease-in-out ;
+}
+
+#Min{
+    width: 5px;
+    height: 45px;
+
+    transform:rotate(0deg);
+
+    transform-origin:10% 0;
+    animation: WatchKeyframes 9s infinite ease-in-out ;
+}
+
+@keyframes WatchKeyframes{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+/**/
+
+
+.Main{
+    margin: 0 auto;
+    padding: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    perspective: 1000px;
+}
+
+#hello{
+    position: absolute;
+    z-index: -1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight:bold
+}
+
+.doorLeft{
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    background-color: darkviolet;
+    border: 3px solid rgb(62, 11, 84);
+    transition: all 1s;
+    transform-origin: left;
+}
+
+.doorRight{
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    background-color: darkviolet;
+    border: 3px solid rgb(62, 11, 84);
+    transition: all 1s;
+    transform-origin: right;
+}
+
+.doorLeft:hover{
+    transform: rotateY(50deg);
+}
+
+.doorRight:hover{
+    transform: rotateY(-50deg);
+}
+
+
+/**/
+
+
+.ArtHeadr{
+    margin: 0 auto;
+    padding: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    perspective: 1000px;
+}
+
+.Rectangle{
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    background-color: silver;
+    transition: all 3s;
+    transform-origin: left;
+}
+
+#ImgMac{
+    width: 310px;
+    height: 160px;
+    display: block;
+    transition: all 3s;
+}
+
+.Text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.Rectangle:hover{
+    background-color:rgba(0,0,0,1);
+}
+
+#ImgMac:hover{
+    transform: scale(2);
+    background-color:rgba(0,0,0,0.3);
+}
+
+.scale{
+    display: inline-block; 
+    overflow: hidden; 
+}

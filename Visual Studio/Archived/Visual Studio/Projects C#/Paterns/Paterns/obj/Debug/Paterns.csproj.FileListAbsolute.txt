@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\Paterns\Paterns\bin\Debug\Paterns.exe.config
+D:\Programming\Visual Studio\Projects C#\Paterns\Paterns\bin\Debug\Paterns.exe
+D:\Programming\Visual Studio\Projects C#\Paterns\Paterns\bin\Debug\Paterns.pdb
+D:\Programming\Visual Studio\Projects C#\Paterns\Paterns\obj\Debug\Paterns.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\Paterns\Paterns\obj\Debug\Paterns.exe
+D:\Programming\Visual Studio\Projects C#\Paterns\Paterns\obj\Debug\Paterns.pdb
+D:\Programming\Visual Studio\Projects C#\Paterns\Paterns\obj\Debug\Paterns.csproj.AssemblyReference.cache

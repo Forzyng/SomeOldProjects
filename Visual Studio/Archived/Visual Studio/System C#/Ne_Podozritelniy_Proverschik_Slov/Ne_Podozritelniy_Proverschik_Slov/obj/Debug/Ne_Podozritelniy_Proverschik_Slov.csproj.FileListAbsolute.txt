@@ -1,0 +1,11 @@
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\bin\Debug\Ne_Podozritelniy_Proverschik_Slov.exe.config
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\bin\Debug\Ne_Podozritelniy_Proverschik_Slov.exe
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\bin\Debug\Ne_Podozritelniy_Proverschik_Slov.pdb
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.Main.resources
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.Properties.Resources.resources
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.exe
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.pdb
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.CheckerFiles.resources
+D:\Programming\Visual Studio\System C#\Ne_Podozritelniy_Proverschik_Slov\Ne_Podozritelniy_Proverschik_Slov\obj\Debug\Ne_Podozritelniy_Proverschik_Slov.csproj.AssemblyReference.cache

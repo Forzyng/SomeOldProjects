@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Network C#\CSLan 1\Lan Server 1\bin\Debug\Lan Server 1.exe.config
+D:\Programming\Visual Studio\Network C#\CSLan 1\Lan Server 1\bin\Debug\Lan Server 1.exe
+D:\Programming\Visual Studio\Network C#\CSLan 1\Lan Server 1\bin\Debug\Lan Server 1.pdb
+D:\Programming\Visual Studio\Network C#\CSLan 1\Lan Server 1\obj\Debug\Lan Server 1.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CSLan 1\Lan Server 1\obj\Debug\Lan Server 1.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CSLan 1\Lan Server 1\obj\Debug\Lan Server 1.exe
+D:\Programming\Visual Studio\Network C#\CSLan 1\Lan Server 1\obj\Debug\Lan Server 1.pdb

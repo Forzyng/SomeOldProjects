@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\HW 3\HW 3\bin\Debug\HW 3.exe.config
+D:\Programming\Visual Studio\Projects C#\HW 3\HW 3\bin\Debug\HW 3.exe
+D:\Programming\Visual Studio\Projects C#\HW 3\HW 3\bin\Debug\HW 3.pdb
+D:\Programming\Visual Studio\Projects C#\HW 3\HW 3\obj\Debug\HW 3.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Projects C#\HW 3\HW 3\obj\Debug\HW 3.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\HW 3\HW 3\obj\Debug\HW 3.exe
+D:\Programming\Visual Studio\Projects C#\HW 3\HW 3\obj\Debug\HW 3.pdb

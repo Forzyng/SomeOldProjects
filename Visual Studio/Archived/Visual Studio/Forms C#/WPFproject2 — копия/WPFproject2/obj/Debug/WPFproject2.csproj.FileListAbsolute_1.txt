@@ -1,0 +1,60 @@
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\bin\Debug\WPFproject2.exe.config
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\bin\Debug\WPFproject2.exe
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\bin\Debug\WPFproject2.pdb
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\WPFproject2.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\MainWindow.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\Minesweeper.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\App.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\WPFproject2_MarkupCompile.cache
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\WPFproject2_MarkupCompile.lref
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\App.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\MainWindow.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\Minesweeper.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\WPFproject2.g.resources
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\WPFproject2.Properties.Resources.resources
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\WPFproject2.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\WPFproject2.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\WPFproject2.exe
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\WPFproject2.pdb
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\Words.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\Words.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\Snake.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\Snake.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\FlappyBird.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\FlappyBird.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\Memoria.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\Memoria.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\AlienWar.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\obj\Debug\AlienWar.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\bin\Debug\WPFproject2.exe.config
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\bin\Debug\WPFproject2.exe
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\bin\Debug\WPFproject2.pdb
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\WPFproject2.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\AlienWar.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\FlappyBird.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\MainWindow.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\Memoria.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\Minesweeper.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\Snake.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\Words.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\App.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\WPFproject2_MarkupCompile.cache
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\WPFproject2_MarkupCompile.lref
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\App.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\AlienWar.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\FlappyBird.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\MainWindow.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\Memoria.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\Minesweeper.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\Snake.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\Words.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\WPFproject2.g.resources
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\WPFproject2.Properties.Resources.resources
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\WPFproject2.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\WPFproject2.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\WPFproject2.exe
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\WPFproject2.pdb
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\Login.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\Login.baml
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\Clicker.g.cs
+D:\Programming\Visual Studio\Forms C#\WPFproject2 — копия\WPFproject2\obj\Debug\Clicker.baml

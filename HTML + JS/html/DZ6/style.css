@@ -1,0 +1,91 @@
+
+
+.applic{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(16, 116, 101);
+    color: white;
+}
+
+.Head h1{
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 50px;
+    color: silver;
+}
+
+.main{
+    font-size: 28px;
+    padding-left: 50px;
+    font-weight: bold;
+    line-height: 1.5;
+    display: flex;
+} 
+
+.footOneLevel{
+    display:flex;
+    padding-left: 50px;
+    padding-bottom: 80px;
+}
+
+.footOneLevel img{
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding-top: 8px;
+}
+
+.footTwoLevel{
+    display:flex;
+}
+
+.footTwoLevel p{
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+.footTwoLevel span{
+    font-size: 10px;
+    color:  rgba(255,255,255,0.5);
+}
+
+.footTwoLevelA{
+    display:flex;
+}
+
+.footTwoLevelB{
+    display:flex;
+}
+
+@media screen and (max-width:600px) {
+    .footOneLevel img{
+        display: block;
+        width: 40px;
+        height: 40px;
+        padding-top: 35px;
+    }
+    .main{
+        font-size: 20px;
+    }
+    .footTwoLevel div{
+        padding-left: 25px;
+    }
+    .footTwoLevelA{
+        display: inline;
+    }
+    .footTwoLevelB{
+        display: inline;
+    }
+    .footTwoLevel p{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .footTwoLevel span{
+        font-size: 12px;
+        color:  rgba(255,255,255,0.5);
+    }
+    .Head h1{
+        font-size: 14px;
+    }
+}
+

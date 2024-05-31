@@ -1,0 +1,13 @@
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan 3 Tcp\bin\Debug\CS Lan 3 Tcp.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan 3 Tcp\bin\Debug\CS Lan 3 Tcp.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan 3 Tcp\bin\Debug\CS Lan 3 Tcp.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan 3 Tcp\obj\Debug\CS Lan 3 Tcp.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan 3 Tcp\obj\Debug\CS Lan 3 Tcp.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan 3 Tcp\obj\Debug\CS Lan 3 Tcp.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server\CS Lan 3 Tcp\obj\Debug\CS Lan 3 Tcp.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan 3 Tcp\bin\Debug\CS Lan 3 Tcp.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan 3 Tcp\bin\Debug\CS Lan 3 Tcp.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan 3 Tcp\bin\Debug\CS Lan 3 Tcp.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan 3 Tcp\obj\Debug\CS Lan 3 Tcp.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan 3 Tcp\obj\Debug\CS Lan 3 Tcp.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 3 Tcp Server — копия\CS Lan 3 Tcp\obj\Debug\CS Lan 3 Tcp.pdb

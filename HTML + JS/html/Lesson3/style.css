@@ -1,0 +1,83 @@
+/*
+.langs{
+    list-style-position: inside;
+    list-style-image: url(images/checked.png);
+}
+*/
+
+.pageHeader{
+    background-image: url(../Lesson3/images/fon.jpg);
+    /*
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+*/
+    text-align: center;
+}
+
+#lanHeader{
+    text-align: center;
+    margin: 3px auto;
+    background-color: grey;
+    border-radius: 7px;
+    width: 420px;
+    color: whitesmoke;
+}
+
+.langs li{
+    display:  inline-block;
+    background-color:  aliceblue;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.langs li a{
+    display:  inline-block;
+    height:  100%;
+    width: 100%;
+    padding-top: 8px;
+    text-decoration: none;
+    color: darkslateblue;
+    font-size: 1.2rem;
+    border-radius: 9px;
+}
+
+.langs li a:hover{
+    font-weight: bold;
+    background-color: dimgray;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: floralwhite;
+}
+
+.articleP{
+    border: 1px solid silver;
+    border-radius: 15px;
+    background-color: rgb(203, 230, 240);
+    padding: 10px;
+    margin: 3px;
+}
+
+.articleP header{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.Srem;
+}
+
+.description{
+    text-indent: 15px;
+    color: black;
+    text-align: justify;
+}
+
+.description+p{
+    text-align:right;
+}
+
+.description > img{
+    width: 52px;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}

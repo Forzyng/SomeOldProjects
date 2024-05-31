@@ -1,0 +1,10 @@
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan SMTP\bin\Debug\CS Lan SMTP.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan SMTP\bin\Debug\CS Lan SMTP.exe
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan SMTP\bin\Debug\CS Lan SMTP.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan SMTP\obj\Debug\CS Lan SMTP.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan SMTP\obj\Debug\CS_Lan_SMTP.Form1.resources
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan SMTP\obj\Debug\CS_Lan_SMTP.Properties.Resources.resources
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan SMTP\obj\Debug\CS Lan SMTP.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan SMTP\obj\Debug\CS Lan SMTP.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan SMTP\obj\Debug\CS Lan SMTP.exe
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan SMTP\obj\Debug\CS Lan SMTP.pdb

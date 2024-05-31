@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #container{
+            font-family: Calibri;
+            font-size:14pt;
+        }
+
+        #app li select {
+            font-size: 14pt;
+        }
+
+        #app li {
+            list-style-type: none;
+        }
+
+        #app li:before {
+            content: "";
+        }
+
+        #information td{
+            border: 1px solid lightgray;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <header style="background-color: rgb(211, 26, 26);  display: flex;">
+            <div style="display: flex; margin-top: 1rem; margin-bottom: 1rem;">
+                <img src="../Lesson7JavaScript/image/Nova.jpg" style="width: 150px; margin-left: 2rem; ">
+                
+                <h1 style="margin-left: 2rem; color: white; text-align: center;"> Новая почта </h1>
+            </div>
+        </header>
+
+        <main style="margin-top: 1.5rem; margin-bottom: 5rem;">
+            <div style="display: flex;">
+
+                <ul id="app" style="list-style-type: none;">
+                    <p>Введите облость</p>
+                    <li id="area" style="margin-bottom: 2rem;"></li>
+                    <p>Введите город</p>
+                    <li id="city" style="margin-bottom: 2rem;"></li>
+                    <p>Введите отделение</p>
+                    <li id="dep" style="margin-bottom: 2rem;"></li>
+                </ul>
+
+                <samp id="container" style="margin-left: 15rem; width: 500px; height: 400px;">
+
+                </samp>
+            </div>
+        </main>
+
+        <footer style="background-color: rgb(211, 26, 26);  width: 99%; height: 45px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; left: 0; bottom: 0; position: fixed;">
+        </footer>
+
+    </div>
+
+<script>
+
+    function buildSelect(data) {
+        console.log(data);
+        let select = document.createElement("select");
+        let firstOption = document.createElement("option");
+        firstOption.value = "--select option--";
+        firstOption.innerText = "--select option--";
+        select.appendChild(firstOption);
+        for (let i = 0; i < data.length; i++) {
+            let o = document.createElement("option");
+            o.value = data[i]["Ref"];
+            o.innerText = data[i]["DescriptionRu"];
+            select.appendChild(o);
+        }
+        return select;
+    }
+
+    // Настройки доступа к API
+    let apiUrl = "https://api.novaposhta.ua/v2.0/json/";
+    let apiKey = "397fb92664b71af624496e2cef3a9386";
+
+    // Метод отправки запроса
+    function sendRequest(Request, doNext) {
+        Request.apiKey = apiKey;
+        // console.log(Request);
+
+        fetch(apiUrl, {
+            method: 'POST', // *GET, POST, PUT, DELETE, etc.
+            mode: 'cors', // no-cors, *cors, same-origin
+            cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+            credentials: 'same-origin', // include, *same-origin, omit
+            headers: {
+                'Content-Type': 'application/json'
+                // 'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            redirect: 'follow', // manual, *follow, error
+            referrerPolicy: 'no-referrer', // no-referrer, *client
+            body: JSON.stringify(Request) // body data type must match "Content-Type" header
+        })
+            .then(res => { // Операции по проверки ответа от сервера (например код 200)
+                console.log(res);
+                if (res.status !== 200) {
+                    console.log("Error http");
+                    console.log(res.statusText);
+                    return;
+                }
+                return res.json();
+            })
+            .then(data => { // Операции уже с телом (body) ответа - передаю в callback Fun
+                if (data.success) doNext(data.data);
+                else {
+                    console.log("Error data");
+                    console.log(data.errors);
+                }
+            })
+            .catch(err => {
+                console.log("Error catch");
+                console.log(err);
+            })
+    }
+
+    // Процесс построения селекта областей
+    function buildAreas(data) {
+        let selectArea = buildSelect(data);
+        selectArea.onchange = function (e) {
+            sendRequest({
+                "modelName": "Address",
+                "calledMethod": "getCities",
+                "methodProperties": {
+                    AreaRef: e.target.value
+                }
+            }, buildCities);
+        }
+        document.getElementById("area").innerHTML = "";
+        document.getElementById("area").appendChild(selectArea);
+    }
+
+    // Процесс построения селекта городов
+    let selectCity;
+
+    function buildCities(data) {
+        //console.log(data);
+        selectCity = buildSelect(data);
+        selectCity.onchange = function (e) {
+            sendRequest({
+                "modelName": "AddressGeneral",
+                "calledMethod": "getWarehouses",
+                "methodProperties": {
+                    CityRef: e.target.value,
+                    "Language": "ru"
+                }
+            }, buildDep);
+        }
+        document.getElementById("city").innerHTML = "";
+        document.getElementById("city").appendChild(selectCity);
+    }
+
+    function buildDep(data) {
+        let selectDep = buildSelect(data);
+        selectDep.onchange = function (e) {
+            sendRequest({
+                "modelName": "Address",
+                "calledMethod": "getWarehouses",
+                "methodProperties": {
+                    "CityName": selectCity.options[selectCity.selectedIndex].innerText,
+                    "FindByString": selectDep.options[selectDep.selectedIndex].innerText
+                }
+            }, buildSite);
+        }
+        document.getElementById("dep").innerHTML = "";
+        document.getElementById("dep").appendChild(selectDep);
+    }
+
+    function buildSite(data) {
+        console.log(data);
+        let divData = document.createElement("div");
+        let title = document.createElement("h1");
+        title.innerHTML = `${data[0].CityDescriptionRu} ${data[0].DescriptionRu}`;
+        let info = document.createElement("p");
+        info.innerHTML = `<b>Адрес:</b> ${data[0].ShortAddressRu}<br><br>` +
+                         `<b>Тип:</b> ${data[0].DescriptionRu.split(" ", 1)}<br><br>` +
+                         `<b>Ограничение по весу:</b> До ${data[0].TotalMaxWeightAllowed} кг<br><br>`;
+        let table = document.createElement("table");
+        table.id = "information";
+        let thead = document.createElement("thead");
+        let tbody = document.createElement("tbody");
+
+        table.style.border = "2px solid black";
+        table.style.borderCollapse = "collapse";
+        thead.style.backgroundColor = "lightgray";
+        thead.style.color = "#808080";
+        thead.style.border = "1px solid lightgray";
+
+        let trh = document.createElement("tr");
+        for(let i=0; i<8; i++){
+            let th = document.createElement("th");
+            trh.appendChild(th);
+        }
+        trh.children[0].innerHTML = " ";
+        trh.children[1].innerHTML = "ПН";
+        trh.children[2].innerHTML = "ВТ";
+        trh.children[3].innerHTML = "СР";
+        trh.children[4].innerHTML = "ЧТ";
+        trh.children[5].innerHTML = "ПТ";
+        trh.children[6].innerHTML = "СБ";
+        trh.children[7].innerHTML = "ВС";
+
+        for(let i=0; i<3; i++){
+            let tr = document.createElement("tr");
+            for(let i=0; i<8; i++){
+                let td = document.createElement("td");
+                tr.appendChild(td);
+            }
+            tbody.appendChild(tr);
+        }
+        tbody.children[0].children[0].innerHTML = "<b>График работы</b>";
+        tbody.children[0].children[1].innerHTML = data[0].Schedule.Monday;
+        tbody.children[0].children[2].innerHTML = data[0].Schedule.Tuesday;
+        tbody.children[0].children[3].innerHTML = data[0].Schedule.Wednesday;
+        tbody.children[0].children[4].innerHTML = data[0].Schedule.Thursday;
+        tbody.children[0].children[5].innerHTML = data[0].Schedule.Friday;
+        tbody.children[0].children[6].innerHTML = data[0].Schedule.Saturday;
+        tbody.children[0].children[7].innerHTML = data[0].Schedule.Sunday;
+
+        tbody.children[1].children[0].innerHTML = "<b>Прием отправления для отправки в тот же день</b>";
+        tbody.children[1].children[1].innerHTML = data[0].Delivery.Monday;
+        tbody.children[1].children[2].innerHTML = data[0].Delivery.Tuesday;
+        tbody.children[1].children[3].innerHTML = data[0].Delivery.Wednesday;
+        tbody.children[1].children[4].innerHTML = data[0].Delivery.Thursday;
+        tbody.children[1].children[5].innerHTML = data[0].Delivery.Friday;
+        tbody.children[1].children[6].innerHTML = data[0].Delivery.Saturday;
+        tbody.children[1].children[7].innerHTML = data[0].Delivery.Sunday;
+
+        tbody.children[2].children[0].innerHTML = "<b>Время прибытия отправления</b>";
+        tbody.children[2].children[1].innerHTML = data[0].Reception.Monday;
+        tbody.children[2].children[2].innerHTML = data[0].Reception.Tuesday;
+        tbody.children[2].children[3].innerHTML = data[0].Reception.Wednesday;
+        tbody.children[2].children[4].innerHTML = data[0].Reception.Thursday;
+        tbody.children[2].children[5].innerHTML = data[0].Reception.Friday;
+        tbody.children[2].children[6].innerHTML = data[0].Reception.Saturday;
+        tbody.children[2].children[7].innerHTML = data[0].Reception.Sunday;
+
+        thead.appendChild(trh);
+        table.appendChild(thead);
+        table.appendChild(tbody);
+
+        let divMap = document.createElement("div");
+        divMap.style.height = "450";
+        divMap.style.width = "600";
+        let map = document.createElement("iframe");
+        map.src = `http://maps.google.com/maps?q=${data[0].Latitude},${data[0].Longitude}&z=16&output=embed`;
+        map.height = "450";
+        map.widht = "600";
+        divMap.appendChild(map);
+
+        divData.appendChild(title);
+        divData.appendChild(info);
+        divData.appendChild(table);
+        divData.appendChild(divMap);
+        document.getElementById("container").appendChild(divData);
+    }
+
+
+    // Пример - запрос на области - первый запрос при старте страницы
+    sendRequest({
+        "modelName": "Address",
+        "calledMethod": "getAreas",
+        "methodProperties": {}
+    }, buildAreas);
+
+</script>
+
+</body>
+</html>

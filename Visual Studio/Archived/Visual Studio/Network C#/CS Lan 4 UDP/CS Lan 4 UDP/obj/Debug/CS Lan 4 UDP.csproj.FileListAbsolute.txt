@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Network C#\CS Lan 4 UDP\CS Lan 4 UDP\obj\Debug\CS Lan 4 UDP.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 4 UDP\CS Lan 4 UDP\obj\Debug\CS Lan 4 UDP.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan 4 UDP\CS Lan 4 UDP\bin\Debug\CS Lan 4 UDP.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan 4 UDP\CS Lan 4 UDP\bin\Debug\CS Lan 4 UDP.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 4 UDP\CS Lan 4 UDP\bin\Debug\CS Lan 4 UDP.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan 4 UDP\CS Lan 4 UDP\obj\Debug\CS Lan 4 UDP.exe
+D:\Programming\Visual Studio\Network C#\CS Lan 4 UDP\CS Lan 4 UDP\obj\Debug\CS Lan 4 UDP.pdb

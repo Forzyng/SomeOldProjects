@@ -1,0 +1,12 @@
+D:\Programming\Visual Studio\Data Base Forms\Test Configuration\Test Configuration\bin\Debug\BookMagazine.mdf
+D:\Programming\Visual Studio\Data Base Forms\Test Configuration\Test Configuration\bin\Debug\BookMagazine_log.ldf
+D:\Programming\Visual Studio\Data Base Forms\Test Configuration\Test Configuration\bin\Debug\Test Configuration.exe.config
+D:\Programming\Visual Studio\Data Base Forms\Test Configuration\Test Configuration\bin\Debug\Test Configuration.exe
+D:\Programming\Visual Studio\Data Base Forms\Test Configuration\Test Configuration\bin\Debug\Test Configuration.pdb
+D:\Programming\Visual Studio\Data Base Forms\Test Configuration\Test Configuration\obj\Debug\Test Configuration.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Data Base Forms\Test Configuration\Test Configuration\obj\Debug\Test_Configuration.Main_Form.resources
+D:\Programming\Visual Studio\Data Base Forms\Test Configuration\Test Configuration\obj\Debug\Test_Configuration.Properties.Resources.resources
+D:\Programming\Visual Studio\Data Base Forms\Test Configuration\Test Configuration\obj\Debug\Test Configuration.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Data Base Forms\Test Configuration\Test Configuration\obj\Debug\Test Configuration.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Data Base Forms\Test Configuration\Test Configuration\obj\Debug\Test Configuration.exe
+D:\Programming\Visual Studio\Data Base Forms\Test Configuration\Test Configuration\obj\Debug\Test Configuration.pdb

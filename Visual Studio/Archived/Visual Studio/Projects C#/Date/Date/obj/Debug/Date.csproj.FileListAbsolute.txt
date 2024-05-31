@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\Date\Date\bin\Debug\Date.exe.config
+D:\Programming\Visual Studio\Projects C#\Date\Date\bin\Debug\Date.exe
+D:\Programming\Visual Studio\Projects C#\Date\Date\bin\Debug\Date.pdb
+D:\Programming\Visual Studio\Projects C#\Date\Date\obj\Debug\Date.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Projects C#\Date\Date\obj\Debug\Date.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\Date\Date\obj\Debug\Date.exe
+D:\Programming\Visual Studio\Projects C#\Date\Date\obj\Debug\Date.pdb

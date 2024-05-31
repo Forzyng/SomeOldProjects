@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <style>
+        div#main {
+
+            cursor: url(https://img.icons8.com/color-glass/96/000000/center-direction.png) 4 12, auto;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <div id="main" >
+
+            <img src="../DZ7JavaScript/image/fon.jpg"  style="width: 100%; position:absolute;" id="end" onClick="ends()"><!-- onClick="imgAIM();-->
+            <img src="../DZ7JavaScript/image/pngegg.png" style="width: 150px; position:absolute; display: block; background-repeat: no-repeat; margin-left: 30px;" id="image" onClick="imgsrc();">
+            
+            <header style="position:absolute; background-color: rgba(0, 0, 0, 0.9);; padding-left: 8px;padding-bottom: 8px;padding-top: 8px;padding-right: 8px; text-align: center; margin-top: 5px; margin-left: 5px; border-radius: 5px; color: white; font-family: Arial, Helvetica, sans-serif;">
+                <p>Количество попаданий: <a id="Check">0</a></p>
+            </header>
+            <!--<img src="../DZ7JavaScript/image/pngwing.png" id="Aim" style="width: 300px; ">-->
+            
+        </div>
+    </main>
+
+    <script>
+        /*
+        document.onmousemove = function (){
+
+            var Aim = document.getElementById('Aim');
+            Aim.style.position = 'fixed';
+ 
+            document.onmousemove = function(event){
+                Aim.style.left = event.clientX + (-150) +'px';
+                Aim.style.top = event.clientY + (-125) +'px';
+            }
+        }
+        */
+        //var Aim = document.getElementById('Aim');
+        /*
+        function imgAIM()
+        {
+            document.body.style.cursor = "url('DZ7JavaScript/image/pngwing.png'), auto";
+        }
+        */
+        //document.body.appendChild(img);
+        
+    </script>
+
+    <script>
+
+        var i=0;
+        var image = document.getElementById("image");
+        var end = document.getElementById("end");
+
+        const height = document.documentElement.clientHeight;
+        const width = document.documentElement.clientWidth;
+       
+        let clicks = 0;
+
+        function imgsrc() {
+            let randY = Math.floor((Math.random() * height) );
+            let randX = Math.floor((Math.random() * width) );
+            image.style.top = randY + "px";
+            image.style.right = randX + "px";
+
+            clicks += 1;
+            document.getElementById("Check").innerHTML = clicks;
+            
+           
+        }
+
+        function ends(){
+            alert("Вы проиграли! " + "Количество попаданий: " + (document.getElementById("Check").innerHTML = clicks))
+            window.location.reload();
+        }
+
+        
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+        <div>
+            <button value="add" onclick="doAddElement()">
+                ADD
+            </button>
+            <button value="clear" id="btnClear">
+                CLEAR
+            </button>
+            <ol id="toDoo" type="I"> 
+            </ol>
+        </div>
+        <!--
+        <div id="mainDiv">
+            MAIN DIV
+        </div>
+        -->
+    </main>
+
+    <script>
+        let toDoo = document.getElementById('toDoo')
+
+        btnClear.onclick = function(){
+            toDoo.innerHTML = '';
+        }
+
+        function onKeyPress(el){
+            //console.log("Press" + el.key)
+            if(el.key == "Escape")
+            {
+                let parent = el.target.parentElement
+                let value = el.target.dataset.old
+                el.target.onblur = null;
+                //console.log("Old" + value)
+                parent.innerHTML = value
+            } else
+            if(el.key == "Enter")
+            {
+                doSave(el)
+            }
+        }
+
+        function doSave(el){
+            console.log(el.target.value)
+            let parent = el.target.parentElement
+            let value = el.target.value
+            el.target.onblur = null;
+            parent.innerHTML = value;
+        }
+
+        function doEdit(el){
+            let value = el.target.innerHTML
+            let input = document.createElement('input')
+
+            input.type = 'text'
+            input.value = value
+            el.target.innerHTML = '';
+            input.focus();
+
+            input.onblur = doSave;
+
+            input.dataset.old = value;
+
+            input.onkeydown = onKeyPress;
+
+            el.target.appendChild(input)
+        }
+
+        function doDelete(el){
+            let liToDel = el.target.parentElement;
+            toDoo.removeChild(liToDel)
+        }
+
+        function doAddElement(){
+            let li = document.createElement("li")
+            li.innerHTML = ' new '
+            li.ondblclick = doEdit
+
+            let span = document.createElement("span")
+            span.innerHTML = ' - '
+            span.addEventListener("click", doDelete)
+            li.appendChild(span)
+            toDoo.appendChild(li)
+        }
+
+    </script>
+
+    <script>
+        /*
+        let mainDiv = document.getElementById("mainDiv");
+        mainDiv.innerHTML = "New Html";
+        
+        mainDiv.onclick = function(){
+            mainDiv.style.backgroundColor = "red";
+        }
+
+        let ul = document.createElement('ul');
+        let li = document.createElement('li');
+        li.innerHTML = 'Элкмент спимка'
+        li.style.backgroundColor = "#f0f0f0"; //  оброщение к стилю
+        li.id = 'alLi' // оброщеник к атребуту 
+
+        ul.appendChild(li);
+        mainDiv.appendChild(ul);
+        */
+    </script>
+</body>
+</html>

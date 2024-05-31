@@ -1,0 +1,9 @@
+D:\Programming\Visual Studio\DataBase\DZ 7\DZ 7\bin\Debug\DZ7.mdf
+D:\Programming\Visual Studio\DataBase\DZ 7\DZ 7\bin\Debug\DZ7_log.ldf
+D:\Programming\Visual Studio\DataBase\DZ 7\DZ 7\bin\Debug\DZ 7.exe.config
+D:\Programming\Visual Studio\DataBase\DZ 7\DZ 7\bin\Debug\DZ 7.exe
+D:\Programming\Visual Studio\DataBase\DZ 7\DZ 7\bin\Debug\DZ 7.pdb
+D:\Programming\Visual Studio\DataBase\DZ 7\DZ 7\obj\Debug\DZ 7.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\DataBase\DZ 7\DZ 7\obj\Debug\DZ 7.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\DataBase\DZ 7\DZ 7\obj\Debug\DZ 7.exe
+D:\Programming\Visual Studio\DataBase\DZ 7\DZ 7\obj\Debug\DZ 7.pdb

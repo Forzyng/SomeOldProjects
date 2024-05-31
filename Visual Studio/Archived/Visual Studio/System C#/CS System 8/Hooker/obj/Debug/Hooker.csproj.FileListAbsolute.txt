@@ -1,0 +1,10 @@
+D:\Programming\Visual Studio\System C#\CS System 8\Hooker\bin\Debug\Hooker.exe.config
+D:\Programming\Visual Studio\System C#\CS System 8\Hooker\bin\Debug\Hooker.exe
+D:\Programming\Visual Studio\System C#\CS System 8\Hooker\bin\Debug\Hooker.pdb
+D:\Programming\Visual Studio\System C#\CS System 8\Hooker\obj\Debug\Hooker.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\CS System 8\Hooker\obj\Debug\Hooker.Form1.resources
+D:\Programming\Visual Studio\System C#\CS System 8\Hooker\obj\Debug\Hooker.Properties.Resources.resources
+D:\Programming\Visual Studio\System C#\CS System 8\Hooker\obj\Debug\Hooker.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\System C#\CS System 8\Hooker\obj\Debug\Hooker.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS System 8\Hooker\obj\Debug\Hooker.exe
+D:\Programming\Visual Studio\System C#\CS System 8\Hooker\obj\Debug\Hooker.pdb

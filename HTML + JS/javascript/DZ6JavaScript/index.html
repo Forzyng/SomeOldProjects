@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+
+    <style>
+        #helpDiv li.isCheck {
+            color: rgb(7, 186, 7);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #helpDiv li {
+            color: rgb(254, 254, 254);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #helpDiv{
+            display: none;
+            padding: 1px;
+            margin-left: 10.6rem;
+            background: rgba(0,0,0,0.7);
+            height:  130px;
+            width: 80px;
+            -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+            -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+            box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+            border-radius: 8px;
+        }
+    
+
+        input[name="nameField"]{
+            border: 1px solid red;
+        }
+
+        input[name="password"]{
+            border: 1px solid red;
+        }
+
+        input[name="email"]{
+            border: 1px solid red;
+        }
+
+        input[name="addres"]{
+            border: 1px solid rgb(255, 194, 82);
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <form class="row g-3" id="frmRedistr" name="frmRedistrName">
+            <div class="col-md-6">
+                <label for="text" class="form-label">Имя</label>
+                <input type="text" name="nameField" class="form-control" id="text">
+            </div>
+            <div class="col-md-6 poster">
+                <label for="inputPassword4" class="form-label">Пароль</label>
+                <input type="password" name="password" class="form-control" id="inputPassword4">
+                <div id="helpDiv">
+                    <ul>
+                        <li> Длина </li>
+                        <li> Строчная </li>
+                        <li> Прописная </li>
+                        <li> Цифры </li>
+                        <li> Спецсимвол </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <label for="inputEmail4" class="form-label">Эл. почта</label>
+                <input type="email" name="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-4">
+                <label for="inputAddress" class="form-label">Адрес</label>
+                <input type="text" name="addres" class="form-control neutral" id="inputAddress">
+            </div>
+            <div class="col-md-4">
+                <label for="inputCity" class="form-label">Город</label>
+                <input type="text" class="form-control neutral" id="inputCity" placeholder="Город">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Область</label>
+                <select id="inputState" class="form-select neutral">
+                    <option selected>Николаевская</option>
+                    <option>Иная</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Принял условия
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary" onclick="alerted();">Войти в систему</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script>
+    
+        let inPswd = document.getElementById("inputPassword4")
+        let helpPswd = document.getElementById("helpDiv")
+        let Pswd =  document.getElementById("text");
+        let re = new RegExp("[0-9]");
+        let reUpperCase = new RegExp("[A-Z]");
+        let reLowerCase = new RegExp("[a-z]");
+        let reSpecCase = new RegExp("[!@#\\$%\\^&\\*\\(\\)\\[\\]]");
+
+        let inName = document.getElementById("text");
+
+        let inChek = document.getElementById("gridCheck");
+
+        let inMail = document.getElementById("inputEmail4")
+        let reMail = new RegExp("@")
+
+        let inNeutralAdres = document.querySelector("#inputAddress")
+
+        inNeutralAdres.onkeyup = function(e){
+
+            let newNeutral = e.target.value
+
+            if(newNeutral.length > 0){
+                inNeutralAdres.style.border= "1px solid rgb(7, 186, 7)"
+            }else{
+                inNeutralAdres.style.border= "1px solid rgb(255, 194, 82)"
+            }
+        }
+
+        inMail.onkeyup = function(e){
+
+            let newMail = e.target.value
+
+            if(reMail.exec(newMail) !== null){
+                inMail.style.border= "1px solid rgb(7, 186, 7)"
+            }else{
+                inMail.style.border= "1px solid red"
+            }
+        }
+
+        inName.onkeyup = function(e){
+
+            let newName = e.target.value
+
+            if(newName.length > 0){
+                inName.style.border= "1px solid rgb(7, 186, 7)"
+            }else{
+                inName.style.border= "1px solid red"
+            }
+        }
+    
+        inPswd.onkeyup = function(e){
+
+            let newPswd = e.target.value;
+   
+            if(newPswd.length > 8){
+                helpPswd.children[0].children[0].classList.add("isCheck")
+            }else{
+                helpPswd.children[0].children[0].classList.remove("isCheck")
+            }
+            
+            if(reUpperCase.exec(newPswd) !== null){
+                helpPswd.children[0].children[1].classList.add("isCheck")
+            }else{
+                helpPswd.children[0].children[1].classList.remove("isCheck")
+            }
+    
+            if(reLowerCase.exec(newPswd) !== null){
+                helpPswd.children[0].children[2].classList.add("isCheck")
+            }else{
+                helpPswd.children[0].children[2].classList.remove("isCheck")
+            }
+    
+            if(re.exec(newPswd) !== null){
+                helpPswd.children[0].children[3].classList.add("isCheck")
+            }else{
+                helpPswd.children[0].children[3].classList.remove("isCheck")
+            }
+    
+            if(reSpecCase.exec(newPswd) !== null){
+                helpPswd.children[0].children[4].classList.add("isCheck")
+            }else{
+                helpPswd.children[0].children[4].classList.remove("isCheck")
+            }
+
+            if((reSpecCase.exec(newPswd) !== null) && (re.exec(newPswd) !== null) && (reLowerCase.exec(newPswd) !== null) && (reUpperCase.exec(newPswd) !== null) && (newPswd.length > 8))
+            {
+                inPswd.style.border= "1px solid rgb(7, 186, 7)"
+            }else{
+                inPswd.style.border= "1px solid red"
+            }
+    
+        }
+    
+    
+    
+    </script>
+
+</body>
+</html>

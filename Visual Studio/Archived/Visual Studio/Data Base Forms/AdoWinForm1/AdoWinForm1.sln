@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoWinForm1", "AdoWinForm1\AdoWinForm1.csproj", "{86189342-4E64-46C0-88AD-95DFB6B0E334}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86189342-4E64-46C0-88AD-95DFB6B0E334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86189342-4E64-46C0-88AD-95DFB6B0E334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86189342-4E64-46C0-88AD-95DFB6B0E334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86189342-4E64-46C0-88AD-95DFB6B0E334}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0439C948-3BBC-478A-8C92-5574F57EE8A9}
+	EndGlobalSection
+EndGlobal

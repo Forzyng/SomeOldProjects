@@ -1,0 +1,10 @@
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan Forms Http\bin\Debug\CS Lan Forms Http.exe.config
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan Forms Http\bin\Debug\CS Lan Forms Http.exe
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan Forms Http\bin\Debug\CS Lan Forms Http.pdb
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan Forms Http\obj\Debug\CS Lan Forms Http.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan Forms Http\obj\Debug\CS_Lan_Forms_Http.Form1.resources
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan Forms Http\obj\Debug\CS_Lan_Forms_Http.Properties.Resources.resources
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan Forms Http\obj\Debug\CS Lan Forms Http.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan Forms Http\obj\Debug\CS Lan Forms Http.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan Forms Http\obj\Debug\CS Lan Forms Http.exe
+D:\Programming\Visual Studio\Network C#\CS Lan Forms Http\CS Lan Forms Http\obj\Debug\CS Lan Forms Http.pdb

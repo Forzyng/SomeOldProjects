@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="input">
+        <form class="Form">
+            <p>
+                <span>Inputs</span><br>
+                <label>
+                    <input type="text" name="sometext" placeholder="Enter some text">
+                    <input class="valid" type="text" name="validtext" placeholder="valid text">
+                    <input class="invalid" type="text" name="invalidtext" placeholder="invalid text" >
+                </label>
+            </p>
+            <p>
+                <span>Check boxes</span><br>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label> <samp class="Sub">Subscribe</samp>
+                      
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label> <samp class="Sub">Subscribe</samp>
+            </p>
+            <p>
+                <span>Radio buttons</span><br>
+                <label>
+                    <div class="form_radio">
+                        <span>Gender:</span>
+
+                        <input id="radio-1" type="radio" name="radio" value="1" checked>
+                        <label class="lableRadio"  for="radio-1">Male</label>
+                        
+                        <input id="radio-2" type="radio" name="radio" value="2">
+                        <label class="lableRadio" for="radio-2">Female</label>
+                        
+                    </div>
+                    
+                </label>
+            </p>
+            <p>
+                <span>Button</span><br>
+                <label>
+                    <button>Active</button>
+                    <button>Hover</button>
+                    <button>Danger</button>
+                    <button>Hover</button>
+                    <button>Disabled</button>
+                    <button>+</button>
+                    <button>-</button>
+                </label>
+            </p>
+            <p>
+                    <span>Text area</span><br>
+                <label>
+                    <textarea placeholder="Enter some text.."></textarea>
+                </label>
+            </p>
+        </form>
+    </div>
+</body>
+</html>

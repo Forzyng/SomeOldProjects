@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>   
+    <main>
+        <table id="Calendar">
+            <thead>
+            <tr >
+                <td colspan="4">
+                    <select>
+                        <option value="0">Январь</option>
+                        <option value="1">Февраль</option>
+                        <option value="2">Март</option>
+                        <option value="3">Апрель</option>
+                        <option value="4">Май</option>
+                        <option value="5">Июнь</option>
+                        <option value="6">Июль</option>
+                        <option value="7">Август</option>
+                        <option value="8">Сентябрь</option>
+                        <option value="9">Октябрь</option>
+                        <option value="10">Ноябрь</option>
+                        <option value="11">Декабрь</option>
+                    </select>
+                </td>
+
+                <td colspan="3"><input type="number" value="" min="0" max="9999" size="4"></td>
+            </tr>
+
+            <tr style="padding-top: 4rem;">
+                <td>ПН</td>
+                <td>ВТ</td>
+                <td>СР</td>
+                <td>ЧТ</td>
+                <td>ПТ</td>
+                <td>СБ</td>
+                <td>ВС</td>
+            </tr>
+            </thead>
+ 
+            <tbody>
+
+            </tbody>
+        </table>
+    </main>
+
+    <script>
+
+    function Calendar(id, year, month) {
+
+        let lastDat = new Date(year ,month + 1, 0).getDate(),
+        Dates = new Date(year, month, lastDat),
+        DNlast = Dates.getDay(),
+        DNfirst = new Date(Dates.getFullYear(), Dates.getMonth(), 1).getDay(),
+
+        calendar = '<tr>',
+
+        m = document.querySelector('#' + id + ' option[value="' + Dates.getMonth() + '"]'),
+        g = document.querySelector('#' + id + ' input');
+
+        if (DNfirst != 0) {
+            for(let  i = 1; i < DNfirst; i++) 
+                calendar += '<td>';
+        }
+        else {
+            for(let  i = 0; i < 6; i++) 
+                calendar += '<td>';
+        }
+
+        for(let  i = 1; i <= lastDat; i++) {
+            if (i == new Date().getDate() && Dates.getFullYear() == new Date().getFullYear() && Dates.getMonth() == new Date().getMonth()) {
+                calendar += '<td class="today">' + i;
+
+            }else{
+                calendar += '<td>' + i;
+            }
+
+            if (new Date(Dates.getFullYear(),Dates.getMonth(),i).getDay() == 0) {
+                calendar += '<tr>';
+            }
+        }
+
+        document.querySelector('#' + id + ' tbody').innerHTML = calendar;
+        g.value = Dates.getFullYear();
+
+        m.selected = true;
+    }
+
+    Calendar("Calendar",new Date().getFullYear(),new Date().getMonth());
+
+    document.querySelector('#Calendar').onchange = function Kalendar3() {
+        Calendar("Calendar",
+        document.querySelector('#Calendar input').value,
+        parseFloat(document.querySelector('#Calendar select').options[document.querySelector('#Calendar select').selectedIndex].value));
+    }
+
+    </script>
+</body>
+</html>

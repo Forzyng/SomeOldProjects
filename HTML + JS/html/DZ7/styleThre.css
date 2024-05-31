@@ -1,0 +1,187 @@
+.footerOne{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left: 1rem;
+}
+
+.footerOne h1{
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.footerOneA{
+    margin-right: 2rem;
+}
+
+.footerOneA :is(input[type="text"],
+input[type="email"]){
+    width: 400px;
+    height: 25px;
+    border: 0;
+    border-bottom: 1px solid silver;
+   
+    padding-left: 5px;
+}
+
+.f{
+    display: flex;
+    padding-top: 1rem;
+}
+
+.footerOneA img{
+    display: block;
+    height: 25px;
+    padding-top: 2px;
+    padding-right: 8px;
+}
+
+.footerTwoA{
+    display: flex;
+    padding-top: 1rem;
+}
+
+.footerTwoA img{
+    display: block;
+    height: 25px;
+    padding-top: auto;
+    padding-right: 8px;
+}
+
+.footerTwoA input[type="password"]{
+    width: 190px;
+    height: 25px;
+    border: 0;
+    border-bottom: 1px solid silver;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.footerThreA{
+    display: flex;
+}
+
+.footerTwo1{
+    display: flex;
+    padding-top: 1rem;
+}
+
+.footerTwo2{
+    display: flex;
+    padding-top: 35px;
+}
+
+.footerTwo1 input[type="text"]{
+    width: 190px;
+    height: 25px;
+    border: 0;
+    border-bottom: 1px solid silver;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.footerTwo2 :is(input[type="text"],
+input[type="date"]){
+    width: 190px;
+    height: 25px;
+    border: 0;
+    border-bottom: 1px solid silver;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.Main{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 14px;
+}
+
+footer button{
+    width: 180px;
+    height: 35px;
+    background-color: rgb(75, 143, 143);
+    margin-left: 60%;
+    color: white;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:900px){
+    .footerOne{
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        margin-left: 1rem;
+    }
+
+    .footerOne h1{
+        font-weight: lighter;
+        font-size: 20px;
+        margin-top: 3rem;
+    }
+
+    footer button{
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .footerTwoA{
+        display: block;
+        padding-top: 1rem;
+    }
+
+    .footerOneA :is(input[type="text"],
+    input[type="email"]){
+    width: 190px;
+    height: 25px;
+    border: 0;
+    border-bottom: 1px solid silver;
+   
+    padding-left: 5px;
+    }
+
+    .footerThreB input[type="password"]{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    .footerTwo1{
+        display:block;
+    }
+    .footerTwo2{
+        display:block;
+    }
+
+    .footerThre2 input[type="text"]
+    {
+        margin-top: 1rem;
+    }
+
+    .footerThre4 input[type="date"]
+    {
+        margin-top: 1rem;
+    }
+
+    .footerTwo1 input[type="text"]{
+        width: 220px;
+    }
+    
+    .footerTwo2 :is(input[type="text"],
+    input[type="date"]){
+        width: 220px;
+    }
+
+    footer button{
+        margin-top: 1rem;
+        margin-left: 15%;
+    }
+
+    .Main{
+        font-size: 10px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

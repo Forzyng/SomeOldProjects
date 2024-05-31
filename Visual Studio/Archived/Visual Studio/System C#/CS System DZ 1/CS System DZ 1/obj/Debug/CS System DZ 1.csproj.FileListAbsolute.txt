@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\System C#\CS System DZ 1\CS System DZ 1\bin\Debug\CS System DZ 1.exe.config
+D:\Programming\Visual Studio\System C#\CS System DZ 1\CS System DZ 1\bin\Debug\CS System DZ 1.exe
+D:\Programming\Visual Studio\System C#\CS System DZ 1\CS System DZ 1\bin\Debug\CS System DZ 1.pdb
+D:\Programming\Visual Studio\System C#\CS System DZ 1\CS System DZ 1\obj\Debug\CS System DZ 1.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\CS System DZ 1\CS System DZ 1\obj\Debug\CS System DZ 1.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS System DZ 1\CS System DZ 1\obj\Debug\CS System DZ 1.exe
+D:\Programming\Visual Studio\System C#\CS System DZ 1\CS System DZ 1\obj\Debug\CS System DZ 1.pdb

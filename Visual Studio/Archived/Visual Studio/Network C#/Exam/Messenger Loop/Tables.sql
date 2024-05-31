@@ -1,0 +1,22 @@
+﻿--CREATE TABLE Users
+--(
+--Id UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(),
+--[Login]    NVARCHAR (MAX)   NOT NULL CHECK ([Login]<>N''),
+--[Password] NVARCHAR (MAX)   NOT NULL CHECK ([Password]<>N'')
+--)
+    
+--    --DROP TABLE Users
+
+--    INSERT INTO Users VALUES
+--    (NEWID(), N'Zod', N'123456789')
+
+--    CREATE TABLE [Message]
+--(
+--Id UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(),
+--[ToLogin]    UNIQUEIDENTIFIER   NOT NULL REFERENCES [Users] (Id),
+--[FromLogin]    UNIQUEIDENTIFIER   NOT NULL REFERENCES [Users] (Id),
+--[MessageText]    NVARCHAR (MAX)  ,
+--[file] VARBINARY (MAX) 
+--)
+
+----DROP TABLE [Message]

@@ -1,0 +1,14 @@
+﻿<Application x:Class="WPFproject2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFproject2"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <BitmapImage x:Key="ImageSource1" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\mask.jpg"/>
+        <BitmapImage x:Key="Ship" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\alien1.jpg.png"/>
+        <BitmapImage x:Key="Alien2" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\alien3.jpg.png"/>
+        <BitmapImage x:Key="Space" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\Programming\Visual Studio\Forms C#\WPFproject2\WPFproject2\Space.jpg"/>
+
+    </Application.Resources>
+</Application>

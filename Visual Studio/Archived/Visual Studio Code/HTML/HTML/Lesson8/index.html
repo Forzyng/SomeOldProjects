@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Create users
+            </h1>
+        </header>
+        <form action="#" id="register" method="post">
+            <header>
+                <h2>Register user</h2>
+            </header>
+            <p>
+                <label>
+                    <span>Name</span>
+                    <input type="text" name="username" placeholder="Enter name">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span>
+                        Surname
+                    </span>
+                    <input type="text" name="surname" id="surname" placeholder="Enter surname">
+                </label>
+            </p>
+        <p>
+            <label>
+                <span>
+                     Gender 
+                </span>
+                <label>
+                    <input type="radio" name="gender" value="M"><span>M</span>
+                </label> 
+                <label>
+                    <input type="radio" name="gender" value="F"><span>F</span>
+                </label>               
+            </label>
+        </p>
+        <p>
+            <label>
+                <span>
+                        Date of Birth
+                </span>
+                <input type="date" name="birth" id="birth">
+            </label>
+        </p>
+        <p>
+            <label>
+                <span>
+                        E-mail
+                </span>
+                <input type="email" name="email" id="email" required>
+            </label>
+        </p>
+        <p>
+            <label for="phone">
+                <span>
+                    Phone
+                </span>
+                <input type="tel" name="phone" id="phone">
+            </label>
+        </p>
+        <p>
+            <label for="login">
+                    <span>Login</span>
+            </label>
+            <input type="text" name="login" id="login" required>
+        </p>
+            <p>
+                <label for="pass">
+                    <span>Password</span>
+                </label>
+                <input type="password" name="pass" id="pass" required>
+            </p>
+
+            <p>
+                <input type="submit" value="SEND">
+                <input type="reset" value="CLEARNING">
+            </p>
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\CS Sytem 5-Threading\bin\Debug\CS Sytem 5-Threading.exe.config
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\CS Sytem 5-Threading\bin\Debug\CS Sytem 5-Threading.exe
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\CS Sytem 5-Threading\bin\Debug\CS Sytem 5-Threading.pdb
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\CS Sytem 5-Threading\obj\Debug\CS Sytem 5-Threading.csproj.AssemblyReference.cache
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\CS Sytem 5-Threading\obj\Debug\CS Sytem 5-Threading.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\CS Sytem 5-Threading\obj\Debug\CS Sytem 5-Threading.exe
+D:\Programming\Visual Studio\System C#\CS Sytem 5-Threading\CS Sytem 5-Threading\obj\Debug\CS Sytem 5-Threading.pdb

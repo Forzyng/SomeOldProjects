@@ -1,0 +1,6 @@
+D:\Programming\Visual Studio\Network C#\CSLan 1\Lan Client 1\bin\Debug\Lan Client 1.exe.config
+D:\Programming\Visual Studio\Network C#\CSLan 1\Lan Client 1\bin\Debug\Lan Client 1.exe
+D:\Programming\Visual Studio\Network C#\CSLan 1\Lan Client 1\bin\Debug\Lan Client 1.pdb
+D:\Programming\Visual Studio\Network C#\CSLan 1\Lan Client 1\obj\Debug\Lan Client 1.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Network C#\CSLan 1\Lan Client 1\obj\Debug\Lan Client 1.exe
+D:\Programming\Visual Studio\Network C#\CSLan 1\Lan Client 1\obj\Debug\Lan Client 1.pdb

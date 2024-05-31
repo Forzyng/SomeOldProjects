@@ -1,0 +1,15 @@
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\bin\Debug\Server_Get_Logs.exe.config
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\bin\Debug\Server_Get_Logs.exe
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\bin\Debug\Server_Get_Logs.pdb
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\obj\Debug\Server_Get_Logs.Form1.resources
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\obj\Debug\Server_Get_Logs.Properties.Resources.resources
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\obj\Debug\Server_Get_Logs.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\obj\Debug\Server_Get_Logs.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\obj\Debug\Server_Get_Logs.exe
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\obj\Debug\Server_Get_Logs.pdb
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\bin\Debug\EntityFramework.dll
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\bin\Debug\EntityFramework.xml
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\bin\Debug\ru\EntityFramework.resources.dll
+D:\Programming\Visual Studio\System C#\Server_Get_Logs\Server_Get_Logs\obj\Debug\Server_Get_Logs.csproj.AssemblyReference.cache

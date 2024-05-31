@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #container
+        {
+            font-family: "Bookman Old Style";
+            font-size:14px;
+        }
+
+        #app li select
+        {
+            font-size: 14px;
+        }
+
+        #app li
+        {
+            list-style-type: none;
+        }
+
+        #app li:before
+        {
+            content: "";
+        }
+
+    </style>
+</head>
+<body>
+    <div >
+            <div style="display: flex;">
+
+                <ul id="app" style="list-style-type: none;">
+                    <p>Выберите облость</p>
+                    <li id="area" style="margin-bottom: 4px;"></li>
+                    <p>Выберите город</p>
+                    <li id="city" style="margin-bottom: 4px;"></li>
+                    <p>Выберите отделение</p>
+                    <li id="dep" style="margin-bottom: 4px;"></li>
+                </ul>
+
+                <samp id="map" style=" width: 600px; height: 600px;">
+
+                </samp>
+            </div>
+
+    </div>
+
+<script>
+
+    function buildSelect(data)
+    {
+        console.log(data);
+        let select = document.createElement("select");
+        let DefaultOption = document.createElement("option");
+        DefaultOption.value = "select option";
+        DefaultOption.innerText = "select option";
+        select.appendChild(DefaultOption);
+        for (let i = 0; i < data.length; i++)
+        {
+            let option = document.createElement("option");
+            option.value = data[i]["Ref"];
+            option.innerText = data[i]["DescriptionRu"];
+            select.appendChild(option);
+        }
+        return select;
+    }
+
+
+    let apiUrl = "https://api.novaposhta.ua/v2.0/json/";
+    let apiKey = "397fb92664b71af624496e2cef3a9386";
+
+
+    function sendRequest(Request, doNext)
+    {
+        Request.apiKey = apiKey;
+
+
+        fetch(apiUrl,
+            {
+            method: 'POST', // *GET, POST, PUT, DELETE, etc.
+            mode: 'cors', // no-cors, *cors, same-origin
+            cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+            credentials: 'same-origin', // include, *same-origin, omit
+            headers:
+                {
+                'Content-Type': 'application/json'
+                // 'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            redirect: 'follow', // manual, *follow, error
+            referrerPolicy: 'no-referrer', // no-referrer, *client
+            body: JSON.stringify(Request) // body data type must match "Content-Type" header
+        })
+            .then(res =>
+            { // Операции по проверки ответа от сервера (например код 200)
+                console.log(res);
+                if (res.status !== 200)
+                {
+                    console.log("Error http");
+                    console.log(res.statusText);
+                    return;
+                }
+                return res.json();
+            })
+            .then(data =>
+            { // Операции уже с телом (body) ответа - передаю в callback Fun
+                if (data.success) doNext(data.data);
+                else
+                {
+                    console.log("Error data");
+                    console.log(data.errors);
+                }
+            })
+            .catch(err =>
+            {
+                console.log("Error catch");
+                console.log(err);
+            })
+    }
+
+    // Процесс построения селекта областей
+    function buildAreas(data)
+    {
+        let selectArea = buildSelect(data);
+        selectArea.onchange = function (e)
+        {
+            sendRequest(
+                {
+                "modelName": "Address",
+                "calledMethod": "getCities",
+                "methodProperties": {
+                    AreaRef: e.target.value
+                }
+            }, buildCities);
+        }
+        document.getElementById("area").innerHTML = "";
+        document.getElementById("area").appendChild(selectArea);
+    }
+
+    // Процесс построения селекта городов
+    let selectCity;
+
+    function buildCities(data)
+    {
+        //console.log(data);
+        selectCity = buildSelect(data);
+        selectCity.onchange = function (e)
+        {
+            sendRequest(
+                {
+                "modelName": "AddressGeneral",
+                "calledMethod": "getWarehouses",
+                "methodProperties": {
+                    CityRef: e.target.value,
+                    "Language": "ru"
+                }
+            }, buildDep);
+        }
+        document.getElementById("city").innerHTML = "";
+        document.getElementById("city").appendChild(selectCity);
+    }
+
+    function buildDep(data)
+    {
+        let selectDep = buildSelect(data);
+        selectDep.onchange = function (e)
+        {
+            sendRequest(
+                {
+                "modelName": "Address",
+                "calledMethod": "getWarehouses",
+                "methodProperties": {
+                    "CityName": selectCity.options[selectCity.selectedIndex].innerText,
+                    "FindByString": selectDep.options[selectDep.selectedIndex].innerText
+                }
+            }, buildMap);
+        }
+        document.getElementById("dep").innerHTML = "";
+        document.getElementById("dep").appendChild(selectDep);
+    }
+
+    function buildMap(data)
+    {
+        console.log(data);
+
+
+        let divMap = document.getElementById("map");
+        divMap.InnerHTML = "";
+        divMap.style.height = "600";
+        divMap.style.width = "600";
+        let map = document.createElement("iframe");
+        map.src = `http://maps.google.com/maps?q=${data[0].Latitude},${data[0].Longitude}&z=16&output=embed`;
+        map.height = "600";
+        map.widht = "600";
+        divMap.appendChild(map);
+
+
+
+    }
+
+
+
+    sendRequest
+    ({
+        "modelName": "Address",
+        "calledMethod": "getAreas",
+        "methodProperties": {}
+    }, buildAreas);
+
+</script>
+
+</body>
+</html>

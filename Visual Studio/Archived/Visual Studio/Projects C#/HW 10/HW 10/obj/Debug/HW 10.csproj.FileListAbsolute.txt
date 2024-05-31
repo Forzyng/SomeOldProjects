@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\HW 10\HW 10\bin\Debug\HW 10.exe.config
+D:\Programming\Visual Studio\Projects C#\HW 10\HW 10\bin\Debug\HW 10.exe
+D:\Programming\Visual Studio\Projects C#\HW 10\HW 10\bin\Debug\HW 10.pdb
+D:\Programming\Visual Studio\Projects C#\HW 10\HW 10\obj\Debug\HW 10.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Projects C#\HW 10\HW 10\obj\Debug\HW 10.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\HW 10\HW 10\obj\Debug\HW 10.exe
+D:\Programming\Visual Studio\Projects C#\HW 10\HW 10\obj\Debug\HW 10.pdb

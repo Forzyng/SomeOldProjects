@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <main>
+        <div style="margin-top: 4rem;margin-bottom: 4rem; margin-left: 45%;">
+            <img src="../DZ8JavaScript/image/doll.png" id="doll" >
+        </div>
+       
+            <div style="display: flex;">
+                <div class="box"><img src="../DZ8JavaScript/image/blueSuit.png" class="blueSuit"> </div>
+                <div><img src="../DZ8JavaScript/image/brownDress.png" class="brownDress"></div>
+                <div><img src="../DZ8JavaScript/image/greenDress.png" class="greenDress"></div>
+                <div><img src="../DZ8JavaScript/image/hat.png" class="hat"></div>
+            </div>
+            <duv style="display: flex;">
+                <div><img src="../DZ8JavaScript/image/lightGreenDress.png" class="lightGreenDress"></div>
+                <div><img src="../DZ8JavaScript/image/orangeDress.png" class="orangeDress"></div>
+                <div><img src="../DZ8JavaScript/image/fullBody.png" class="fullBody"></div>
+            </duv>
+        
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+    <script>
+
+/*
+        const fill = document.querySelector('.fill');
+        const empties = document.querySelectorAll('.box');
+        fill.addEventListener('dragstart', dragStart);
+        fill.addEventListener('dragend', dragEnd);
+        for (const box of empties) {
+        box.addEventListener('dragover', dragOver);
+        box.addEventListener('dragenter', dragEnter);
+        box.addEventListener('dragleave', dragLeave);
+        box.addEventListener('drop', dragDrop);
+        }
+        function dragStart() {
+        this.className += ' hold';
+        setTimeout(() => (this.className = 'invisible'), 0);
+        }
+        function dragEnd() {
+        this.className = 'fill';
+        }
+        function dragOver(e) {
+        e.preventDefault();
+        }
+        function dragEnter(e) {
+        e.preventDefault();
+        this.className += ' hover';
+        }
+        function dragLeave() {
+        this.className = 'box';
+        }
+        function dragDrop() {
+        this.className = 'box';
+        this.append(fill);
+        }
+*/
+        
+        let blueSuit = document.querySelector('.blueSuit'); 
+        let fullBody = document.querySelector('.fullBody');
+        let brownDress = document.querySelector('.brownDress');
+        let greenDress = document.querySelector('.greenDress');
+        let hat = document.querySelector('.hat');
+        let lightGreenDress = document.querySelector('.lightGreenDress');
+        let orangeDress = document.querySelector('.orangeDress');
+
+        fullBody.onmousedown = function(e) { 
+
+            $(".fullBody").css("transform", "rotate(-18deg)")
+            let coords = getCoords(fullBody); 
+
+            let shiftX = e.pageX - coords.left; 
+            let shiftY = e.pageY - coords.top; 
+
+            fullBody.style.position = 'absolute'; 
+            document.body.appendChild(fullBody); 
+
+            moveAt(e); 
+
+            fullBody.style.zIndex = 1000; 
+
+            function moveAt(e) { 
+                fullBody.style.left = e.pageX - shiftX + 'px'; 
+                fullBody.style.top = e.pageY - shiftY + 'px'; 
+                
+            } 
+
+            document.onmousemove = function(e) { 
+                moveAt(e); 
+            }
+
+            fullBody.onmouseup = function() { 
+                document.onmousemove = null; 
+                fullBody.onmouseup = null; 
+            }
+        } 
+
+
+        blueSuit.onmousedown = function(e) { 
+
+            $(".blueSuit").css("transform", "rotate(12deg)")
+            let coords = getCoords(blueSuit); 
+
+            let shiftX = e.pageX - coords.left; 
+            let shiftY = e.pageY - coords.top; 
+
+            blueSuit.style.position = 'absolute'; 
+            document.body.appendChild(blueSuit); 
+
+            moveAt(e); 
+
+            blueSuit.style.zIndex = 1000; 
+
+            function moveAt(e) { 
+                blueSuit.style.left = e.pageX - shiftX + 'px' 
+                blueSuit.style.top = e.pageY - shiftY + 'px'
+            } 
+
+            document.onmousemove = function(e) { 
+                moveAt(e); 
+            }
+
+            blueSuit.onmouseup = function() { 
+                document.onmousemove = null; 
+                blueSuit.onmouseup = null; 
+            }
+        } 
+
+        brownDress.onmousedown = function(e) { 
+
+            $(".brownDress").css("transform", "rotate(-10deg)")
+            let coords = getCoords(brownDress); 
+
+            let shiftX = e.pageX - coords.left; 
+            let shiftY = e.pageY - coords.top; 
+
+            brownDress.style.position = 'absolute'; 
+            document.body.appendChild(brownDress); 
+
+            moveAt(e); 
+
+            brownDress.style.zIndex = 1000; 
+
+            function moveAt(e) { 
+                brownDress.style.left = e.pageX - shiftX + 'px'; 
+                brownDress.style.top = e.pageY - shiftY + 'px'; 
+                
+            } 
+
+            document.onmousemove = function(e) { 
+                moveAt(e); 
+            }
+
+            brownDress.onmouseup = function() { 
+                document.onmousemove = null; 
+                brownDress.onmouseup = null; 
+            }
+        } 
+
+
+        greenDress.onmousedown = function(e) { 
+
+            $(".greenDress").css("transform", "rotate(18deg)")
+            let coords = getCoords(greenDress); 
+
+            let shiftX = e.pageX - coords.left; 
+            let shiftY = e.pageY - coords.top; 
+
+            greenDress.style.position = 'absolute'; 
+            document.body.appendChild(greenDress); 
+
+            moveAt(e); 
+
+            greenDress.style.zIndex = 1000; 
+
+            function moveAt(e) { 
+                greenDress.style.left = e.pageX - shiftX + 'px' 
+                greenDress.style.top = e.pageY - shiftY + 'px'
+            } 
+
+            document.onmousemove = function(e) { 
+                moveAt(e); 
+            }
+
+            greenDress.onmouseup = function() { 
+                document.onmousemove = null; 
+                greenDress.onmouseup = null; 
+            }
+        } 
+
+        hat.onmousedown = function(e) { 
+
+            let coords = getCoords(hat); 
+
+            let shiftX = e.pageX - coords.left; 
+            let shiftY = e.pageY - coords.top; 
+
+            hat.style.position = 'absolute'; 
+            document.body.appendChild(hat); 
+
+            moveAt(e); 
+
+            hat.style.zIndex = 1000; 
+
+            function moveAt(e) { 
+                hat.style.left = e.pageX - shiftX + 'px' 
+                hat.style.top = e.pageY - shiftY + 'px'
+            } 
+
+            document.onmousemove = function(e) { 
+                moveAt(e); 
+            }
+
+            hat.onmouseup = function() { 
+                document.onmousemove = null; 
+                hat.onmouseup = null; 
+            }
+        } 
+
+        lightGreenDress.onmousedown = function(e) { 
+
+            $(".lightGreenDress").css("transform", "rotate(-17deg)")
+            let coords = getCoords(lightGreenDress); 
+
+            let shiftX = e.pageX - coords.left; 
+            let shiftY = e.pageY - coords.top; 
+
+            lightGreenDress.style.position = 'absolute'; 
+            document.body.appendChild(lightGreenDress); 
+
+            moveAt(e); 
+
+            lightGreenDress.style.zIndex = 1000; 
+
+            function moveAt(e) { 
+                lightGreenDress.style.left = e.pageX - shiftX + 'px'; 
+                lightGreenDress.style.top = e.pageY - shiftY + 'px'; 
+                
+            } 
+
+            document.onmousemove = function(e) { 
+                moveAt(e); 
+            }
+
+            lightGreenDress.onmouseup = function() { 
+                document.onmousemove = null; 
+                lightGreenDress.onmouseup = null; 
+            }
+        } 
+
+
+        orangeDress.onmousedown = function(e) { 
+
+            $(".orangeDress").css("transform", "rotate(22deg)")
+            let coords = getCoords(orangeDress); 
+
+            let shiftX = e.pageX - coords.left; 
+            let shiftY = e.pageY - coords.top; 
+
+            orangeDress.style.position = 'absolute'; 
+            document.body.appendChild(orangeDress); 
+
+            moveAt(e); 
+
+            orangeDress.style.zIndex = 1000; 
+
+            function moveAt(e) { 
+                orangeDress.style.left = e.pageX - shiftX + 'px' 
+                orangeDress.style.top = e.pageY - shiftY + 'px'
+            } 
+
+            document.onmousemove = function(e) { 
+                moveAt(e); 
+            }
+
+            orangeDress.onmouseup = function() { 
+                document.onmousemove = null; 
+                orangeDress.onmouseup = null; 
+            }
+        } 
+       
+        function getCoords(elem) { 
+
+            let box = elem.getBoundingClientRect(); 
+
+            return { 
+                top: box.top + pageYOffset, 
+                left: box.left + pageXOffset 
+            }
+        }
+
+        fullBody.ondragstart = function() { 
+            return false; 
+        }
+
+        blueSuit.ondragstart = function() { 
+            return false; 
+        }
+
+        brownDress.ondragstart = function() { 
+            return false; 
+        }
+
+        greenDress.ondragstart = function() { 
+            return false; 
+        }
+
+        hat.ondragstart = function() { 
+            return false; 
+        }
+
+        lightGreenDress.ondragstart = function() { 
+            return false; 
+        }
+
+        orangeDress.ondragstart = function() { 
+            return false; 
+        }
+
+        /*
+        $(".blueSuit").mouseover(function(){
+            $(this).css("transform", "rotate(-20deg)"); 
+        })
+        */
+
+    </script>
+</body>
+</html>

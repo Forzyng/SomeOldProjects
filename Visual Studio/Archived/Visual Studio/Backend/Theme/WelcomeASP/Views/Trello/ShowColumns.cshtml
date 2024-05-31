@@ -1,0 +1,43 @@
+﻿@model IEnumerable<WelcomeASP.Data.Entities.Trello.Column>
+
+
+<partial name="Asentus/Parallax" />
+
+<div class="row">
+
+    @foreach (var column in Model)
+    {
+
+        <div class="col">
+            <header> @Html.DisplayFor(Model => column.Title)</header>
+            <ul>
+                @foreach (var card in column.Cards)
+                {
+                <li>
+                    @Html.DisplayFor(Model => card.Title)
+                </li>
+                }
+            </ul>
+        </div>
+
+    }
+
+</div>
+
+<div class="row">
+    <form asp-action="CreateColumn">
+        <div class="form-group">
+            <input type="hidden" name="BoardId" value="@ViewBag.BoardId"/>
+            <label class="control-label"> заголовок колонки </label>
+            <input name="Title" class="form-control" />
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </form>
+
+</div>
+
+
+
+

@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Projects C#\HW 12\HW 12\bin\Debug\HW 12.exe.config
+D:\Programming\Visual Studio\Projects C#\HW 12\HW 12\bin\Debug\HW 12.exe
+D:\Programming\Visual Studio\Projects C#\HW 12\HW 12\bin\Debug\HW 12.pdb
+D:\Programming\Visual Studio\Projects C#\HW 12\HW 12\obj\Debug\HW 12.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Projects C#\HW 12\HW 12\obj\Debug\HW 12.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Projects C#\HW 12\HW 12\obj\Debug\HW 12.exe
+D:\Programming\Visual Studio\Projects C#\HW 12\HW 12\obj\Debug\HW 12.pdb

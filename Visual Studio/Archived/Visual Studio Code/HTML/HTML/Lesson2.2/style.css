@@ -1,0 +1,55 @@
+.wrapper{
+    margin: 0 50px;
+    padding: 5px;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+    background-color: honeydew;
+}
+p,div{
+    padding: 0;
+    margin: 0;
+}
+h3{
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+}
+#loremId{
+    text-decoration-color: chartreuse;
+    text-decoration-style: dotted;
+}
+#recipe{
+    text-decoration-color: coral;
+}
+.comment{
+    border: 1px solid turquoise;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 3px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+.comment:hover{
+    border: 2px solid tomato;
+    box-sizing: border-box;
+}
+.loremTitle{
+    text-decoration-color: rgb(4, 0, 255);
+    text-decoration-style: dotted;
+}
+/* h3{
+    color: indigo;
+    text-decoration-color: midnightblue;
+} */
+.components{
+    list-style-image: url(images/marker.png);;
+}
+ul > li:nth-child(odd){
+    background-color: antiquewhite;
+}
+ul > li:nth-child(even){
+    background-color: burlywood;
+}
+ul > li:hover{
+    color: crimson;
+    font-weight: bold;
+}

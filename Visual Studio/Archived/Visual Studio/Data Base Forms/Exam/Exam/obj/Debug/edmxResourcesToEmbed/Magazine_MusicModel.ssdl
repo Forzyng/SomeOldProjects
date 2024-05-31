@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Music_MagazineModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Collective">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Publisher">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Records">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CollectiveID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PublisherID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Number_of_tracks" Type="int" Nullable="false" />
+    <Property Name="GenreID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PublishDate" Type="date" Nullable="false" />
+    <Property Name="Price" Type="float" Nullable="false" />
+    <Property Name="PriceForSale" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sales">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Price" Type="money" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="SaleDate" Type="datetime" />
+    <Property Name="RecordsId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Login" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Discount" Type="int" Nullable="false" />
+    <Property Name="Balance" Type="float" Nullable="false" />
+    <Property Name="Admin" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Records__Collect__1AD3FDA4">
+    <End Role="Collective" Type="Self.Collective" Multiplicity="1" />
+    <End Role="Records" Type="Self.Records" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Collective">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Records">
+        <PropertyRef Name="CollectiveID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Records__GenreID__1DB06A4F">
+    <End Role="Genre" Type="Self.Genre" Multiplicity="1" />
+    <End Role="Records" Type="Self.Records" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Records">
+        <PropertyRef Name="GenreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Records__Publish__1BC821DD">
+    <End Role="Publisher" Type="Self.Publisher" Multiplicity="1" />
+    <End Role="Records" Type="Self.Records" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publisher">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Records">
+        <PropertyRef Name="PublisherID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sales__RecordsId__2A164134">
+    <End Role="Records" Type="Self.Records" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Records">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="RecordsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище Music_MagazineModelContainer">
+    <EntitySet Name="Collective" EntityType="Self.Collective" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Genre" EntityType="Self.Genre" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Publisher" EntityType="Self.Publisher" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Records" EntityType="Self.Records" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sales" EntityType="Self.Sales" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Records__Collect__1AD3FDA4" Association="Self.FK__Records__Collect__1AD3FDA4">
+      <End Role="Collective" EntitySet="Collective" />
+      <End Role="Records" EntitySet="Records" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Records__GenreID__1DB06A4F" Association="Self.FK__Records__GenreID__1DB06A4F">
+      <End Role="Genre" EntitySet="Genre" />
+      <End Role="Records" EntitySet="Records" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Records__Publish__1BC821DD" Association="Self.FK__Records__Publish__1BC821DD">
+      <End Role="Publisher" EntitySet="Publisher" />
+      <End Role="Records" EntitySet="Records" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sales__RecordsId__2A164134" Association="Self.FK__Sales__RecordsId__2A164134">
+      <End Role="Records" EntitySet="Records" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
